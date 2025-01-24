@@ -22,7 +22,7 @@ public class Security
         {
             "Tech Stock" => 2,
             "Retail Stock" => 2,
-            "Energy Stock" => 3,
+            "Energy Stock" => 4,
             "S&P ETF" => 4,
             _ => 0
         };
