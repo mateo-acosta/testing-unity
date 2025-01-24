@@ -23,6 +23,7 @@ namespace LayerLab.GUIScripts
 
         private bool IsOtherMode { get; set; }
 
+        [SerializeField] private GameManager gameManager;
 
         private void OnValidate()
         {
@@ -68,6 +69,12 @@ namespace LayerLab.GUIScripts
             
             _isReady = true;
             CheckControl();
+
+            gameManager = FindFirstObjectByType<GameManager>();
+            if (gameManager == null)
+            {
+                Debug.LogError("GameManager not found in scene!");
+            }
         }
 
         private void Update()

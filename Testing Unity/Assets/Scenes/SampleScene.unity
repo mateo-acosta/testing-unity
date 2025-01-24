@@ -1154,7 +1154,7 @@ GameObject:
   - component: {fileID: 379194070}
   - component: {fileID: 379194069}
   m_Layer: 0
-  m_Name: Text
+  m_Name: EnergyPrice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 469137857}
   - component: {fileID: 469137856}
   m_Layer: 0
-  m_Name: Text
+  m_Name: TechSharesOwned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2071,7 +2071,7 @@ GameObject:
   - component: {fileID: 631030954}
   - component: {fileID: 631030953}
   m_Layer: 0
-  m_Name: Text
+  m_Name: SP500Price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2207,7 +2207,7 @@ GameObject:
   - component: {fileID: 686966181}
   - component: {fileID: 686966180}
   m_Layer: 0
-  m_Name: Text
+  m_Name: RetailPrice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2343,7 +2343,7 @@ GameObject:
   - component: {fileID: 739414152}
   - component: {fileID: 739414151}
   m_Layer: 0
-  m_Name: Text
+  m_Name: RetailSharesOwned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2632,7 +2632,7 @@ GameObject:
   - component: {fileID: 907888235}
   - component: {fileID: 907888234}
   m_Layer: 5
-  m_Name: Tech Stock Layout (3)
+  m_Name: SP500ETF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2725,6 +2725,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907888232}
   m_CullTransparentMesh: 1
+--- !u!1 &909318165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 909318167}
+  - component: {fileID: 909318166}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &909318166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909318165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651217debe40e4b4e8731cd1c560507d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentBalance: 0
+  currentPeriod: 0
+  currentMonth: 0
+  balanceText: {fileID: 1709761232}
+  priceTexts:
+  - {fileID: 2040395125}
+  - {fileID: 686966180}
+  - {fileID: 379194069}
+  - {fileID: 631030953}
+  sharesTexts:
+  - {fileID: 469137856}
+  - {fileID: 739414151}
+  - {fileID: 1508605427}
+  - {fileID: 1177350473}
+--- !u!4 &909318167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909318165}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 390.28284, y: 674.2424, z: -8.955028}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &914210981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,7 +2881,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 914210985}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 909318166}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: BuyShare
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &914210985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3610,7 +3680,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1149011683}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 909318166}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: SellShare
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1149011683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3662,7 +3744,7 @@ GameObject:
   - component: {fileID: 1155258453}
   - component: {fileID: 1155258452}
   m_Layer: 5
-  m_Name: Tech Stock Layout (2)
+  m_Name: Energy Stock Layout
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3922,7 +4004,7 @@ GameObject:
   - component: {fileID: 1177350474}
   - component: {fileID: 1177350473}
   m_Layer: 0
-  m_Name: Text
+  m_Name: SP500SharesOwned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4460,7 +4542,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1221478987}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 909318166}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: BuyShare
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1221478987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4945,7 +5039,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1368271868}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 909318166}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: SellShare
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1368271868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5391,7 +5497,7 @@ GameObject:
   - component: {fileID: 1508605428}
   - component: {fileID: 1508605427}
   m_Layer: 0
-  m_Name: Text
+  m_Name: EnergySharesOwned
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6611,7 +6717,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2034050793}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 909318166}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: BuyShare
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2034050793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6662,7 +6780,7 @@ GameObject:
   - component: {fileID: 2040395126}
   - component: {fileID: 2040395125}
   m_Layer: 0
-  m_Name: Text
+  m_Name: TechPrice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6884,7 +7002,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2040456925}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 909318166}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: SellShare
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2040456925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7021,7 +7151,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2065120543}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 909318166}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: SellShare
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2065120543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7564,7 +7706,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7499169429864104178}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 909318166}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: BuyShare
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7499169429864104190
 GameObject:
   m_ObjectHideFlags: 0
@@ -7612,3 +7766,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1159723744}
+  - {fileID: 909318167}
