@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     private const float PERIOD_DURATION = 4f;
     private const int PERIODS_PER_MONTH = 2;
-    private const int TOTAL_MONTHS = 24;
+    public const int TOTAL_MONTHS = 24;
     private const float MONTHLY_ALLOWANCE = 1000f;
 
     // Balance tracking
@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI[] sharesTexts;
 
     [SerializeField] private TextMeshProUGUI monthText;
+
+    [SerializeField] private PortfolioGraph portfolioGraph;
 
     private void Start()
     {
@@ -70,6 +72,12 @@ public class GameManager : MonoBehaviour
         float totalReturn = ((portfolioValue - initialInvestment) / initialInvestment) * 100f;
         
         portfolioValueText.text = $"${portfolioValue:F2}";
+        
+        // Update the graph when the month changes
+        if (currentPeriod % PERIODS_PER_MONTH == 0)
+        {
+            portfolioGraph.AddDataPoint(portfolioValue);
+        }
     }
 
     private void UpdateSecurityDisplays()
@@ -85,6 +93,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdatePeriod()
     {
+        Debug.Log($"Current Period: {currentPeriod}, Current Month: {currentMonth}");
         currentPeriod++;
         foreach (var security in securities)
         {
