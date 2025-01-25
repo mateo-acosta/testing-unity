@@ -24,8 +24,6 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI monthText;
 
-    [SerializeField] private PortfolioGraph portfolioGraph;
-
     private void Start()
     {
         InitializeSecurities();
@@ -71,13 +69,7 @@ public class GameManager : MonoBehaviour
         float initialInvestment = MONTHLY_ALLOWANCE;
         float totalReturn = ((portfolioValue - initialInvestment) / initialInvestment) * 100f;
         
-        portfolioValueText.text = $"${portfolioValue:F2}";
-        
-        // Update the graph when the month changes
-        if (currentPeriod % PERIODS_PER_MONTH == 0)
-        {
-            portfolioGraph.AddDataPoint(portfolioValue);
-        }
+        portfolioValueText.text = $"${portfolioValue:F2}";   
     }
 
     private void UpdateSecurityDisplays()
