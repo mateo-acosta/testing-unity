@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI monthText;
 
+    [SerializeField] private GraphManager graphManager;
+
     private void Start()
     {
         InitializeSecurities();
@@ -96,6 +98,12 @@ public class GameManager : MonoBehaviour
         {
             currentMonth++;
             ResetMonthlyAllowance();
+            
+            // Update graph with new portfolio value
+            if (graphManager != null)
+            {
+                graphManager.AddDataPoint(portfolioValue, currentMonth);
+            }
         }
         
         UpdateAllDisplays();
@@ -141,5 +149,10 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(PERIOD_DURATION);
             UpdatePeriod();
         }
+    }
+
+    public float GetPortfolioValue()
+    {
+        return portfolioValue;
     }
 } 
