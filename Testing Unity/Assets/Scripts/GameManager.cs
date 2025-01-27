@@ -98,15 +98,14 @@ public class GameManager : MonoBehaviour
         {
             currentMonth++;
             ResetMonthlyAllowance();
-            
-            // Update graph with new portfolio value
-            if (graphManager != null)
-            {
-                graphManager.AddDataPoint(portfolioValue, currentMonth);
-            }
         }
         
         UpdateAllDisplays();
+        
+        if (graphManager != null)
+        {
+            graphManager.AddDataPoint(portfolioValue);
+        }
     }
 
     private void ResetMonthlyAllowance()
