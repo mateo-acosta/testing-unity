@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using TMPro;
 
 public class UIGridRenderer : Graphic
 {
     public Vector2Int gridSize = new Vector2Int(1, 5);  // Start with 5 segments
     public float thickness = 1f;
     public Color gridColor = new Color(1, 1, 1, 0.2f);
+    
+    [Header("UI Elements")]
+    public TextMeshProUGUI maxValueText;  // Reference to the TextMeshPro text component
     
     private float width;
     private float height;
@@ -29,6 +33,7 @@ public class UIGridRenderer : Graphic
     {
         base.OnEnable();
         color = gridColor;
+        UpdateMaxValueDisplay();
     }
 
     protected override void OnPopulateMesh(VertexHelper vh)
@@ -68,6 +73,14 @@ public class UIGridRenderer : Graphic
         vh.AddTriangle(count + 2, count + 3, count + 0);
     }
 
+    private void UpdateMaxValueDisplay()
+    {
+        if (maxValueText != null)
+        {
+            maxValueText.text = $"${currentMaxValue:N0}";
+        }
+    }
+
     public void UpdateMaxValue(float newValue)
     {
         // Check if we've reached 85% of our current max
@@ -89,6 +102,7 @@ public class UIGridRenderer : Graphic
             // Notify listeners about the rescale
             OnGridRescaled?.Invoke(oldMaxValue, targetMaxValue);
             
+            UpdateMaxValueDisplay();
             SetVerticesDirty();
         }
     }
@@ -104,6 +118,7 @@ public class UIGridRenderer : Graphic
             if (Mathf.Abs(oldMaxValue - currentMaxValue) > 0.1f)
             {
                 OnGridRescaled?.Invoke(oldMaxValue, currentMaxValue);
+                UpdateMaxValueDisplay();
             }
         }
     }
