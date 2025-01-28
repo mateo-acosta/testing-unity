@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 public class GraphManager : MonoBehaviour
 {
-    public UILineRendererGraph lineRenderer;
-    public UIGridRenderer gridRenderer;
+    [SerializeField] private UIGridRenderer gridRenderer;
+    [SerializeField] private UILineRendererGraph lineRenderer;
     public GameManager gameManager;
 
     private List<float> portfolioValues = new List<float>();
-    private float maxValue = 1000f; // Starting with initial investment
+    private float currentMaxValue = 1000f;
     private float minValue = 0f;
     
     private void Start()
@@ -30,22 +30,14 @@ public class GraphManager : MonoBehaviour
         AddDataPoint(gameManager.GetPortfolioValue());
     }
 
-    public void AddDataPoint(float portfolioValue)
+    public void AddDataPoint(float value)
     {
-        portfolioValues.Add(portfolioValue);
-        
-        // Update max value if needed
-        if (portfolioValue > maxValue)
+        if (value > currentMaxValue)
         {
-            maxValue = portfolioValue * 1.1f; // Add 10% padding
+            currentMaxValue = Mathf.Ceil(value / 1000f) * 1000f;
+            gridRenderer.UpdateMaxValue(currentMaxValue);
         }
-
-        // Calculate normalized position
-        float xPos = (float)(gameManager.currentPeriod) / (GameManager.TOTAL_MONTHS * 2); // Normalize x position
-        float yPos = (portfolioValue - minValue) / (maxValue - minValue); // Normalize y position
-
-        Vector2 newPoint = new Vector2(xPos * gridRenderer.gridSize.x, yPos * gridRenderer.gridSize.y);
-        lineRenderer.points.Add(newPoint);
-        lineRenderer.SetVerticesDirty();
+        
+        lineRenderer.AddDataPoint(value, currentMaxValue);
     }
 } 

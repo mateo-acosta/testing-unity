@@ -2,94 +2,113 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIGridRenderer : Graphic
 {
-    public Vector2Int gridSize = new Vector2Int(1, 1);
+    public Vector2Int gridSize = new Vector2Int(24, 10);  // 24 months, 10 divisions for balance
+    public float thickness = 1f;
+    public Color gridColor = new Color(1, 1, 1, 0.2f);
+    
+    [Header("Labels")]
+    public TextMeshProUGUI[] yAxisLabels;
+    public TextMeshProUGUI[] xAxisLabels;
+    
+    private float width;
+    private float height;
+    private float cellWidth;
+    private float cellHeight;
+    
+    private float currentMaxValue = 1000f;
+    private float targetMaxValue = 1000f;
+    private float valueAnimationSpeed = 2f;
 
-    public float thickness = 10f;
-
-    float width;
-    float height;
-    float cellWidth;
-    float cellHeight;
     protected override void OnPopulateMesh(VertexHelper vh)
     {
         vh.Clear();
 
         width = rectTransform.rect.width;
         height = rectTransform.rect.height;
+        
+        cellWidth = width / gridSize.x;
+        cellHeight = height / gridSize.y;
 
-        cellWidth = width / (float)gridSize.x;
-        cellHeight = height / (float)gridSize.y;
-
-        int count = 0;
-
-        for (int y = 0; y < gridSize.y; y++)
+        // Draw vertical lines
+        for (int i = 0; i <= gridSize.x; i++)
         {
-            for (int x = 0; x < gridSize.x; x++)
-            {
-                DrawCell(x, y, count, vh);
-                count++;
-            }
+            float xPos = i * cellWidth;
+            DrawLine(vh, new Vector2(xPos, 0), new Vector2(xPos, height));
+        }
+
+        // Draw horizontal lines
+        for (int j = 0; j <= gridSize.y; j++)
+        {
+            float yPos = j * cellHeight;
+            DrawLine(vh, new Vector2(0, yPos), new Vector2(width, yPos));
+        }
+
+        UpdateAxisLabels();
+    }
+
+    private void DrawLine(VertexHelper vh, Vector2 start, Vector2 end)
+    {
+        var count = vh.currentVertCount;
+
+        var pos1 = start;
+        var pos2 = end;
+
+        vh.AddVert(new Vector3(pos1.x - thickness / 2, pos1.y - thickness / 2), gridColor, Vector2.zero);
+        vh.AddVert(new Vector3(pos1.x + thickness / 2, pos1.y + thickness / 2), gridColor, Vector2.zero);
+        vh.AddVert(new Vector3(pos2.x + thickness / 2, pos2.y + thickness / 2), gridColor, Vector2.zero);
+        vh.AddVert(new Vector3(pos2.x - thickness / 2, pos2.y - thickness / 2), gridColor, Vector2.zero);
+
+        vh.AddTriangle(count + 0, count + 1, count + 2);
+        vh.AddTriangle(count + 2, count + 3, count + 0);
+    }
+
+    public void UpdateMaxValue(float newValue)
+    {
+        if (newValue > targetMaxValue)
+        {
+            targetMaxValue = Mathf.Ceil(newValue / 1000f) * 1000f;
+            SetVerticesDirty();
         }
     }
 
-    public void DrawCell(int x, int y, int index, VertexHelper vh)
+    private void Update()
     {
-        float xPos = cellWidth * x;
-        float yPos = cellHeight * y;
+        if (Mathf.Abs(currentMaxValue - targetMaxValue) > 0.01f)
+        {
+            currentMaxValue = Mathf.Lerp(currentMaxValue, targetMaxValue, Time.deltaTime * valueAnimationSpeed);
+            UpdateAxisLabels();
+        }
+    }
 
-        UIVertex vertex = UIVertex.simpleVert;
-        vertex.color = color;
+    private void UpdateAxisLabels()
+    {
+        // Update Y-axis labels
+        if (yAxisLabels != null)
+        {
+            for (int i = 0; i < yAxisLabels.Length; i++)
+            {
+                if (yAxisLabels[i] != null)
+                {
+                    float value = (currentMaxValue / gridSize.y) * i;
+                    yAxisLabels[i].text = $"${value:N0}";
+                }
+            }
+        }
 
-        vertex.position = new Vector3(xPos, yPos);
-        vh.AddVert(vertex);
-
-        vertex.position = new Vector3(xPos, yPos + cellHeight);
-        vh.AddVert(vertex);
-
-        vertex.position = new Vector3(xPos + cellWidth, yPos + cellHeight);
-        vh.AddVert(vertex);
-
-        vertex.position = new Vector3(xPos + cellWidth, yPos);
-        vh.AddVert(vertex);
-
-        //vh.AddTriangle(0, 1, 2);
-        //vh.AddTriangle(2, 3, 0);
-
-        float widthSqr = thickness * thickness;
-        float distanceSqr = widthSqr / 2f;
-        float distance = Mathf.Sqrt(distanceSqr);
-
-        vertex.position = new Vector3(xPos + distance, yPos + distance);
-        vh.AddVert(vertex);
-
-        vertex.position = new Vector3(xPos + distance, yPos + (cellHeight - distance));
-        vh.AddVert(vertex);
-
-        vertex.position = new Vector3(xPos + (cellWidth - distance), yPos + (cellHeight - distance));
-        vh.AddVert(vertex);
-
-        vertex.position = new Vector3(xPos + (cellWidth - distance), yPos + distance);
-        vh.AddVert(vertex);
-
-        int offset = index * 8;
-
-        //Left Edge
-        vh.AddTriangle(offset + 0, offset + 1, offset + 5);
-        vh.AddTriangle(offset + 5, offset + 4, offset + 0);
-
-        //Top Edge
-        vh.AddTriangle(offset + 1, offset + 2, offset + 6);
-        vh.AddTriangle(offset + 6, offset + 5, offset + 1);
-
-        //Right Edge
-        vh.AddTriangle(offset + 2, offset + 3, offset + 7);
-        vh.AddTriangle(offset + 7, offset + 6, offset + 2);
-
-        //Bottom Edge
-        vh.AddTriangle(offset + 3, offset + 0, offset + 4);
-        vh.AddTriangle(offset + 4, offset + 7, offset + 3);
+        // Update X-axis labels
+        if (xAxisLabels != null)
+        {
+            for (int i = 0; i < xAxisLabels.Length; i++)
+            {
+                if (xAxisLabels[i] != null)
+                {
+                    xAxisLabels[i].text = $"M{i + 1}";
+                }
+            }
+        }
     }
 }
