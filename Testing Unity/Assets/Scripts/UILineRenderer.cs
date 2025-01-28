@@ -84,21 +84,28 @@ public class UILineRendererGraph : Graphic
     public void AddDataPoint(float value, float maxValue)
     {
         float normalizedValue = Mathf.Clamp01(value / maxValue);
-        float xPos = (float)points.Count / (GameManager.TOTAL_MONTHS * 2); // * 2 for periods per month
-        Vector2 newPoint = new Vector2(xPos, normalizedValue * gridSize.y);
         
-        originalValues.Add(value); // Store the original value
-        
-        if (points.Count > 0)
+        // If this is the first point, always place it at origin (0,0)
+        if (points.Count == 0)
         {
-            targetPoint = newPoint;
+            points.Add(Vector2.zero);
+            originalValues.Add(0f);
+            
+            // Add the actual first value as the second point
+            Vector2 firstValuePoint = new Vector2(1f / (GameManager.TOTAL_MONTHS * 2), normalizedValue * gridSize.y);
+            targetPoint = firstValuePoint;
             isAnimating = true;
         }
         else
         {
-            points.Add(newPoint);
+            // For subsequent points, calculate position based on point count minus 1 (since first point is origin)
+            float xPos = (float)(points.Count) / (GameManager.TOTAL_MONTHS * 2); // * 2 for periods per month
+            Vector2 newPoint = new Vector2(xPos, normalizedValue * gridSize.y);
+            targetPoint = newPoint;
+            isAnimating = true;
         }
         
+        originalValues.Add(value);
         SetVerticesDirty();
     }
 
@@ -109,11 +116,14 @@ public class UILineRendererGraph : Graphic
             isRescaling = true;
             targetPoints.Clear();
             
-            // Calculate new positions for all points
-            for (int i = 0; i < originalValues.Count; i++)
+            // Always keep first point at origin
+            targetPoints.Add(Vector2.zero);
+            
+            // Calculate new positions for all points after the origin point
+            for (int i = 1; i < originalValues.Count; i++)
             {
                 float normalizedValue = Mathf.Clamp01(originalValues[i] / newMaxValue);
-                float xPos = (float)i / (GameManager.TOTAL_MONTHS * 2);
+                float xPos = (float)(i) / (GameManager.TOTAL_MONTHS * 2);
                 targetPoints.Add(new Vector2(xPos, normalizedValue * gridSize.y));
             }
         }
