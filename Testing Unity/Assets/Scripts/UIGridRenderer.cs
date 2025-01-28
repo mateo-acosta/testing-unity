@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+using UnityEngine.Events;
 
 public class UIGridRenderer : Graphic
 {
     public Vector2Int gridSize = new Vector2Int(1, 5);  // Start with 5 segments
     public float thickness = 1f;
     public Color gridColor = new Color(1, 1, 1, 0.2f);
-    
-    [Header("Labels")]
-    public TextMeshProUGUI[] yAxisLabels;
-    public TextMeshProUGUI xAxisLabel;
     
     private float width;
     private float height;
@@ -24,6 +20,16 @@ public class UIGridRenderer : Graphic
     private float valueAnimationSpeed = 2f;
     private const float VALUE_PER_SEGMENT = 2000f;  // $2,000 per segment
     private const float EXPANSION_THRESHOLD = 0.85f;  // Expand at 85% of max value
+
+    // Event to notify when grid is rescaled
+    public delegate void OnGridRescaledDelegate(float oldMaxValue, float newMaxValue);
+    public event OnGridRescaledDelegate OnGridRescaled;
+
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        color = gridColor;
+    }
 
     protected override void OnPopulateMesh(VertexHelper vh)
     {
@@ -44,8 +50,6 @@ public class UIGridRenderer : Graphic
             float yPos = j * cellHeight;
             DrawLine(vh, new Vector2(0, yPos), new Vector2(width, yPos));
         }
-
-        UpdateAxisLabels();
     }
 
     private void DrawLine(VertexHelper vh, Vector2 start, Vector2 end)
@@ -55,10 +59,10 @@ public class UIGridRenderer : Graphic
         var pos1 = start;
         var pos2 = end;
 
-        vh.AddVert(new Vector3(pos1.x - thickness / 2, pos1.y - thickness / 2), gridColor, Vector2.zero);
-        vh.AddVert(new Vector3(pos1.x + thickness / 2, pos1.y + thickness / 2), gridColor, Vector2.zero);
-        vh.AddVert(new Vector3(pos2.x + thickness / 2, pos2.y + thickness / 2), gridColor, Vector2.zero);
-        vh.AddVert(new Vector3(pos2.x - thickness / 2, pos2.y - thickness / 2), gridColor, Vector2.zero);
+        vh.AddVert(new Vector3(pos1.x - thickness / 2, pos1.y - thickness / 2), color, Vector2.zero);
+        vh.AddVert(new Vector3(pos1.x + thickness / 2, pos1.y + thickness / 2), color, Vector2.zero);
+        vh.AddVert(new Vector3(pos2.x + thickness / 2, pos2.y + thickness / 2), color, Vector2.zero);
+        vh.AddVert(new Vector3(pos2.x - thickness / 2, pos2.y - thickness / 2), color, Vector2.zero);
 
         vh.AddTriangle(count + 0, count + 1, count + 2);
         vh.AddTriangle(count + 2, count + 3, count + 0);
@@ -69,6 +73,8 @@ public class UIGridRenderer : Graphic
         // Check if we've reached 85% of our current max
         if (newValue > targetMaxValue * EXPANSION_THRESHOLD)
         {
+            float oldMaxValue = targetMaxValue;
+            
             // Calculate how many new segments we need
             // Add at least one segment to maintain the buffer
             float valueAboveThreshold = newValue - (targetMaxValue * EXPANSION_THRESHOLD);
@@ -80,6 +86,9 @@ public class UIGridRenderer : Graphic
             // Update target max value
             targetMaxValue = VALUE_PER_SEGMENT * gridSize.y;
             
+            // Notify listeners about the rescale
+            OnGridRescaled?.Invoke(oldMaxValue, targetMaxValue);
+            
             SetVerticesDirty();
         }
     }
@@ -88,46 +97,14 @@ public class UIGridRenderer : Graphic
     {
         if (Mathf.Abs(currentMaxValue - targetMaxValue) > 0.01f)
         {
+            float oldMaxValue = currentMaxValue;
             currentMaxValue = Mathf.Lerp(currentMaxValue, targetMaxValue, Time.deltaTime * valueAnimationSpeed);
-            UpdateAxisLabels();
-        }
-    }
-
-    private void UpdateAxisLabels()
-    {
-        // Update Y-axis labels
-        if (yAxisLabels != null)
-        {
-            // Ensure we have enough label objects
-            while (yAxisLabels.Length < gridSize.y + 1)
+            
+            // If there's a significant change, notify listeners
+            if (Mathf.Abs(oldMaxValue - currentMaxValue) > 0.1f)
             {
-                // You'll need to create new label objects in Unity
-                Debug.LogWarning("Need more label objects for Y-axis ticks");
-                return;
+                OnGridRescaled?.Invoke(oldMaxValue, currentMaxValue);
             }
-
-            for (int i = 0; i <= gridSize.y; i++)
-            {
-                if (yAxisLabels[i] != null)
-                {
-                    float value = VALUE_PER_SEGMENT * i;
-                    yAxisLabels[i].text = $"${value:N0}";
-                    
-                    // Update label position
-                    RectTransform labelRect = yAxisLabels[i].GetComponent<RectTransform>();
-                    if (labelRect != null)
-                    {
-                        float yPos = i * cellHeight;
-                        labelRect.anchoredPosition = new Vector2(labelRect.anchoredPosition.x, yPos);
-                    }
-                }
-            }
-        }
-
-        // Update single X-axis label
-        if (xAxisLabel != null)
-        {
-            xAxisLabel.text = "Month";
         }
     }
 

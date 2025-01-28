@@ -8,6 +8,7 @@ public class UILineRendererGraph : Graphic
     public Vector2Int gridSize = new Vector2Int(1, 10);
     public UIGridRenderer gridRenderer;
     public List<Vector2> points = new List<Vector2>();
+    public List<float> originalValues = new List<float>(); // Store original values for rescaling
     
     [Header("Line Settings")]
     public float thickness = 2f;
@@ -21,6 +22,28 @@ public class UILineRendererGraph : Graphic
     private Vector2 targetPoint;
     private float pointAnimationSpeed = 5f;
     private bool isAnimating = false;
+    private List<Vector2> targetPoints = new List<Vector2>();
+    private bool isRescaling = false;
+
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        if (gridRenderer != null)
+        {
+            gridRenderer.OnGridRescaled += HandleGridRescale;
+            gridSize = gridRenderer.gridSize;
+        }
+        color = lineColor;
+    }
+
+    protected override void OnDisable()
+    {
+        if (gridRenderer != null)
+        {
+            gridRenderer.OnGridRescaled -= HandleGridRescale;
+        }
+        base.OnDisable();
+    }
 
     protected override void OnPopulateMesh(VertexHelper vh)
     {   
@@ -64,6 +87,8 @@ public class UILineRendererGraph : Graphic
         float xPos = (float)points.Count / (GameManager.TOTAL_MONTHS * 2); // * 2 for periods per month
         Vector2 newPoint = new Vector2(xPos, normalizedValue * gridSize.y);
         
+        originalValues.Add(value); // Store the original value
+        
         if (points.Count > 0)
         {
             targetPoint = newPoint;
@@ -77,8 +102,27 @@ public class UILineRendererGraph : Graphic
         SetVerticesDirty();
     }
 
+    private void HandleGridRescale(float oldMaxValue, float newMaxValue)
+    {
+        if (!isRescaling)
+        {
+            isRescaling = true;
+            targetPoints.Clear();
+            
+            // Calculate new positions for all points
+            for (int i = 0; i < originalValues.Count; i++)
+            {
+                float normalizedValue = Mathf.Clamp01(originalValues[i] / newMaxValue);
+                float xPos = (float)i / (GameManager.TOTAL_MONTHS * 2);
+                targetPoints.Add(new Vector2(xPos, normalizedValue * gridSize.y));
+            }
+        }
+    }
+
     private void Update()
     {
+        bool needsUpdate = false;
+
         if (isAnimating)
         {
             Vector2 lastPoint = points[points.Count - 1];
@@ -96,7 +140,39 @@ public class UILineRendererGraph : Graphic
                     points[points.Count - 1] = currentPoint;
                 }
             }
+            needsUpdate = true;
+        }
+
+        if (isRescaling && targetPoints.Count > 0)
+        {
+            bool allPointsReached = true;
             
+            for (int i = 0; i < points.Count; i++)
+            {
+                if (i < targetPoints.Count)
+                {
+                    Vector2 current = points[i];
+                    Vector2 target = targetPoints[i];
+                    
+                    points[i] = Vector2.Lerp(current, target, Time.deltaTime * pointAnimationSpeed);
+                    
+                    if (Vector2.Distance(points[i], target) > 0.01f)
+                    {
+                        allPointsReached = false;
+                    }
+                }
+            }
+            
+            if (allPointsReached)
+            {
+                isRescaling = false;
+                targetPoints.Clear();
+            }
+            needsUpdate = true;
+        }
+
+        if (needsUpdate)
+        {
             SetVerticesDirty();
         }
     }
@@ -137,28 +213,5 @@ public class UILineRendererGraph : Graphic
         vh.AddVert(vertex);
         vertex.position = p4;
         vh.AddVert(vertex);
-    }
-
-    public void RescalePoints(float maxValue)
-    {
-        // Rescale all points when max value changes
-        for (int i = 0; i < points.Count; i++)
-        {
-            Vector2 point = points[i];
-            point.y = point.y * (gridSize.y / maxValue);
-            points[i] = point;
-        }
-        SetVerticesDirty();
-    }
-
-    protected override void OnEnable()
-    {
-        base.OnEnable();
-        if(gridRenderer != null && gridSize != gridRenderer.gridSize)
-        {
-            gridSize = gridRenderer.gridSize;
-            SetVerticesDirty();
-        }
-        color = lineColor;
     }
 } 
