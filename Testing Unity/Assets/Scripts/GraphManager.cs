@@ -8,8 +8,6 @@ public class GraphManager : MonoBehaviour
     public GameManager gameManager;
 
     private List<float> portfolioValues = new List<float>();
-    private float currentMaxValue = 1000f;
-    private float minValue = 0f;
     
     private void Start()
     {
@@ -32,12 +30,35 @@ public class GraphManager : MonoBehaviour
 
     public void AddDataPoint(float value)
     {
-        if (value > currentMaxValue)
+        portfolioValues.Add(value);
+        
+        // Check if we need to add new Y-axis segments
+        if (value > gridRenderer.GetCurrentMaxValue())
         {
-            currentMaxValue = Mathf.Ceil(value / 1000f) * 1000f;
-            gridRenderer.UpdateMaxValue(currentMaxValue);
+            gridRenderer.UpdateMaxValue(value);
+            
+            // Recalculate all points with new scale
+            RecalculatePoints();
         }
         
-        lineRenderer.AddDataPoint(value, currentMaxValue);
+        lineRenderer.AddDataPoint(value, gridRenderer.GetCurrentMaxValue());
+    }
+
+    private void RecalculatePoints()
+    {
+        lineRenderer.points.Clear();
+        
+        // Replot all historical points with new scale
+        for (int i = 0; i < portfolioValues.Count; i++)
+        {
+            float normalizedValue = portfolioValues[i] / gridRenderer.GetCurrentMaxValue();
+            Vector2 point = new Vector2(
+                (float)i / (GameManager.TOTAL_MONTHS * 2), // * 2 for periods per month
+                normalizedValue * gridRenderer.gridSize.y
+            );
+            lineRenderer.points.Add(point);
+        }
+        
+        lineRenderer.SetVerticesDirty();
     }
 } 

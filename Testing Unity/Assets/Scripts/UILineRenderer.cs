@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UILineRendererGraph : Graphic 
 {
-    public Vector2Int gridSize = new Vector2Int(24, 10);
+    public Vector2Int gridSize = new Vector2Int(1, 10);
     public UIGridRenderer gridRenderer;
     public List<Vector2> points = new List<Vector2>();
     
@@ -42,8 +42,6 @@ public class UILineRendererGraph : Graphic
             return;
         }
 
-        color = lineColor; // Set the color for the entire graphic
-
         for (int i = 0; i < points.Count - 1; i++)
         {
             Vector2 point = points[i];
@@ -52,7 +50,6 @@ public class UILineRendererGraph : Graphic
             DrawVerticesForPoint(point, point2, vh);
         }
 
-        // Draw triangles for the line segments
         for (int i = 0; i < points.Count - 1; i++)
         {
             int index = i * 4;
@@ -63,8 +60,9 @@ public class UILineRendererGraph : Graphic
 
     public void AddDataPoint(float value, float maxValue)
     {
-        float normalizedValue = value / maxValue;
-        Vector2 newPoint = new Vector2(points.Count, normalizedValue * gridSize.y);
+        float normalizedValue = Mathf.Clamp01(value / maxValue);
+        float xPos = (float)points.Count / (GameManager.TOTAL_MONTHS * 2); // * 2 for periods per month
+        Vector2 newPoint = new Vector2(xPos, normalizedValue * gridSize.y);
         
         if (points.Count > 0)
         {
@@ -108,29 +106,29 @@ public class UILineRendererGraph : Graphic
         UIVertex vertex = UIVertex.simpleVert;
         vertex.color = color;
 
-        // Calculate perpendicular direction for line thickness
+        float scaledUnitWidth = width;
+        float scaledUnitHeight = height / gridSize.y;
+
         Vector2 direction = (point2 - point).normalized;
         Vector2 perpendicular = new Vector2(-direction.y, direction.x) * (thickness / 2);
 
-        // Calculate the four corners of the line segment
         Vector3 p1 = new Vector3(
-            unitWidth * point.x + perpendicular.x,
-            unitHeight * point.y + perpendicular.y
+            point.x * width + perpendicular.x,
+            point.y * scaledUnitHeight + perpendicular.y
         );
         Vector3 p2 = new Vector3(
-            unitWidth * point.x - perpendicular.x,
-            unitHeight * point.y - perpendicular.y
+            point.x * width - perpendicular.x,
+            point.y * scaledUnitHeight - perpendicular.y
         );
         Vector3 p3 = new Vector3(
-            unitWidth * point2.x + perpendicular.x,
-            unitHeight * point2.y + perpendicular.y
+            point2.x * width + perpendicular.x,
+            point2.y * scaledUnitHeight + perpendicular.y
         );
         Vector3 p4 = new Vector3(
-            unitWidth * point2.x - perpendicular.x,
-            unitHeight * point2.y - perpendicular.y
+            point2.x * width - perpendicular.x,
+            point2.y * scaledUnitHeight - perpendicular.y
         );
 
-        // Add vertices
         vertex.position = p1;
         vh.AddVert(vertex);
         vertex.position = p2;
@@ -141,6 +139,18 @@ public class UILineRendererGraph : Graphic
         vh.AddVert(vertex);
     }
 
+    public void RescalePoints(float maxValue)
+    {
+        // Rescale all points when max value changes
+        for (int i = 0; i < points.Count; i++)
+        {
+            Vector2 point = points[i];
+            point.y = point.y * (gridSize.y / maxValue);
+            points[i] = point;
+        }
+        SetVerticesDirty();
+    }
+
     protected override void OnEnable()
     {
         base.OnEnable();
@@ -149,5 +159,6 @@ public class UILineRendererGraph : Graphic
             gridSize = gridRenderer.gridSize;
             SetVerticesDirty();
         }
+        color = lineColor;
     }
 } 
