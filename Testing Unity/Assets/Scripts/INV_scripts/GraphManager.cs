@@ -5,12 +5,14 @@ public class GraphManager : MonoBehaviour
 {
     [SerializeField] private UIGridRenderer gridRenderer;
     [SerializeField] private UILineRendererGraph lineRenderer;
-    public GameManager gameManager;
-
+    
+    private InvestmentGameManager gameManager;
+    
     private List<float> portfolioValues = new List<float>();
     
     private void Start()
     {
+        gameManager = FindFirstObjectByType<InvestmentGameManager>();
         if (lineRenderer != null && gridRenderer != null)
         {
             lineRenderer.gridRenderer = gridRenderer;
@@ -53,7 +55,7 @@ public class GraphManager : MonoBehaviour
         {
             float normalizedValue = portfolioValues[i] / gridRenderer.GetCurrentMaxValue();
             Vector2 point = new Vector2(
-                (float)i / (GameManager.TOTAL_MONTHS * 2), // * 2 for periods per month
+                (float)i / (InvestmentGameManager.TOTAL_MONTHS * 2), // * 2 for periods per month
                 normalizedValue * gridRenderer.gridSize.y
             );
             lineRenderer.points.Add(point);

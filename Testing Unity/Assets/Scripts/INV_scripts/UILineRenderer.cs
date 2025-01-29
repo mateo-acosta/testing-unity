@@ -92,14 +92,14 @@ public class UILineRendererGraph : Graphic
             originalValues.Add(0f);
             
             // Add the actual first value as the second point
-            Vector2 firstValuePoint = new Vector2(1f / (GameManager.TOTAL_MONTHS * 2), normalizedValue * gridSize.y);
+            Vector2 firstValuePoint = new Vector2(1f / (InvestmentGameManager.TOTAL_MONTHS * 2), normalizedValue * gridSize.y);
             targetPoint = firstValuePoint;
             isAnimating = true;
         }
         else
         {
             // For subsequent points, calculate position based on point count minus 1 (since first point is origin)
-            float xPos = (float)(points.Count) / (GameManager.TOTAL_MONTHS * 2); // * 2 for periods per month
+            float xPos = (float)(points.Count) / (InvestmentGameManager.TOTAL_MONTHS * 2); // * 2 for periods per month
             Vector2 newPoint = new Vector2(xPos, normalizedValue * gridSize.y);
             targetPoint = newPoint;
             isAnimating = true;
@@ -123,7 +123,7 @@ public class UILineRendererGraph : Graphic
             for (int i = 1; i < originalValues.Count; i++)
             {
                 float normalizedValue = Mathf.Clamp01(originalValues[i] / newMaxValue);
-                float xPos = (float)(i) / (GameManager.TOTAL_MONTHS * 2);
+                float xPos = (float)(i) / (InvestmentGameManager.TOTAL_MONTHS * 2);
                 targetPoints.Add(new Vector2(xPos, normalizedValue * gridSize.y));
             }
         }
