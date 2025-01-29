@@ -14,7 +14,7 @@ public class Villain : MonoBehaviour
     private void Start()
     {
         // Find the castle and game manager
-        GameObject castle = GameObject.FindGameObjectWithTag("Castle");
+        GameObject castle = GameObject.FindGameObjectWithTag("Castle_INS");
         if (castle != null)
         {
             castleTransform = castle.transform;
@@ -39,7 +39,7 @@ public class Villain : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("CastleBoundary"))
+        if (other.CompareTag("CastleBoundary_INS"))
         {
             // Damage the castle and destroy self
             if (gameManager != null)
