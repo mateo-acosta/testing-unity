@@ -39,13 +39,24 @@ public class Villain : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log($"Trigger entered with: {other.gameObject.name}, Tag: {other.tag}");
+        
         if (other.CompareTag("CastleBoundary_INS"))
         {
+            Debug.Log("Boundary detected - attempting to damage castle");
+            
             // Damage the castle and destroy self
             if (gameManager != null)
             {
+                Debug.Log("GameManager found - applying damage");
                 gameManager.TakeDamage();
             }
+            else
+            {
+                Debug.LogWarning("GameManager is null!");
+            }
+            
+            Debug.Log("Destroying villain");
             Destroy(gameObject);
         }
     }
