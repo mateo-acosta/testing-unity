@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Castle_INS
   - CastleBoundary_INS
+  - CorrectPanel
+  - IncorrectPanel
+  - DropPanel
   layers:
   - Default
   - TransparentFX
