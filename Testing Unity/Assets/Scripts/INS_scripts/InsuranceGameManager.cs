@@ -13,7 +13,7 @@ public class InsuranceGameManager : MonoBehaviour
     public GameObject sicknessPrefab;
     
     [Header("Spawn Settings")]
-    public float spawnRadius = 10f;
+    public float spawnRadius = 600f; // Increased for UI space
     public float minSpawnInterval = 1f;
     public float maxSpawnInterval = 3f;
     public float difficultyIncreaseRate = 0.1f; // How much to decrease spawn interval per minute
@@ -24,11 +24,13 @@ public class InsuranceGameManager : MonoBehaviour
     [Header("UI References")]
     public TextMeshProUGUI scoreText;
     public GameObject gameOverPanel;
+    public Canvas gameCanvas; // Reference to the main Canvas
     
     private float nextSpawnTime;
     private float currentSpawnInterval;
     private int score;
     private bool isGameOver;
+    private RectTransform canvasRectTransform;
     
     private void Awake()
     {
@@ -54,6 +56,12 @@ public class InsuranceGameManager : MonoBehaviour
         {
             gameOverPanel.SetActive(false);
         }
+        
+        if (gameCanvas == null)
+        {
+            gameCanvas = FindFirstObjectByType<Canvas>();
+        }
+        canvasRectTransform = gameCanvas.GetComponent<RectTransform>();
         
         UpdateScoreDisplay();
     }
@@ -85,13 +93,23 @@ public class InsuranceGameManager : MonoBehaviour
     
     private void SpawnVillain()
     {
-        // Random angle around the circle
+        if (gameCanvas == null) return;
+
+        // Find castle position
+        GameObject castle = GameObject.FindGameObjectWithTag("Castle_INS");
+        if (castle == null) return;
+        
+        RectTransform castleRect = castle.GetComponent<RectTransform>();
+        Vector2 castleCenter = castleRect.anchoredPosition;
+        
+        // Calculate spawn position in a circle around the castle
         float angle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
-        Vector3 spawnPosition = new Vector3(
+        Vector2 spawnOffset = new Vector2(
             Mathf.Cos(angle) * spawnRadius,
-            Mathf.Sin(angle) * spawnRadius,
-            0
+            Mathf.Sin(angle) * spawnRadius
         );
+        
+        Vector2 spawnPosition = castleCenter + spawnOffset;
         
         // Choose random villain type
         GameObject prefabToSpawn = Random.Range(0, 4) switch
@@ -104,7 +122,13 @@ public class InsuranceGameManager : MonoBehaviour
         
         if (prefabToSpawn != null)
         {
-            Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+            // Instantiate as UI element
+            GameObject villain = Instantiate(prefabToSpawn, gameCanvas.transform);
+            RectTransform villainRect = villain.GetComponent<RectTransform>();
+            if (villainRect != null)
+            {
+                villainRect.anchoredPosition = spawnPosition;
+            }
         }
     }
     
