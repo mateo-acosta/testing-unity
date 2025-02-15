@@ -5,7 +5,7 @@ public class Villain : MonoBehaviour
     [Header("Villain Properties")]
     public VillainType villainType;
     public float moveSpeed = 300f;
-    public float collisionThreshold = 50f; // Distance at which we consider collision with castle
+    public float collisionThreshold = 50f;
     
     private RectTransform castleRectTransform;
     private RectTransform myRectTransform;
@@ -29,7 +29,7 @@ public class Villain : MonoBehaviour
             if (castleCollider != null)
             {
                 Debug.Log($"Found castle collider. IsTrigger: {castleCollider.isTrigger}, Radius: {castleCollider.radius}, Enabled: {castleCollider.enabled}");
-                collisionThreshold = castleCollider.radius; // Use castle's collider radius
+                collisionThreshold = castleCollider.radius;
             }
             else
             {
@@ -59,6 +59,12 @@ public class Villain : MonoBehaviour
     
     private void Update()
     {
+        // Don't update if game is over
+        if (gameManager != null && gameManager.IsGameOver)
+        {
+            return;
+        }
+        
         if (castleRectTransform != null && canvas != null && !hasCollided)
         {
             // Get the direction in screen space
@@ -88,7 +94,7 @@ public class Villain : MonoBehaviour
             {
                 Debug.Log($"Villain of type {villainType} reached castle boundary at distance {distance}");
                 hasCollided = true;
-                if (gameManager != null)
+                if (gameManager != null && !gameManager.IsGameOver)
                 {
                     gameManager.TakeDamage();
                     Debug.Log("Damage dealt to castle");
@@ -105,6 +111,11 @@ public class Villain : MonoBehaviour
     
     public bool TryDefeatWithAntidote(AntidoteType antidoteType)
     {
+        if (gameManager != null && gameManager.IsGameOver)
+        {
+            return false;
+        }
+        
         Debug.Log($"Attempting to defeat {villainType} with {antidoteType}");
         
         bool isCorrectAntidote = (villainType, antidoteType) switch
@@ -132,4 +143,4 @@ public class Villain : MonoBehaviour
         
         return isCorrectAntidote;
     }
-} 
+}

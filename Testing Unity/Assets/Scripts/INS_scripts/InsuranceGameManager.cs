@@ -13,10 +13,10 @@ public class InsuranceGameManager : MonoBehaviour
     public GameObject sicknessPrefab;
     
     [Header("Spawn Settings")]
-    public float spawnRadius = 600f; // Increased for UI space
+    public float spawnRadius = 600f;
     public float minSpawnInterval = 1f;
     public float maxSpawnInterval = 3f;
-    public float difficultyIncreaseRate = 0.1f; // How much to decrease spawn interval per minute
+    public float difficultyIncreaseRate = 0.1f;
     
     [Header("Game Settings")]
     public int damagePerVillain = 10;
@@ -24,13 +24,18 @@ public class InsuranceGameManager : MonoBehaviour
     [Header("UI References")]
     public TextMeshProUGUI scoreText;
     public GameObject gameOverPanel;
-    public Canvas gameCanvas; // Reference to the main Canvas
+    public Canvas gameCanvas;
+    
+    [Header("Scene References")]
+    public GameObject enemiesContainer; // Reference to the Enemies GameObject
     
     private float nextSpawnTime;
     private float currentSpawnInterval;
     private int score;
     private bool isGameOver;
     private RectTransform canvasRectTransform;
+    
+    public bool IsGameOver => isGameOver;
     
     private void Awake()
     {
@@ -47,6 +52,7 @@ public class InsuranceGameManager : MonoBehaviour
     
     private void Start()
     {
+        ResumeGame();
         currentSpawnInterval = maxSpawnInterval;
         nextSpawnTime = Time.time + currentSpawnInterval;
         score = 0;
@@ -63,6 +69,17 @@ public class InsuranceGameManager : MonoBehaviour
         }
         canvasRectTransform = gameCanvas.GetComponent<RectTransform>();
         
+        // Find or create the enemies container
+        if (enemiesContainer == null)
+        {
+            enemiesContainer = GameObject.Find("Enemies");
+            if (enemiesContainer == null)
+            {
+                enemiesContainer = new GameObject("Enemies");
+                enemiesContainer.transform.SetParent(gameCanvas.transform);
+            }
+        }
+        
         UpdateScoreDisplay();
     }
     
@@ -77,13 +94,11 @@ public class InsuranceGameManager : MonoBehaviour
             return;
         }
         
-        // Gradually increase difficulty
         currentSpawnInterval = Mathf.Max(
             minSpawnInterval,
             maxSpawnInterval - (Time.time / 60f) * difficultyIncreaseRate
         );
         
-        // Spawn villains
         if (Time.time >= nextSpawnTime)
         {
             SpawnVillain();
@@ -93,8 +108,8 @@ public class InsuranceGameManager : MonoBehaviour
     
     private void SpawnVillain()
     {
-        if (gameCanvas == null) return;
-
+        if (gameCanvas == null || isGameOver || enemiesContainer == null) return;
+        
         // Find castle position
         GameObject castle = GameObject.FindGameObjectWithTag("Castle_INS");
         if (castle == null) return;
@@ -122,8 +137,8 @@ public class InsuranceGameManager : MonoBehaviour
         
         if (prefabToSpawn != null)
         {
-            // Instantiate as UI element
-            GameObject villain = Instantiate(prefabToSpawn, gameCanvas.transform);
+            // Instantiate as UI element under the Enemies container
+            GameObject villain = Instantiate(prefabToSpawn, enemiesContainer.transform);
             RectTransform villainRect = villain.GetComponent<RectTransform>();
             if (villainRect != null)
             {
@@ -134,6 +149,8 @@ public class InsuranceGameManager : MonoBehaviour
     
     public void TakeDamage()
     {
+        if (isGameOver) return;
+        
         Castle castle = FindFirstObjectByType<Castle>();
         if (castle != null)
         {
@@ -143,6 +160,8 @@ public class InsuranceGameManager : MonoBehaviour
     
     public void IncreaseScore()
     {
+        if (isGameOver) return;
+        
         score++;
         UpdateScoreDisplay();
     }
@@ -158,14 +177,23 @@ public class InsuranceGameManager : MonoBehaviour
     public void GameOver()
     {
         isGameOver = true;
+        Time.timeScale = 0f; // Pause the game
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
         }
+        Debug.Log("Game Over - Game paused");
     }
     
     public void RestartGame()
     {
+        ResumeGame();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-} 
+    
+    private void ResumeGame()
+    {
+        Time.timeScale = 1f;
+        isGameOver = false;
+    }
+}
