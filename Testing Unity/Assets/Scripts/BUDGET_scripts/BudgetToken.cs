@@ -31,6 +31,11 @@ public class BudgetToken : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     private void Update()
     {
+        if (BudgetGameManager.Instance != null && BudgetGameManager.Instance.IsGameOver)
+        {
+            return;
+        }
+
         if (!isDragging && !isPlaced)
         {
             // Make the token fall
@@ -48,7 +53,7 @@ public class BudgetToken : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (isPlaced) return;
+        if (isPlaced || (BudgetGameManager.Instance != null && BudgetGameManager.Instance.IsGameOver)) return;
         
         isDragging = true;
         originalPosition = rectTransform.anchoredPosition;
@@ -60,14 +65,14 @@ public class BudgetToken : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (isPlaced) return;
+        if (isPlaced || (BudgetGameManager.Instance != null && BudgetGameManager.Instance.IsGameOver)) return;
         
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (isPlaced) return;
+        if (isPlaced || (BudgetGameManager.Instance != null && BudgetGameManager.Instance.IsGameOver)) return;
         
         isDragging = false;
         canvasGroup.blocksRaycasts = true;

@@ -25,6 +25,11 @@ public class WaterfallSpawner : MonoBehaviour
 
     private void Update()
     {
+        if (BudgetGameManager.Instance != null && BudgetGameManager.Instance.IsGameOver)
+        {
+            return;
+        }
+
         if (Time.time >= nextSpawnTime)
         {
             SpawnToken();

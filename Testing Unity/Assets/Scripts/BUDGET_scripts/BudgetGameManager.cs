@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 public class BudgetGameManager : MonoBehaviour
 {
+    public static BudgetGameManager Instance { get; private set; }
+    public bool IsGameOver { get; private set; } = false;
+
     [Header("Game Settings")]
     public float monthlyIncome = 5000f;
     public float savingsGoal = 100000f;
@@ -15,10 +18,16 @@ public class BudgetGameManager : MonoBehaviour
     public Slider savingsProgressSlider;
     public TextMeshProUGUI monthCountText;
     public TextMeshProUGUI totalSavingsText;
+    public GameObject gameOverPanel;
 
     [Header("Category Management")]
     public CategorySlot[] categorySlots;
     private int filledSlotsCount = 0;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
@@ -103,13 +112,17 @@ public class BudgetGameManager : MonoBehaviour
         }
         if (totalSavingsText != null)
         {
-            totalSavingsText.text = $"Total Savings: ${totalAccumulatedSavings:N2}";
+            totalSavingsText.text = $"${totalAccumulatedSavings:N0} / {savingsGoal:N0}";
         }
     }
 
     private void GameComplete()
     {
         Debug.Log("Congratulations! Savings goal reached!");
-        // TODO: Implement win screen or celebration
+        IsGameOver = true;
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+        }
     }
 } 
