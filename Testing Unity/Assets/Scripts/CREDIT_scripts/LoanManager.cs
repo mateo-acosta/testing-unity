@@ -9,6 +9,9 @@ public class LoanManager : MonoBehaviour
     public int maxRounds = 20;
     public float timeBetweenRounds = 2f;
 
+    [Header("References")]
+    public BorrowerImageManager borrowerImageManager;
+
     [Header("Current Game State")]
     public float currentFunds;
     public int currentRound = 0;
@@ -43,6 +46,11 @@ public class LoanManager : MonoBehaviour
         {
             onGameMessage.Invoke("Loan rejected by lender.");
             yield return new WaitForSeconds(timeBetweenRounds);
+            // Change the borrower image before starting next round
+            if (borrowerImageManager != null)
+            {
+                borrowerImageManager.ChangeToNextBorrower();
+            }
             StartNextRound();
             isProcessingLoan = false;
             yield break;
@@ -53,6 +61,11 @@ public class LoanManager : MonoBehaviour
         {
             onGameMessage.Invoke("Insufficient funds to issue loan!");
             yield return new WaitForSeconds(timeBetweenRounds);
+            // Change the borrower image before starting next round
+            if (borrowerImageManager != null)
+            {
+                borrowerImageManager.ChangeToNextBorrower();
+            }
             StartNextRound();
             isProcessingLoan = false;
             yield break;
@@ -63,6 +76,11 @@ public class LoanManager : MonoBehaviour
         {
             onGameMessage.Invoke("Borrower rejected the offered interest rate.");
             yield return new WaitForSeconds(timeBetweenRounds);
+            // Change the borrower image before starting next round
+            if (borrowerImageManager != null)
+            {
+                borrowerImageManager.ChangeToNextBorrower();
+            }
             StartNextRound();
             isProcessingLoan = false;
             yield break;
@@ -100,6 +118,11 @@ public class LoanManager : MonoBehaviour
         }
         else
         {
+            // Change the borrower image before starting next round
+            if (borrowerImageManager != null)
+            {
+                borrowerImageManager.ChangeToNextBorrower();
+            }
             StartNextRound();
         }
 
@@ -115,6 +138,12 @@ public class LoanManager : MonoBehaviour
         {
             GameObject borrowerObj = new GameObject("Current Borrower");
             currentBorrower = borrowerObj.AddComponent<NPCBorrower>();
+            
+            // Initialize first borrower image
+            if (borrowerImageManager != null)
+            {
+                borrowerImageManager.ChangeToNextBorrower();
+            }
         }
         
         currentBorrower.GenerateProfile();
