@@ -16,10 +16,10 @@ public class TaxGameManager : MonoBehaviour
     public int highestStreak = 0;
 
     [Header("UI References")]
+    [SerializeField] private GameObject gameOverPanel;
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI streakText;
-    public GameObject gameOverPanel;
     public TextMeshProUGUI finalScoreText;
     public TextMeshProUGUI highestStreakText;
 
@@ -27,6 +27,7 @@ public class TaxGameManager : MonoBehaviour
     public GameObject correctTaxReturnPrefab;
     public GameObject[] incorrectTaxReturnPrefabs;
     public Transform taxReturnSpawnPoint;
+    [SerializeField] private Transform taxReturnsParent;
     public GameObject currentTaxReturn;
     private Canvas mainCanvas;
 
@@ -111,8 +112,8 @@ public class TaxGameManager : MonoBehaviour
             prefabToSpawn = incorrectTaxReturnPrefabs[incorrectIndex];
         }
 
-        // Instantiate as a child of the canvas
-        currentTaxReturn = Instantiate(prefabToSpawn, mainCanvas.transform);
+        // Instantiate as a child of the TaxReturns parent
+        currentTaxReturn = Instantiate(prefabToSpawn, taxReturnsParent);
         
         // Set the position to the spawn point
         RectTransform rectTransform = currentTaxReturn.GetComponent<RectTransform>();
