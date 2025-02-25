@@ -1,23 +1,19 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 using TMPro;
 
-public class CategorySlot : MonoBehaviour, IDropHandler
+public class CategorySlot : MonoBehaviour
 {
     [Header("References")]
     public TextMeshProUGUI categoryNameText;
     public TextMeshProUGUI valueText;
-    public RectTransform dropZone;
     
     [Header("Settings")]
     public string categoryName;
     
-    public BudgetToken currentToken { get; private set; }
-    private BudgetGameManager gameManager;
+    private float currentValue = 0f;
 
     private void Start()
     {
-        gameManager = FindFirstObjectByType<BudgetGameManager>();
         if (categoryNameText != null)
         {
             categoryNameText.text = categoryName;
@@ -25,43 +21,41 @@ public class CategorySlot : MonoBehaviour, IDropHandler
         UpdateValueDisplay();
     }
 
-    public void OnDrop(PointerEventData eventData)
+    public void SetValue(float value)
     {
-        if (currentToken != null) return; // Slot already filled
-
-        BudgetToken droppedToken = eventData.pointerDrag.GetComponent<BudgetToken>();
-        if (droppedToken != null)
-        {
-            AcceptToken(droppedToken);
-        }
+        currentValue = value;
+        UpdateValueDisplay();
+        Debug.Log($"Category {categoryName} value set to ${currentValue:N2}");
     }
 
-    private void AcceptToken(BudgetToken token)
+    public float GetValue()
     {
-        currentToken = token;
-        token.transform.SetParent(dropZone);
-        token.transform.localPosition = Vector3.zero;
-        token.OnPlaced(this);
-        
-        UpdateValueDisplay();
-        gameManager.OnCategorySlotFilled();
+        return currentValue;
     }
 
     public void ResetSlot()
     {
-        if (currentToken != null)
-        {
-            Destroy(currentToken.gameObject);
-            currentToken = null;
-            UpdateValueDisplay();
-        }
+        currentValue = 0f;
+        UpdateValueDisplay();
+        Debug.Log($"Category {categoryName} reset");
     }
 
     private void UpdateValueDisplay()
     {
         if (valueText != null)
         {
-            valueText.text = currentToken != null ? $"${currentToken.value:N2}" : "Empty";
+            valueText.text = currentValue > 0 ? $"${currentValue:N2}" : "Not Set";
+            Debug.Log($"Updated {categoryName} display to: {valueText.text}");
         }
+        else
+        {
+            Debug.LogWarning($"Category {categoryName} has no valueText assigned!");
+        }
+    }
+    
+    // Public method to update the display, can be called from outside
+    public void UpdateDisplay()
+    {
+        UpdateValueDisplay();
     }
 } 

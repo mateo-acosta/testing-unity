@@ -1,32 +1,59 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
 using TMPro;
 
-public class BudgetToken : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+[RequireComponent(typeof(RectTransform), typeof(Collider2D))]
+public class BudgetToken : MonoBehaviour
 {
     [Header("References")]
     public TextMeshProUGUI valueText;
     public RectTransform rectTransform;
-    public CanvasGroup canvasGroup;
 
     [Header("Settings")]
     public float value;
     public float fallSpeed = 100f;
     
     private Canvas canvas;
-    private RectTransform canvasRectTransform;
-    private Vector2 originalPosition;
-    private Transform originalParent;
-    private CategorySlot currentSlot;
-    private bool isDragging = false;
-    private bool isPlaced = false;
+    private bool isDestroyed = false;
+    private Collider2D myCollider;
+    private Rigidbody2D myRigidbody;
+
+    private void Awake()
+    {
+        myCollider = GetComponent<Collider2D>();
+        if (myCollider == null)
+        {
+            Debug.LogError("Token has no Collider2D! Adding one...");
+            myCollider = gameObject.AddComponent<BoxCollider2D>();
+        }
+
+        if (!myCollider.isTrigger)
+        {
+            Debug.LogWarning("Token collider is not a trigger. Setting isTrigger to true.");
+            myCollider.isTrigger = true;
+        }
+
+        // Add a Rigidbody2D if not present (needed for some 2D collision scenarios)
+        myRigidbody = GetComponent<Rigidbody2D>();
+        if (myRigidbody == null)
+        {
+            myRigidbody = gameObject.AddComponent<Rigidbody2D>();
+            myRigidbody.bodyType = RigidbodyType2D.Kinematic; // We move it ourselves
+            myRigidbody.gravityScale = 0;   // No gravity
+        }
+
+        Debug.Log($"Token {GetInstanceID()} initialized: Collider={myCollider.GetType().Name}, isTrigger={myCollider.isTrigger}, Rigidbody2D={myRigidbody != null}");
+    }
 
     private void Start()
     {
         canvas = GetComponentInParent<Canvas>();
-        canvasRectTransform = canvas.GetComponent<RectTransform>();
+        if (rectTransform == null)
+        {
+            rectTransform = GetComponent<RectTransform>();
+        }
         UpdateValueDisplay();
+        Debug.Log($"Token {GetInstanceID()} started: Value=${value:N2}, Position={rectTransform.anchoredPosition}");
     }
 
     private void Update()
@@ -36,7 +63,7 @@ public class BudgetToken : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             return;
         }
 
-        if (!isDragging && !isPlaced)
+        if (!isDestroyed)
         {
             // Make the token fall
             transform.Translate(Vector3.down * fallSpeed * Time.deltaTime);
@@ -46,50 +73,22 @@ public class BudgetToken : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             rectTransform.GetWorldCorners(corners);
             if (corners[0].y < 0)
             {
+                Debug.Log($"Token {GetInstanceID()} fell off screen and will be destroyed");
                 Destroy(gameObject);
             }
         }
     }
 
-    public void OnBeginDrag(PointerEventData eventData)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (isPlaced || (BudgetGameManager.Instance != null && BudgetGameManager.Instance.IsGameOver)) return;
+        Debug.Log($"Token {GetInstanceID()} trigger entered with: {other.gameObject.name}");
         
-        isDragging = true;
-        originalPosition = rectTransform.anchoredPosition;
-        originalParent = transform.parent;
-        
-        transform.SetParent(canvasRectTransform);
-        canvasGroup.blocksRaycasts = false;
-    }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-        if (isPlaced || (BudgetGameManager.Instance != null && BudgetGameManager.Instance.IsGameOver)) return;
-        
-        rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        if (isPlaced || (BudgetGameManager.Instance != null && BudgetGameManager.Instance.IsGameOver)) return;
-        
-        isDragging = false;
-        canvasGroup.blocksRaycasts = true;
-
-        if (currentSlot == null)
+        // Check if collided with basket
+        BasketController basket = other.GetComponent<BasketController>();
+        if (basket != null)
         {
-            // Return to original position if not dropped in a valid slot
-            transform.SetParent(originalParent);
-            rectTransform.anchoredPosition = originalPosition;
+            Debug.Log($"Token {GetInstanceID()} collided with basket directly");
         }
-    }
-
-    public void OnPlaced(CategorySlot slot)
-    {
-        currentSlot = slot;
-        isPlaced = true;
-        canvasGroup.blocksRaycasts = false;
     }
 
     private void UpdateValueDisplay()
@@ -104,5 +103,11 @@ public class BudgetToken : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     {
         value = newValue;
         UpdateValueDisplay();
+    }
+
+    private void OnDestroy()
+    {
+        isDestroyed = true;
+        Debug.Log($"Token {GetInstanceID()} was destroyed");
     }
 } 
