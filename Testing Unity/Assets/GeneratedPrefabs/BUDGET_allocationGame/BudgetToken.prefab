@@ -94,7 +94,7 @@ MonoBehaviour:
   valueText: {fileID: 2287995449190778457}
   rectTransform: {fileID: 6946799448625510955}
   value: 0
-  fallSpeed: 100
+  fallSpeed: 250
 --- !u!61 &8508219842540954890
 BoxCollider2D:
   m_ObjectHideFlags: 0

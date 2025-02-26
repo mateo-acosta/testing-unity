@@ -183,13 +183,13 @@ public class BudgetGameManager : MonoBehaviour
         // Show monthly savings popup
         if (monthlySavingsPopup != null && monthlySavingsPopupText != null)
         {
-            monthlySavingsPopupText.text = $"Monthly Savings: ${monthlySavings:N0}";
+            monthlySavingsPopupText.text = $"${monthlySavings:N0}";
             monthlySavingsPopup.SetActive(true);
             
             Debug.Log("Showing monthly savings popup");
             
-            // Wait for 1 second
-            yield return new WaitForSeconds(1f);
+            // Wait for X seconds
+            yield return new WaitForSeconds(2f);
             
             monthlySavingsPopup.SetActive(false);
         }
