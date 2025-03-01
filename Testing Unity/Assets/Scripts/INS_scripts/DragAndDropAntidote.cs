@@ -14,8 +14,9 @@ public class DragAndDropAntidote : MonoBehaviour, IBeginDragHandler, IDragHandle
     private Image image;
     private Canvas canvas;
     private RectTransform rectTransform;
-    private Vector2 originalPosition;
-    private Color originalColor;
+    private GameObject dragClone;
+    private RectTransform cloneRectTransform;
+    private Image cloneImage;
     
     private void Awake()
     {
@@ -23,49 +24,54 @@ public class DragAndDropAntidote : MonoBehaviour, IBeginDragHandler, IDragHandle
         rectTransform = GetComponent<RectTransform>();
         canvas = GetComponentInParent<Canvas>();
         
-        // Store original position for resetting
-        originalPosition = rectTransform.anchoredPosition;
-        originalColor = image.color;
-        
         Debug.Log($"Antidote {antidoteType} initialized at position: {rectTransform.anchoredPosition}");
     }
     
     public void OnBeginDrag(PointerEventData eventData)
     {
-        // Make the image semi-transparent while dragging
-        Color dragColor = image.color;
+        // Create a clone of the antidote for dragging
+        dragClone = Instantiate(gameObject, transform.position, Quaternion.identity, canvas.transform);
+        cloneRectTransform = dragClone.GetComponent<RectTransform>();
+        cloneImage = dragClone.GetComponent<Image>();
+        
+        // Make the clone semi-transparent
+        Color dragColor = cloneImage.color;
         dragColor.a = dragAlpha;
-        image.color = dragColor;
+        cloneImage.color = dragColor;
         
-        // Ensure this image renders on top while being dragged
-        transform.SetAsLastSibling();
+        // Ensure clone renders on top while being dragged
+        dragClone.transform.SetAsLastSibling();
         
-        Debug.Log($"Started dragging {antidoteType} antidote");
+        // Disable the DragAndDrop component on the clone to prevent recursive dragging
+        Destroy(dragClone.GetComponent<DragAndDropAntidote>());
+        
+        Debug.Log($"Started dragging {antidoteType} antidote clone");
     }
     
     public void OnDrag(PointerEventData eventData)
     {
-        // Update position based on mouse/touch position
+        if (dragClone == null) return;
+        
+        // Update clone position based on mouse/touch position
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
             canvas.transform as RectTransform,
             eventData.position,
             canvas.worldCamera,
             out Vector2 localPoint))
         {
-            rectTransform.position = canvas.transform.TransformPoint(localPoint);
+            cloneRectTransform.position = canvas.transform.TransformPoint(localPoint);
         }
     }
     
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log($"Ended dragging {antidoteType} antidote");
+        if (dragClone == null) return;
         
-        // Reset color
-        image.color = originalColor;
+        Debug.Log($"Ended dragging {antidoteType} antidote clone");
         
-        // Check for collision with villains using Physics2D
-        Collider2D[] hits = Physics2D.OverlapPointAll(transform.position);
-        Debug.Log($"Found {hits.Length} potential collisions at position {transform.position}");
+        // Check for collision with villains using Physics2D at the clone's position
+        Collider2D[] hits = Physics2D.OverlapPointAll(dragClone.transform.position);
+        Debug.Log($"Found {hits.Length} potential collisions at position {dragClone.transform.position}");
         
         foreach (Collider2D hit in hits)
         {
@@ -81,7 +87,8 @@ public class DragAndDropAntidote : MonoBehaviour, IBeginDragHandler, IDragHandle
             }
         }
         
-        // Reset position
-        rectTransform.anchoredPosition = originalPosition;
+        // Destroy the clone
+        Destroy(dragClone);
+        dragClone = null;
     }
 } 
