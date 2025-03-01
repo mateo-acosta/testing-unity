@@ -20,9 +20,11 @@ public class InsuranceGameManager : MonoBehaviour
     
     [Header("Game Settings")]
     public int damagePerVillain = 10;
+    public float gameDuration = 60f; // Duration in seconds
     
     [Header("UI References")]
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI timerText; // Reference to the countdown timer text
     public GameObject gameOverPanel;
     public Canvas gameCanvas;
     
@@ -34,6 +36,7 @@ public class InsuranceGameManager : MonoBehaviour
     private int score;
     private bool isGameOver;
     private RectTransform canvasRectTransform;
+    private float remainingTime;
     
     public bool IsGameOver => isGameOver;
     
@@ -57,6 +60,7 @@ public class InsuranceGameManager : MonoBehaviour
         nextSpawnTime = Time.time + currentSpawnInterval;
         score = 0;
         isGameOver = false;
+        remainingTime = gameDuration;
         
         if (gameOverPanel != null)
         {
@@ -81,6 +85,7 @@ public class InsuranceGameManager : MonoBehaviour
         }
         
         UpdateScoreDisplay();
+        UpdateTimerDisplay();
     }
     
     private void Update()
@@ -91,6 +96,17 @@ public class InsuranceGameManager : MonoBehaviour
             {
                 RestartGame();
             }
+            return;
+        }
+        
+        // Update timer
+        remainingTime -= Time.deltaTime;
+        UpdateTimerDisplay();
+        
+        // Check for time-based game over
+        if (remainingTime <= 0)
+        {
+            GameOver();
             return;
         }
         
@@ -171,6 +187,16 @@ public class InsuranceGameManager : MonoBehaviour
         if (scoreText != null)
         {
             scoreText.text = $"Score: {score}";
+        }
+    }
+    
+    private void UpdateTimerDisplay()
+    {
+        if (timerText != null)
+        {
+            int minutes = Mathf.FloorToInt(remainingTime / 60f);
+            int seconds = Mathf.FloorToInt(remainingTime % 60f);
+            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         }
     }
     
