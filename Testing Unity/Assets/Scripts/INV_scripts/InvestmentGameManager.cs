@@ -25,6 +25,7 @@ public class InvestmentGameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI monthText;
 
     [SerializeField] private GraphManager graphManager;
+    [SerializeField] private GameObject gameOverPanel;
 
     private void Start()
     {
@@ -55,7 +56,7 @@ public class InvestmentGameManager : MonoBehaviour
 
     private void UpdateInvestableCash()
     {
-        investableCashText.text = $"${investableCash:F2}";
+        investableCashText.text = $"${investableCash:N0}";
     }
 
     private void UpdatePortfolioValue()
@@ -71,7 +72,7 @@ public class InvestmentGameManager : MonoBehaviour
         float initialInvestment = MONTHLY_ALLOWANCE;
         float totalReturn = ((portfolioValue - initialInvestment) / initialInvestment) * 100f;
         
-        portfolioValueText.text = $"${portfolioValue:F2}";   
+        portfolioValueText.text = $"${portfolioValue:N0}";   
     }
 
     private void UpdateSecurityDisplays()
@@ -147,6 +148,12 @@ public class InvestmentGameManager : MonoBehaviour
         {
             yield return new WaitForSeconds(PERIOD_DURATION);
             UpdatePeriod();
+        }
+        
+        // Show game over panel when simulation ends
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
         }
     }
 

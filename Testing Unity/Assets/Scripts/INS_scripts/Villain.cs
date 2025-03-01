@@ -1,15 +1,19 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Collider2D))]
 public class Villain : MonoBehaviour
 {
     [Header("Villain Properties")]
     public VillainType villainType;
-    public float moveSpeed = 2f;
+    public float moveSpeed = 300f;
+    public float collisionThreshold = 50f;
     
-    [Header("References")]
-    private Transform castleTransform;
+    private RectTransform castleRectTransform;
+    private RectTransform myRectTransform;
     private InsuranceGameManager gameManager;
+    private Canvas canvas;
+    private float debugLogInterval = 1f;
+    private float nextDebugLog;
+    private bool hasCollided = false;
     
     private void Start()
     {
@@ -17,52 +21,103 @@ public class Villain : MonoBehaviour
         GameObject castle = GameObject.FindGameObjectWithTag("Castle_INS");
         if (castle != null)
         {
-            castleTransform = castle.transform;
+            castleRectTransform = castle.GetComponent<RectTransform>();
+            Debug.Log($"Villain found castle at position: {castleRectTransform.position}");
+            
+            // Debug collider setup
+            CircleCollider2D castleCollider = castle.GetComponentInChildren<CircleCollider2D>();
+            if (castleCollider != null)
+            {
+                Debug.Log($"Found castle collider. IsTrigger: {castleCollider.isTrigger}, Radius: {castleCollider.radius}, Enabled: {castleCollider.enabled}");
+                collisionThreshold = castleCollider.radius;
+            }
+            else
+            {
+                Debug.LogError("Castle has no CircleCollider2D!");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Villain couldn't find castle!");
         }
         
         gameManager = InsuranceGameManager.Instance;
+        myRectTransform = GetComponent<RectTransform>();
+        canvas = GetComponentInParent<Canvas>();
+        
+        // Debug villain collider setup
+        Collider2D myCollider = GetComponent<Collider2D>();
+        if (myCollider != null)
+        {
+            Debug.Log($"Villain collider setup - Type: {myCollider.GetType().Name}, IsTrigger: {myCollider.isTrigger}, Enabled: {myCollider.enabled}");
+        }
+        else
+        {
+            Debug.LogError($"Villain of type {villainType} has no Collider2D!");
+        }
     }
     
     private void Update()
     {
-        if (castleTransform != null)
+        // Don't update if game is over
+        if (gameManager != null && gameManager.IsGameOver)
         {
-            // Move towards the castle
-            Vector3 direction = (castleTransform.position - transform.position).normalized;
-            transform.position += direction * moveSpeed * Time.deltaTime;
+            return;
+        }
+        
+        if (castleRectTransform != null && canvas != null && !hasCollided)
+        {
+            // Get the direction in screen space
+            Vector2 castleScreenPoint = RectTransformUtility.WorldToScreenPoint(canvas.worldCamera, castleRectTransform.position);
+            Vector2 villainScreenPoint = RectTransformUtility.WorldToScreenPoint(canvas.worldCamera, myRectTransform.position);
+            Vector2 direction = (castleScreenPoint - villainScreenPoint).normalized;
+            
+            // Move towards the castle in screen space
+            myRectTransform.position += (Vector3)(direction * moveSpeed * Time.deltaTime * canvas.scaleFactor);
             
             // Rotate to face the castle
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, angle - 90); // -90 to adjust for sprite orientation
-        }
-    }
-    
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        Debug.Log($"Trigger entered with: {other.gameObject.name}, Tag: {other.tag}");
-        
-        if (other.CompareTag("CastleBoundary_INS"))
-        {
-            Debug.Log("Boundary detected - attempting to damage castle");
+            myRectTransform.rotation = Quaternion.Euler(0, 0, angle - 90);
             
-            // Damage the castle and destroy self
-            if (gameManager != null)
+            // Check distance to castle
+            float distance = Vector2.Distance(myRectTransform.position, castleRectTransform.position);
+            
+            // Periodic position logging
+            if (Time.time >= nextDebugLog)
             {
-                Debug.Log("GameManager found - applying damage");
-                gameManager.TakeDamage();
-            }
-            else
-            {
-                Debug.LogWarning("GameManager is null!");
+                Debug.Log($"Villain position: {myRectTransform.position}, Distance to castle: {distance}");
+                nextDebugLog = Time.time + debugLogInterval;
             }
             
-            Debug.Log("Destroying villain");
-            Destroy(gameObject);
+            // Check for collision with castle
+            if (distance <= collisionThreshold)
+            {
+                Debug.Log($"Villain of type {villainType} reached castle boundary at distance {distance}");
+                hasCollided = true;
+                if (gameManager != null && !gameManager.IsGameOver)
+                {
+                    gameManager.TakeDamage();
+                    Debug.Log("Damage dealt to castle");
+                }
+                else
+                {
+                    Debug.LogWarning("GameManager not found when trying to deal damage!");
+                }
+                
+                Destroy(gameObject);
+            }
         }
     }
     
     public bool TryDefeatWithAntidote(AntidoteType antidoteType)
     {
+        if (gameManager != null && gameManager.IsGameOver)
+        {
+            return false;
+        }
+        
+        Debug.Log($"Attempting to defeat {villainType} with {antidoteType}");
+        
         bool isCorrectAntidote = (villainType, antidoteType) switch
         {
             (VillainType.Thief, AntidoteType.Shield) => true,
@@ -74,13 +129,18 @@ public class Villain : MonoBehaviour
         
         if (isCorrectAntidote)
         {
+            Debug.Log($"Successfully defeated {villainType} with {antidoteType}");
             if (gameManager != null)
             {
                 gameManager.IncreaseScore();
             }
             Destroy(gameObject);
         }
+        else
+        {
+            Debug.Log($"Wrong antidote! {antidoteType} cannot defeat {villainType}");
+        }
         
         return isCorrectAntidote;
     }
-} 
+}
