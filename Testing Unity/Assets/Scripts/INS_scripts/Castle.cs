@@ -105,7 +105,7 @@ public class Castle : MonoBehaviour
     {
         if (healthText != null)
         {
-            healthText.text = $"HP: {currentHealth}";
+            healthText.text = $"{currentHealth}";
         }
         else
         {

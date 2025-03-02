@@ -57,7 +57,7 @@ public class DifficultyManager : MonoBehaviour
             // Display initial cash and costs
             if (startingFundsText != null)
             {
-                startingFundsText.text = $"Starting Funds: ${INITIAL_CASH:N0}";
+                startingFundsText.text = $"${INITIAL_CASH:N0}";
             }
             
             if (difficultyDescriptionText != null)
