@@ -20,49 +20,54 @@ public class InsuranceGameManager : MonoBehaviour
     
     [Header("Game Settings")]
     public int damagePerVillain = 10;
+    public float gameDuration = 60f; // Duration in seconds
     
     [Header("UI References")]
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI timerText;
+    public TextMeshProUGUI fundsText;
     public GameObject gameOverPanel;
     public Canvas gameCanvas;
     
     [Header("Scene References")]
-    public GameObject enemiesContainer; // Reference to the Enemies GameObject
+    public GameObject enemiesContainer;
+    
+    [Header("Cash System")]
+    public float repairCostPerHP = 10f;
+    public TextMeshProUGUI finalCashText;
     
     private float nextSpawnTime;
     private float currentSpawnInterval;
     private int score;
     private bool isGameOver;
+    private bool isGameStarted;
     private RectTransform canvasRectTransform;
+    private float remainingTime;
+    private float initialCash = 1000f;
+    private float forceFieldCost = 0f;
+    private float currentCash = 0f;
+    private float totalRepairCost = 0f;
+    private int totalCastleDamage = 0;  // Track total castle damage for end-game repairs
     
     public bool IsGameOver => isGameOver;
+    public bool IsGameStarted => isGameStarted;
     
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
+            InitializeGameManager();
         }
         else
         {
             Destroy(gameObject);
-            return;
         }
     }
     
-    private void Start()
+    private void InitializeGameManager()
     {
-        ResumeGame();
-        currentSpawnInterval = maxSpawnInterval;
-        nextSpawnTime = Time.time + currentSpawnInterval;
-        score = 0;
-        isGameOver = false;
-        
-        if (gameOverPanel != null)
-        {
-            gameOverPanel.SetActive(false);
-        }
-        
+        // Initialize basic components and references
         if (gameCanvas == null)
         {
             gameCanvas = FindFirstObjectByType<Canvas>();
@@ -80,25 +85,59 @@ public class InsuranceGameManager : MonoBehaviour
             }
         }
         
+        // Initialize game state
+        isGameStarted = false;
+        isGameOver = false;
+        score = 0;
+        remainingTime = gameDuration;
+        currentSpawnInterval = maxSpawnInterval;
+        
+        // Initialize UI
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(false);
+        }
+        
         UpdateScoreDisplay();
+        UpdateTimerDisplay();
+        UpdateFundsDisplay();
+        
+        // Pause the game until difficulty is selected
+        Time.timeScale = 0f;
+    }
+    
+    public void StartGame()
+    {
+        if (isGameStarted || isGameOver) return;
+        
+        isGameStarted = true;
+        Time.timeScale = 1f;
+        nextSpawnTime = Time.time + currentSpawnInterval;
+        Debug.Log("Game started - Timer and spawning initialized");
     }
     
     private void Update()
     {
-        if (isGameOver)
+        if (!isGameStarted || isGameOver) return;
+        
+        // Update timer
+        remainingTime -= Time.deltaTime;
+        UpdateTimerDisplay();
+        
+        // Check for time-based game over
+        if (remainingTime <= 0)
         {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                RestartGame();
-            }
+            GameOver();
             return;
         }
         
+        // Update spawn interval based on time
         currentSpawnInterval = Mathf.Max(
             minSpawnInterval,
             maxSpawnInterval - (Time.time / 60f) * difficultyIncreaseRate
         );
         
+        // Handle villain spawning
         if (Time.time >= nextSpawnTime)
         {
             SpawnVillain();
@@ -151,10 +190,24 @@ public class InsuranceGameManager : MonoBehaviour
     {
         if (isGameOver) return;
         
-        Castle castle = FindFirstObjectByType<Castle>();
+        // First try to find a forcefield to take the damage
+        GameObject castle = GameObject.FindGameObjectWithTag("Castle_INS");
         if (castle != null)
         {
-            castle.TakeDamage(damagePerVillain);
+            Forcefield forcefield = castle.GetComponentInChildren<Forcefield>();
+            if (forcefield != null)
+            {
+                // Forcefield takes the damage
+                forcefield.TakeDamage(damagePerVillain);
+                return;
+            }
+            
+            // If no forcefield or it's destroyed, castle takes damage
+            Castle castleComponent = castle.GetComponent<Castle>();
+            if (castleComponent != null)
+            {
+                castleComponent.TakeDamage(damagePerVillain);
+            }
         }
     }
     
@@ -163,7 +216,11 @@ public class InsuranceGameManager : MonoBehaviour
         if (isGameOver) return;
         
         score++;
+        // Add funds for defeating villains
+        currentCash += 50f; // Reward for defeating a villain
+        
         UpdateScoreDisplay();
+        UpdateFundsDisplay();
     }
     
     private void UpdateScoreDisplay()
@@ -174,26 +231,91 @@ public class InsuranceGameManager : MonoBehaviour
         }
     }
     
+    private void UpdateTimerDisplay()
+    {
+        if (timerText != null)
+        {
+            int minutes = Mathf.FloorToInt(remainingTime / 60f);
+            int seconds = Mathf.FloorToInt(remainingTime % 60f);
+            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        }
+    }
+    
+    public void InitializeGameState(float initial, float insurance, float remaining)
+    {
+        initialCash = initial;
+        forceFieldCost = insurance;
+        currentCash = remaining;
+        totalRepairCost = 0f;
+        UpdateFundsDisplay();
+        
+        // Start the game after initialization
+        StartGame();
+    }
+    
+    public void RecordCastleDamage(int damage)
+    {
+        totalCastleDamage += damage;
+        Debug.Log($"Recorded castle damage: {damage}. Total damage: {totalCastleDamage}");
+    }
+    
+    private void UpdateFundsDisplay()
+    {
+        if (fundsText != null)
+        {
+            fundsText.text = $"Cash: ${currentCash:N0}";
+        }
+    }
+    
     public void GameOver()
     {
         isGameOver = true;
-        Time.timeScale = 0f; // Pause the game
+        isGameStarted = false;
+        Time.timeScale = 0f;
+        
+        // Calculate final repair costs
+        float repairCost = totalCastleDamage * repairCostPerHP;
+        float finalCashBeforeRepairs = currentCash;
+        
+        // Deduct repair costs if we can afford them
+        if (currentCash >= repairCost)
+        {
+            currentCash -= repairCost;
+            totalRepairCost += repairCost;
+        }
+        else
+        {
+            // If we can't afford full repairs, use all remaining cash
+            totalRepairCost += currentCash;
+            currentCash = 0;
+        }
+        
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
+            
+            if (finalCashText != null)
+            {
+                float finalCash = currentCash;
+                finalCashText.text = $"Final Summary:\n" +
+                                   $"Initial Cash: ${initialCash:N0}\n" +
+                                   $"Insurance Cost: -${forceFieldCost:N0}\n" +
+                                   $"Castle Damage: {totalCastleDamage} HP\n" +
+                                   $"Repair Cost: -${repairCost:N0}\n" +
+                                   $"Final Cash: ${finalCash:N0}";
+            }
         }
-        Debug.Log("Game Over - Game paused");
+        
+        Debug.Log($"Game Over - Final Stats:\n" +
+                 $"Total Castle Damage: {totalCastleDamage} HP\n" +
+                 $"Repair Cost: ${repairCost:N0}\n" +
+                 $"Cash Before Repairs: ${finalCashBeforeRepairs:N0}\n" +
+                 $"Final Cash: ${currentCash:N0}");
     }
     
     public void RestartGame()
     {
-        ResumeGame();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-    
-    private void ResumeGame()
-    {
         Time.timeScale = 1f;
-        isGameOver = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
