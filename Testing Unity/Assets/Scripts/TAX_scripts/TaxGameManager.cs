@@ -147,19 +147,31 @@ public class TaxGameManager : MonoBehaviour
 
     public void HandleTaxReturnClassification(bool playerClassifiedAsCorrect, bool actuallyCorrect)
     {
-        if (playerClassifiedAsCorrect == actuallyCorrect)
+        Debug.Log($"[TaxGameManager] Classification - Player classified as correct: {playerClassifiedAsCorrect}, Actually correct: {actuallyCorrect}");
+        
+        // Correct classification:
+        // 1. Correct tax return is placed in correct bucket (playerClassifiedAsCorrect=true, actuallyCorrect=true)
+        // 2. Incorrect tax return is placed in incorrect bucket (playerClassifiedAsCorrect=false, actuallyCorrect=false)
+        bool isCorrectClassification = (playerClassifiedAsCorrect && actuallyCorrect) || (!playerClassifiedAsCorrect && !actuallyCorrect);
+        Debug.Log($"[TaxGameManager] Is classification correct? {isCorrectClassification}");
+        
+        if (isCorrectClassification)
         {
+            // Player correctly classified the tax return
             currentScore += 100;
             currentStreak++;
             highestStreak = Mathf.Max(highestStreak, currentStreak);
+            Debug.Log($"[TaxGameManager] Streak increased to: {currentStreak}");
         }
         else
         {
+            // Player incorrectly classified the tax return
             currentStreak = 0;
+            Debug.Log($"[TaxGameManager] Streak reset to 0");
         }
 
         UpdateUI();
-        SpawnNewTaxReturn(); // This will now properly destroy the old tax return and spawn a new one
+        SpawnNewTaxReturn();
     }
 
     private void EndGame()
