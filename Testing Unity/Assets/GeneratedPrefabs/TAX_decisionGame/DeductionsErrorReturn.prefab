@@ -1990,6 +1990,7 @@ MonoBehaviour:
   moveSpeed: 500
   screenWidthMultiplier: 0.4
   screenHeightMultiplier: 0.4
+  heightOffset: 250
   approveAnimationDuration: 1
   discardAnimationDuration: 1
   approveEaseType: 7

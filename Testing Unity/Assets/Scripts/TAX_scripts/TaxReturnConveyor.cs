@@ -15,6 +15,7 @@ public class TaxReturnConveyor : MonoBehaviour
     [SerializeField] private float moveSpeed = 300f;
     [SerializeField] [Range(0.2f, 0.8f)] private float screenWidthMultiplier = 0.4f;
     [SerializeField] [Range(0.2f, 0.8f)] private float screenHeightMultiplier = 0.4f;
+    [SerializeField] private float heightOffset = 100f; // Height offset in pixels
 
     [Header("Animation Settings")]
     [SerializeField] private float approveAnimationDuration = 1f;
@@ -38,10 +39,10 @@ public class TaxReturnConveyor : MonoBehaviour
         float screenHeight = Screen.height;
 
         // Set positions relative to screen size using inspector-configurable multipliers
-        startPosition = new Vector2(-screenWidth * screenWidthMultiplier, 0);
-        centerPosition = new Vector2(0, 0);
+        startPosition = new Vector2(-screenWidth * screenWidthMultiplier, heightOffset);
+        centerPosition = new Vector2(0, heightOffset);
         discardPosition = new Vector2(0, screenHeight * screenHeightMultiplier);
-        approvePosition = new Vector2(screenWidth * screenWidthMultiplier, 0);
+        approvePosition = new Vector2(screenWidth * screenWidthMultiplier, heightOffset);
 
         // Set initial position
         rectTransform.anchoredPosition = startPosition;
