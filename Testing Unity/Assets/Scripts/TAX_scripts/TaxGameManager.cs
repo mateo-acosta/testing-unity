@@ -22,14 +22,14 @@ public class TaxGameManager : MonoBehaviour
     public TextMeshProUGUI streakText;
     public TextMeshProUGUI finalScoreText;
     public TextMeshProUGUI highestStreakText;
+    [SerializeField] private Button approveButton;
+    [SerializeField] private Button discardButton;
 
     [Header("Tax Return Generation")]
     public GameObject correctTaxReturnPrefab;
     public GameObject[] incorrectTaxReturnPrefabs;
-    public Transform taxReturnSpawnPoint;
-    [SerializeField] private Transform taxReturnsParent;
+    public Transform taxReturnsParent;
     public GameObject currentTaxReturn;
-    private Canvas mainCanvas;
 
     [Header("Value Ranges")]
     public Vector2 incomeRange = new Vector2(20000, 100000);
@@ -38,11 +38,7 @@ public class TaxGameManager : MonoBehaviour
 
     private void Awake()
     {
-        mainCanvas = GetComponent<Canvas>();
-        if (mainCanvas == null)
-        {
-            Debug.LogError("Canvas component not found on the same GameObject as TaxGameManager!");
-        }
+        // Remove the mainCanvas check as it's no longer needed
     }
 
     private void Start()
@@ -58,6 +54,19 @@ public class TaxGameManager : MonoBehaviour
         highestStreak = 0;
         isGameActive = true;
         gameOverPanel.SetActive(false);
+
+        // Set up button listeners
+        if (approveButton != null)
+        {
+            approveButton.onClick.RemoveAllListeners();
+            approveButton.onClick.AddListener(() => ClassifyCurrentTaxReturn(true));
+        }
+        if (discardButton != null)
+        {
+            discardButton.onClick.RemoveAllListeners();
+            discardButton.onClick.AddListener(() => ClassifyCurrentTaxReturn(false));
+        }
+
         UpdateUI();
         SpawnNewTaxReturn();
         StartCoroutine(GameTimer());
@@ -87,6 +96,18 @@ public class TaxGameManager : MonoBehaviour
         }
     }
 
+    private void ClassifyCurrentTaxReturn(bool classifiedAsCorrect)
+    {
+        if (currentTaxReturn != null)
+        {
+            TaxReturnConveyor conveyor = currentTaxReturn.GetComponent<TaxReturnConveyor>();
+            if (conveyor != null)
+            {
+                conveyor.ClassifyTaxReturn(classifiedAsCorrect);
+            }
+        }
+    }
+
     public void SpawnNewTaxReturn()
     {
         // Ensure any existing tax return is destroyed
@@ -106,7 +127,7 @@ public class TaxGameManager : MonoBehaviour
         }
         else
         {
-            // Equal distribution among incorrect prefabs (16% each)
+            // Equal distribution among incorrect prefabs
             int incorrectIndex = Mathf.FloorToInt((randomValue - 0.2f) * 5f);
             incorrectIndex = Mathf.Clamp(incorrectIndex, 0, incorrectTaxReturnPrefabs.Length - 1);
             prefabToSpawn = incorrectTaxReturnPrefabs[incorrectIndex];
@@ -115,18 +136,12 @@ public class TaxGameManager : MonoBehaviour
         // Instantiate as a child of the TaxReturns parent
         currentTaxReturn = Instantiate(prefabToSpawn, taxReturnsParent);
         
-        // Set the position to the spawn point
-        RectTransform rectTransform = currentTaxReturn.GetComponent<RectTransform>();
-        if (rectTransform != null && taxReturnSpawnPoint != null)
+        // Initialize the tax return values
+        TaxReturn taxReturn = currentTaxReturn.GetComponent<TaxReturn>();
+        if (taxReturn != null)
         {
-            rectTransform.position = taxReturnSpawnPoint.position;
+            InitializeTaxReturnValues(taxReturn);
         }
-        else
-        {
-            Debug.LogError("Missing RectTransform or spawn point reference!");
-        }
-
-        InitializeTaxReturnValues(currentTaxReturn.GetComponent<TaxReturn>());
     }
 
     private void InitializeTaxReturnValues(TaxReturn taxReturn)
