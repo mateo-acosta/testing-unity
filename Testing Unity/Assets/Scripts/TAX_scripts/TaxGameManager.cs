@@ -160,9 +160,9 @@ public class TaxGameManager : MonoBehaviour
         return Mathf.Round(value / 100f) * 100f;
     }
 
-    public void HandleTaxReturnClassification(bool playerClassifiedAsCorrect, bool actuallyCorrect)
+    public void HandleTaxReturnClassification(bool playerClassifiedAsCorrect, bool actuallyCorrect, bool isTimerExpired)
     {
-        Debug.Log($"[TaxGameManager] Classification - Player classified as correct: {playerClassifiedAsCorrect}, Actually correct: {actuallyCorrect}");
+        Debug.Log($"[TaxGameManager] Classification - Player classified as correct: {playerClassifiedAsCorrect}, Actually correct: {actuallyCorrect}, Timer expired: {isTimerExpired}");
         
         // Correct classification:
         // 1. Correct tax return is placed in correct bucket (playerClassifiedAsCorrect=true, actuallyCorrect=true)
@@ -174,9 +174,18 @@ public class TaxGameManager : MonoBehaviour
         {
             // Player correctly classified the tax return
             currentScore += 100;
-            currentStreak++;
-            highestStreak = Mathf.Max(highestStreak, currentStreak);
-            Debug.Log($"[TaxGameManager] Streak increased to: {currentStreak}");
+            
+            // Only increase streak if the timer hasn't expired
+            if (!isTimerExpired)
+            {
+                currentStreak++;
+                highestStreak = Mathf.Max(highestStreak, currentStreak);
+                Debug.Log($"[TaxGameManager] Streak increased to: {currentStreak}");
+            }
+            else
+            {
+                Debug.Log("[TaxGameManager] Correct classification but timer expired - no streak increase");
+            }
         }
         else
         {

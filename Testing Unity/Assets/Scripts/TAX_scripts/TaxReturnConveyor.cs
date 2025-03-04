@@ -10,6 +10,8 @@ public class TaxReturnConveyor : MonoBehaviour
     private TaxGameManager gameManager;
     private bool isMoving = true;
     private bool isAnimating = false;
+    private bool isTimerExpired = false;
+    private TimerUI timerUI;
 
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 300f;
@@ -33,6 +35,7 @@ public class TaxReturnConveyor : MonoBehaviour
         rectTransform = GetComponent<RectTransform>();
         taxReturn = GetComponent<TaxReturn>();
         gameManager = FindFirstObjectByType<TaxGameManager>();
+        timerUI = FindFirstObjectByType<TimerUI>();
 
         // Calculate positions based on screen dimensions
         float screenWidth = Screen.width;
@@ -64,6 +67,11 @@ public class TaxReturnConveyor : MonoBehaviour
             if (Vector2.Distance(currentPos, targetPos) < 1f)
             {
                 isMoving = false;
+                // Start the timer when the tax return reaches the center
+                if (timerUI != null)
+                {
+                    timerUI.StartTimer(this);
+                }
                 CheckForInput();
             }
         }
@@ -86,10 +94,23 @@ public class TaxReturnConveyor : MonoBehaviour
         }
     }
 
+    public void TimerExpired()
+    {
+        isTimerExpired = true;
+        // Visual feedback that time has expired (optional)
+        // You could add a visual effect here
+    }
+
     public void ClassifyTaxReturn(bool classifiedAsCorrect)
     {
         if (isAnimating) return;
         isAnimating = true;
+
+        // Stop the timer
+        if (timerUI != null)
+        {
+            timerUI.StopTimer();
+        }
 
         // Create animation sequence
         Sequence sequence = DOTween.Sequence();
@@ -117,8 +138,8 @@ public class TaxReturnConveyor : MonoBehaviour
 
         // After animation completes
         sequence.OnComplete(() => {
-            // Call the game manager's classification handler
-            gameManager.HandleTaxReturnClassification(classifiedAsCorrect, taxReturn.isCorrect);
+            // Call the game manager's classification handler with timer status
+            gameManager.HandleTaxReturnClassification(classifiedAsCorrect, taxReturn.isCorrect, isTimerExpired);
         });
     }
 
