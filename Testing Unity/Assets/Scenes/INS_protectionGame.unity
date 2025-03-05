@@ -3297,7 +3297,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 682134387}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 135758509}
+        m_TargetAssemblyTypeName: FullGameSceneManagement, Assembly-CSharp
+        m_MethodName: LoadInsuranceGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &682134386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103823,7 +103835,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6894122473251814136}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5337316146535166165}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: OpenMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &8395784763027604558
 CanvasRenderer:
   m_ObjectHideFlags: 0

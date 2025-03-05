@@ -92,7 +92,7 @@ public class InvestmentGameManager : MonoBehaviour
 
         portfolioValueText.text = $"${portfolioValue:N0}";
         portfolioReturnText.text = $"{returnPercentage:N1}%";
-        periodReturnText.text = $"Period: {periodReturnPercentage:N1}%";
+        periodReturnText.text = $"{periodReturnPercentage:N1}%";
     }
 
     private void UpdateSecurityDisplays()

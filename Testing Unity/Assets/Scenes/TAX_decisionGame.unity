@@ -3885,11 +3885,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1940525893}
-  - {fileID: 421486104}
   - {fileID: 1179065669}
   - {fileID: 20247548}
   - {fileID: 174686602}
   - {fileID: 415050130}
+  - {fileID: 421486104}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9861,7 +9861,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3326618281749958118}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4294084038443894731}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: OpenMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &431435693379679990
 RectTransform:
   m_ObjectHideFlags: 0
@@ -68242,7 +68254,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5740981001502964590}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1329998347}
+        m_TargetAssemblyTypeName: FullGameSceneManagement, Assembly-CSharp
+        m_MethodName: LoadTaxGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5740981001502964577
 MonoBehaviour:
   m_ObjectHideFlags: 0

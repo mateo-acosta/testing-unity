@@ -2118,8 +2118,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1171834297}
-  - {fileID: 348815599}
   - {fileID: 8878358617588069855}
+  - {fileID: 348815599}
   m_Father: {fileID: 321585271}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5723,7 +5723,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1506963389}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1593519218}
+        m_TargetAssemblyTypeName: FullGameSceneManagement, Assembly-CSharp
+        m_MethodName: LoadCreditGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1506963388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20564,7 +20576,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4306653941320489795}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3348828658556522862}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: OpenMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1161905554392920381
 MonoBehaviour:
   m_ObjectHideFlags: 0

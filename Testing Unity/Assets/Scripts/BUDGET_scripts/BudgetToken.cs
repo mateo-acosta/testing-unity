@@ -95,7 +95,7 @@ public class BudgetToken : MonoBehaviour
     {
         if (valueText != null)
         {
-            valueText.text = $"${value:N2}";
+            valueText.text = $"${value:N0}";
         }
     }
 

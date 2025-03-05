@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2214, y: -834}
+  m_AnchoredPosition: {x: 2160, y: -755}
   m_SizeDelta: {x: 320, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &25257441
@@ -939,8 +939,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1100, y: -224}
-  m_SizeDelta: {x: 1500, y: 800}
+  m_AnchoredPosition: {x: -963, y: -230}
+  m_SizeDelta: {x: 1500, y: 775}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &164610324
 GameObject:
@@ -1654,9 +1654,9 @@ RectTransform:
   - {fileID: 1644522817}
   - {fileID: 1102155876}
   - {fileID: 162521898}
-  - {fileID: 246389123}
   - {fileID: 236759022}
   - {fileID: 25257440}
+  - {fileID: 246389123}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1951,7 +1951,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2214, y: -474}
+  m_AnchoredPosition: {x: 2164, y: -359}
   m_SizeDelta: {x: 320, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236759023
@@ -4395,8 +4395,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4285151245
-  m_fontColor: {r: 0.05286579, g: 0.22089724, b: 0.41509432, a: 1}
+    rgba: 4294749492
+  m_fontColor: {r: 0.20392157, g: 0.6784314, b: 0.9882353, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5351,7 +5351,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 728741398}
         m_TargetAssemblyTypeName: FullGameSceneManagement, Assembly-CSharp
-        m_MethodName: LoadInsuranceGame
+        m_MethodName: LoadInvestmentGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5448,7 +5448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 14}
   m_SizeDelta: {x: 1600, y: 834.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &820677938
@@ -5906,8 +5906,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 42.4}
-  m_SizeDelta: {x: -149.82483, y: 50}
+  m_AnchoredPosition: {x: -1, y: 42.4}
+  m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903807169
 MonoBehaviour:
@@ -5929,7 +5929,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Overall
+  m_text: Last Period
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f58c05479cb14f588efcdfcbdab347c, type: 2}
   m_sharedMaterial: {fileID: 7423409246693961632, guid: 5f58c05479cb14f588efcdfcbdab347c, type: 2}
@@ -12298,8 +12298,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4285151245
-  m_fontColor: {r: 0.05286579, g: 0.22089724, b: 0.41509432, a: 1}
+    rgba: 4294749492
+  m_fontColor: {r: 0.20392157, g: 0.6784314, b: 0.9882353, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -89680,7 +89680,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5321193070690388878}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6657885930455302563}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: OpenMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &7065401069541208097
 RectTransform:
   m_ObjectHideFlags: 0
