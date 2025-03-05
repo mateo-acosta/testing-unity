@@ -9,11 +9,24 @@ public class InvestmentGameManager : MonoBehaviour
     public const int TOTAL_MONTHS = 24;
     private const float MONTHLY_ALLOWANCE = 1000f;
 
+    // Security configurations
+    [SerializeField] private SecurityConfig[] securityConfigs = new SecurityConfig[]
+    {
+        new SecurityConfig { name = "Tech Stock", startingPrice = 100f, volatility = 0.20f, negativeCooldownPeriods = 2 },
+        new SecurityConfig { name = "Retail Stock", startingPrice = 50f, volatility = 0.10f, negativeCooldownPeriods = 2 },
+        new SecurityConfig { name = "Energy Stock", startingPrice = 75f, volatility = 0.15f, negativeCooldownPeriods = 4 },
+        new SecurityConfig { name = "S&P ETF", startingPrice = 200f, volatility = 0.05f, negativeCooldownPeriods = 4 }
+    };
+
     // Balance tracking
     [SerializeField] private TextMeshProUGUI investableCashText;
     [SerializeField] private TextMeshProUGUI portfolioValueText;
+    [SerializeField] private TextMeshProUGUI portfolioReturnText;
+    [SerializeField] private TextMeshProUGUI periodReturnText;
     private float investableCash;
     private float portfolioValue;
+    private float lastPeriodPortfolioValue;
+    private float totalInvested = 0f;
 
     public Security[] securities;
     public int currentPeriod = 0;
@@ -31,19 +44,18 @@ public class InvestmentGameManager : MonoBehaviour
     {
         InitializeSecurities();
         investableCash = MONTHLY_ALLOWANCE;
+        lastPeriodPortfolioValue = 0f;
         UpdateAllDisplays();
         StartCoroutine(SimulationLoop());
     }
 
     private void InitializeSecurities()
     {
-        securities = new Security[4]
+        securities = new Security[securityConfigs.Length];
+        for (int i = 0; i < securityConfigs.Length; i++)
         {
-            new Security("Tech Stock", 100f, 0.20f),
-            new Security("Retail Stock", 50f, 0.10f),
-            new Security("Energy Stock", 75f, 0.15f),
-            new Security("S&P ETF", 200f, 0.05f)
-        };
+            securities[i] = new Security(securityConfigs[i]);
+        }
     }
 
     private void UpdateAllDisplays()
@@ -68,11 +80,19 @@ public class InvestmentGameManager : MonoBehaviour
         }
         portfolioValue = totalSecuritiesValue;
         
-        // Calculate return percentage based on securities value only
-        float initialInvestment = MONTHLY_ALLOWANCE;
-        float totalReturn = ((portfolioValue - initialInvestment) / initialInvestment) * 100f;
+        // Calculate total portfolio return
+        float returnPercentage = totalInvested > 0 
+            ? ((portfolioValue - totalInvested) / totalInvested) * 100f 
+            : 0f;
         
-        portfolioValueText.text = $"${portfolioValue:N0}";   
+        // Calculate period-over-period return
+        float periodReturnPercentage = lastPeriodPortfolioValue > 0
+            ? ((portfolioValue - lastPeriodPortfolioValue) / lastPeriodPortfolioValue) * 100f
+            : 0f;
+
+        portfolioValueText.text = $"${portfolioValue:N0}";
+        portfolioReturnText.text = $"{returnPercentage:N1}%";
+        periodReturnText.text = $"Period: {periodReturnPercentage:N1}%";
     }
 
     private void UpdateSecurityDisplays()
@@ -90,6 +110,10 @@ public class InvestmentGameManager : MonoBehaviour
     {
         Debug.Log($"Current Period: {currentPeriod}, Current Month: {currentMonth}");
         currentPeriod++;
+
+        // Store current value before updating prices
+        lastPeriodPortfolioValue = portfolioValue;
+
         foreach (var security in securities)
         {
             security.UpdatePrice();
@@ -122,6 +146,7 @@ public class InvestmentGameManager : MonoBehaviour
         {
             securities[securityIndex].BuyShare();
             investableCash -= sharePrice;
+            totalInvested += sharePrice;
             UpdateAllDisplays();
         }
     }

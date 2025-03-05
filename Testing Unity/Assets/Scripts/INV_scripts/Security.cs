@@ -1,5 +1,14 @@
 using UnityEngine;
 
+[System.Serializable]
+public class SecurityConfig
+{
+    public string name = "New Security";
+    public float startingPrice = 100f;
+    public float volatility = 0.1f;
+    public int negativeCooldownPeriods = 2;
+}
+
 public class Security
 {
     public string Name { get; private set; }
@@ -10,22 +19,13 @@ public class Security
     private int periodsUntilNextNegativeAllowed = 0;
     private int negativeCooldownPeriods;
 
-    public Security(string name, float startingPrice, float volatility)
+    public Security(SecurityConfig config)
     {
-        Name = name;
-        CurrentPrice = startingPrice;
-        Volatility = volatility;
+        Name = config.name;
+        CurrentPrice = config.startingPrice;
+        Volatility = config.volatility;
         SharesOwned = 0;
-        
-        // Set cooldown periods based on security type
-        negativeCooldownPeriods = name switch
-        {
-            "Tech Stock" => 2,
-            "Retail Stock" => 2,
-            "Energy Stock" => 4,
-            "S&P ETF" => 4,
-            _ => 0
-        };
+        negativeCooldownPeriods = config.negativeCooldownPeriods;
     }
 
     public void UpdatePrice()
