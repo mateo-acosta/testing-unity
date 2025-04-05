@@ -35,4 +35,34 @@ public class FullGameSceneManagement : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
+
+    public void LoadHomebaseGame()
+    {
+        SceneManager.LoadScene(6);
+    }
+
+    public void LoadStagePreview()
+    {
+        SceneManager.LoadScene(7);
+    }
+
+    public void LoadOrderStation()
+    {
+        SceneManager.LoadScene(8);
+    }
+
+    public void LoadGrillStation()
+    {
+        SceneManager.LoadScene(9);
+    }
+
+    public void LoadToppingStation()
+    {
+        SceneManager.LoadScene(10);
+    }
+
+    public void LoadSideStation()
+    {
+        SceneManager.LoadScene(11);
+    }
 }

@@ -23,6 +23,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage4_applicationGames/TAX_decisionGame.unity
     guid: e2138714491a5499bbc56f7da69c715c
+  - enabled: 1
+    path: Assets/Scenes/Stage0_homebase/Homebase_RPG_Explore.unity
+    guid: e48dad31e703b410ca99c6f191ba42c8
+  - enabled: 1
+    path: Assets/Scenes/Stage0_homebase/StagePreview.unity
+    guid: 9f648f9ef27ad47a99b818321096e9c6
+  - enabled: 1
+    path: Assets/Scenes/Stage1_earn/Stage1_OrderStation1.unity
+    guid: e346c23d7a7994494bdbaaecc4667bbc
+  - enabled: 1
+    path: Assets/Scenes/Stage1_earn/Stage1_GrillStation2.unity
+    guid: a78eb1f16fbc44cd098d14be94bbaf59
+  - enabled: 1
+    path: Assets/Scenes/Stage1_earn/Stage1_ToppingStation3.unity
+    guid: d4c3c334ede3549bb93bf7f5879240ce
+  - enabled: 1
+    path: Assets/Scenes/Stage1_earn/Stage1_SidesStation4.unity
+    guid: ddd4ad843b2e342f2b350f1baa142910
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
