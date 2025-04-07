@@ -22,6 +22,12 @@ namespace BurgerGame
         [SerializeField] private TextMeshProUGUI orderGradeText;
         [SerializeField] private GameObject orderGradePanel;
         
+        [Header("Prefab References")]
+        [Tooltip("Drag the TextMeshPro component from your prefab here for the order title")]
+        [SerializeField] private TextMeshProUGUI prefabTitleText;
+        [Tooltip("Drag the TextMeshPro component from your prefab here for the order content")]
+        [SerializeField] private TextMeshProUGUI prefabContentText;
+        
         [Header("UI Settings")]
         [SerializeField] private Color activeOrderColor = Color.yellow;
         [SerializeField] private Color queuedOrderColor = Color.white;
@@ -31,9 +37,12 @@ namespace BurgerGame
         [SerializeField] private float gradeDisplayTime = 3f;
 
         private Dictionary<string, GameObject> receiptInstances = new Dictionary<string, GameObject>();
+        private Dictionary<string, int> orderNumbers = new Dictionary<string, int>(); // Track order numbers
+        private Dictionary<string, TextMeshProUGUI> receiptTitleTexts = new Dictionary<string, TextMeshProUGUI>(); // Track title text components
         private HorizontalLayoutGroup queueLayoutGroup;
         private Order currentOrder;
         private Coroutine hideGradeCoroutine;
+        private int nextOrderNumber = 1; // Counter for sequential order numbers
 
         private void Start()
         {
@@ -90,9 +99,13 @@ namespace BurgerGame
             // Create new receipt instance
             GameObject receipt = Instantiate(receiptPrefab, receiptQueueContent);
             receiptInstances.Add(order.orderId, receipt);
+            
+            // Assign and store sequential order number
+            int orderNumber = nextOrderNumber++;
+            orderNumbers.Add(order.orderId, orderNumber);
 
             // Setup receipt UI (only text and color, no size adjustments)
-            SetupReceiptUI(receipt, order, receiptInstances.Count);
+            SetupReceiptUI(receipt, order, orderNumber);
 
             // If this is the first receipt, make it the current order
             if (receiptInstances.Count == 1)
@@ -117,11 +130,12 @@ namespace BurgerGame
 
         private void SetupReceiptUI(GameObject receipt, Order order, int orderNumber)
         {
-            // Set receipt title - only change text content
+            // Find and store the title TextMeshPro component
             TextMeshProUGUI titleText = receipt.transform.Find("Title")?.GetComponent<TextMeshProUGUI>();
             if (titleText != null)
             {
                 titleText.text = $"Order {orderNumber}";
+                receiptTitleTexts[order.orderId] = titleText; // Store reference for later updates
             }
 
             // Set receipt content - only change text content
@@ -150,7 +164,9 @@ namespace BurgerGame
         {
             StringBuilder sb = new StringBuilder();
             
-            sb.AppendLine($"Order #{order.orderId.Substring(0, 4)}");
+            // Use the stored order number instead of a static title
+            int orderNum = orderNumbers.ContainsKey(order.orderId) ? orderNumbers[order.orderId] : 0;
+            sb.AppendLine($"Order {orderNum}");
             sb.AppendLine($"Burger: {order.burgerDoneness}");
             
             sb.AppendLine("Toppings:");
@@ -235,15 +251,17 @@ namespace BurgerGame
 
         private void UpdateReceiptNumbers()
         {
-            int orderNumber = 1;
-            foreach (var receipt in receiptInstances.Values)
+            // Don't update the numbers - keep the original assigned numbers
+            foreach (var entry in receiptInstances)
             {
-                TextMeshProUGUI titleText = receipt.transform.Find("Title")?.GetComponent<TextMeshProUGUI>();
-                if (titleText != null)
+                string orderId = entry.Key;
+                
+                // Use the stored reference if available
+                if (receiptTitleTexts.TryGetValue(orderId, out TextMeshProUGUI titleText) && 
+                    orderNumbers.TryGetValue(orderId, out int orderNumber))
                 {
                     titleText.text = $"Order {orderNumber}";
                 }
-                orderNumber++;
             }
         }
 
@@ -307,6 +325,9 @@ namespace BurgerGame
                 Destroy(receipt);
             }
             receiptInstances.Clear();
+            orderNumbers.Clear(); // Clear order numbers
+            receiptTitleTexts.Clear(); // Clear title text references
+            nextOrderNumber = 1; // Reset the counter
             ClearCurrentOrderDisplay();
         }
 
@@ -323,6 +344,27 @@ namespace BurgerGame
             {
                 deliverButton.onClick.RemoveListener(OnDeliverButtonClicked);
             }
+        }
+        
+        // Helper method to update a specific receipt's title
+        public void UpdateReceiptTitle(string orderId, string newTitle)
+        {
+            if (receiptTitleTexts.TryGetValue(orderId, out TextMeshProUGUI titleText))
+            {
+                titleText.text = newTitle;
+            }
+        }
+        
+        // Get the current order number
+        public int GetCurrentOrderNumber()
+        {
+            return nextOrderNumber - 1;
+        }
+        
+        // Set the next order number (useful for editor customization)
+        public void SetNextOrderNumber(int startNumber)
+        {
+            nextOrderNumber = Mathf.Max(1, startNumber);
         }
     }
 } 

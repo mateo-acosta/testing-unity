@@ -151,10 +151,12 @@ namespace BurgerGame
         {
             if (orderQueue.Count > 0)
             {
+                // Get the current order (the one at the front of the queue)
+                Order currentOrder = orderQueue.Peek();
+                
                 // In a real implementation, you would get the player's assembled order
                 // For now, we'll simulate with the same order for testing
-                Order playerOrder = orderQueue.Peek();
-                CompleteOrder(playerOrder);
+                CompleteOrder(currentOrder);
             }
         }
 
