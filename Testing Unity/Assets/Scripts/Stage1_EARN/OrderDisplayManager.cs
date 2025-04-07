@@ -13,12 +13,19 @@ namespace BurgerGame
         [SerializeField] private Transform orderContainer;
         [SerializeField] private GameObject orderPrefab;
         [SerializeField] private TextMeshProUGUI timerText;
+        [SerializeField] private Image timerFillImage;
         
         [Header("UI Settings")]
         [SerializeField] private Color activeOrderColor = Color.yellow;
         [SerializeField] private Color queuedOrderColor = Color.white;
+        [SerializeField] private Color timerNormalColor = Color.green;
+        [SerializeField] private Color timerWarningColor = Color.yellow;
+        [SerializeField] private Color timerCriticalColor = Color.red;
+        [SerializeField] private float warningThreshold = 60f; // 1 minute warning
+        [SerializeField] private float criticalThreshold = 30f; // 30 seconds warning
 
         private Dictionary<string, GameObject> activeOrderDisplays = new Dictionary<string, GameObject>();
+        private float initialShiftDuration;
 
         private void Start()
         {
@@ -27,6 +34,9 @@ namespace BurgerGame
                 orderManager.onNewOrderCreated.AddListener(DisplayNewOrder);
                 orderManager.onShiftTimeUpdated.AddListener(UpdateTimer);
                 orderManager.onShiftEnded.AddListener(ClearAllOrders);
+                
+                // Store initial shift duration for fill amount calculation
+                initialShiftDuration = orderManager.GetRemainingShiftTime();
             }
             else
             {
@@ -98,7 +108,41 @@ namespace BurgerGame
             {
                 int minutes = Mathf.FloorToInt(timeRemaining / 60);
                 int seconds = Mathf.FloorToInt(timeRemaining % 60);
-                timerText.text = $"Time Remaining: {minutes:00}:{seconds:00}";
+                timerText.text = $"{minutes:00}:{seconds:00}";
+                
+                // Change color based on remaining time
+                if (timeRemaining <= criticalThreshold)
+                {
+                    timerText.color = timerCriticalColor;
+                }
+                else if (timeRemaining <= warningThreshold)
+                {
+                    timerText.color = timerWarningColor;
+                }
+                else
+                {
+                    timerText.color = timerNormalColor;
+                }
+            }
+            
+            // Update timer fill image if available
+            if (timerFillImage != null && initialShiftDuration > 0)
+            {
+                timerFillImage.fillAmount = timeRemaining / initialShiftDuration;
+                
+                // Change color based on remaining time
+                if (timeRemaining <= criticalThreshold)
+                {
+                    timerFillImage.color = timerCriticalColor;
+                }
+                else if (timeRemaining <= warningThreshold)
+                {
+                    timerFillImage.color = timerWarningColor;
+                }
+                else
+                {
+                    timerFillImage.color = timerNormalColor;
+                }
             }
         }
 

@@ -19,8 +19,14 @@ namespace BurgerGame
         {
             orderId = Guid.NewGuid().ToString();
             toppings = new List<ToppingType>();
-            timeCreated = Time.time;
             isCompleted = false;
+            // timeCreated is now set in Initialize()
+        }
+        
+        // Call this method after creating the Order instance
+        public void Initialize()
+        {
+            timeCreated = Time.time;
         }
 
         public int GetTotalFeatures()
