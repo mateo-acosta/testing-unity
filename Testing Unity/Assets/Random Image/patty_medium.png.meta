@@ -1,0 +1,3276 @@
+fileFormatVersion: 2
+guid: 5a4ebf465869148d5ae9dd1475e4845b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3706435815607310274
+    second: patty_medium_0
+  - first:
+      213: -5508543901798782490
+    second: patty_medium_1
+  - first:
+      213: -7349984955467236118
+    second: patty_medium_2
+  - first:
+      213: 9078288224136796760
+    second: patty_medium_3
+  - first:
+      213: -6095767044383584960
+    second: patty_medium_4
+  - first:
+      213: 7293300875909409817
+    second: patty_medium_5
+  - first:
+      213: -4209232895896878677
+    second: patty_medium_6
+  - first:
+      213: -9122275663362370033
+    second: patty_medium_7
+  - first:
+      213: 7543563598070924262
+    second: patty_medium_8
+  - first:
+      213: -7864057758200282344
+    second: patty_medium_9
+  - first:
+      213: 3164492234287341344
+    second: patty_medium_10
+  - first:
+      213: 7856351660500202707
+    second: patty_medium_11
+  - first:
+      213: -7516518568562293262
+    second: patty_medium_12
+  - first:
+      213: 7596089472541303882
+    second: patty_medium_13
+  - first:
+      213: 2729794977419191861
+    second: patty_medium_14
+  - first:
+      213: 2703270980953288044
+    second: patty_medium_15
+  - first:
+      213: -2003399123581912460
+    second: patty_medium_16
+  - first:
+      213: -3362346661904626042
+    second: patty_medium_17
+  - first:
+      213: -9004789596885179586
+    second: patty_medium_18
+  - first:
+      213: 2231006353596478142
+    second: patty_medium_19
+  - first:
+      213: -7552864169944698942
+    second: patty_medium_20
+  - first:
+      213: -8570174513543693689
+    second: patty_medium_21
+  - first:
+      213: -8970361059933620366
+    second: patty_medium_22
+  - first:
+      213: -457734134093791146
+    second: patty_medium_23
+  - first:
+      213: -8865494530490198640
+    second: patty_medium_24
+  - first:
+      213: -6339864127649496991
+    second: patty_medium_25
+  - first:
+      213: -8254678265511354692
+    second: patty_medium_26
+  - first:
+      213: -7868579055059065253
+    second: patty_medium_27
+  - first:
+      213: 4095274723173424073
+    second: patty_medium_28
+  - first:
+      213: -2472590538936013253
+    second: patty_medium_29
+  - first:
+      213: 8220332734612516614
+    second: patty_medium_30
+  - first:
+      213: -6944085006387035288
+    second: patty_medium_31
+  - first:
+      213: -2524973024656641797
+    second: patty_medium_32
+  - first:
+      213: 8365336815026695748
+    second: patty_medium_33
+  - first:
+      213: 4547284094261447492
+    second: patty_medium_34
+  - first:
+      213: 1476377954006847345
+    second: patty_medium_35
+  - first:
+      213: -9140070534529637045
+    second: patty_medium_36
+  - first:
+      213: -3800638484330439644
+    second: patty_medium_37
+  - first:
+      213: -5443629501218155983
+    second: patty_medium_38
+  - first:
+      213: 5823001247830792266
+    second: patty_medium_39
+  - first:
+      213: 4352333488162893947
+    second: patty_medium_40
+  - first:
+      213: 1721611495233106241
+    second: patty_medium_41
+  - first:
+      213: 2429008764472531862
+    second: patty_medium_42
+  - first:
+      213: 168036889417772165
+    second: patty_medium_43
+  - first:
+      213: 2724710911815485754
+    second: patty_medium_44
+  - first:
+      213: 2682779734918418222
+    second: patty_medium_45
+  - first:
+      213: 3975094506557828266
+    second: patty_medium_46
+  - first:
+      213: -7597268140934206667
+    second: patty_medium_47
+  - first:
+      213: 7141126708828918909
+    second: patty_medium_48
+  - first:
+      213: -1068549182151269174
+    second: patty_medium_49
+  - first:
+      213: 2214644037003298503
+    second: patty_medium_50
+  - first:
+      213: -1499773433018735595
+    second: patty_medium_51
+  - first:
+      213: -5559878522237989100
+    second: patty_medium_52
+  - first:
+      213: 2631307589016738456
+    second: patty_medium_53
+  - first:
+      213: -372642256315735453
+    second: patty_medium_54
+  - first:
+      213: -7752963666315331088
+    second: patty_medium_55
+  - first:
+      213: -75207351658550360
+    second: patty_medium_56
+  - first:
+      213: -5407713581022543088
+    second: patty_medium_57
+  - first:
+      213: 864678053334912878
+    second: patty_medium_58
+  - first:
+      213: 2512820116881954530
+    second: patty_medium_59
+  - first:
+      213: -1584507974350915766
+    second: patty_medium_60
+  - first:
+      213: 69089230824981124
+    second: patty_medium_61
+  - first:
+      213: -778506276623148855
+    second: patty_medium_62
+  - first:
+      213: -458674663426695058
+    second: patty_medium_63
+  - first:
+      213: -6409645878996741093
+    second: patty_medium_64
+  - first:
+      213: 6693381179354273331
+    second: patty_medium_65
+  - first:
+      213: -492412914163127548
+    second: patty_medium_66
+  - first:
+      213: -7935697133115604306
+    second: patty_medium_67
+  - first:
+      213: -6590586001946126522
+    second: patty_medium_68
+  - first:
+      213: -7786021485980632852
+    second: patty_medium_69
+  - first:
+      213: 7883171900876266207
+    second: patty_medium_70
+  - first:
+      213: -7323473471011680610
+    second: patty_medium_71
+  - first:
+      213: -1049115345454774750
+    second: patty_medium_72
+  - first:
+      213: -2752629998433665477
+    second: patty_medium_73
+  - first:
+      213: 575109896467068739
+    second: patty_medium_74
+  - first:
+      213: -2351720997545907886
+    second: patty_medium_75
+  - first:
+      213: -2080050870276879184
+    second: patty_medium_76
+  - first:
+      213: -8456394041572528280
+    second: patty_medium_77
+  - first:
+      213: -4439478977475187956
+    second: patty_medium_78
+  - first:
+      213: -9207805055260760152
+    second: patty_medium_79
+  - first:
+      213: 5006158335747489152
+    second: patty_medium_80
+  - first:
+      213: -3133407478589574357
+    second: patty_medium_81
+  - first:
+      213: 438413297812579280
+    second: patty_medium_82
+  - first:
+      213: 4834044529367992987
+    second: patty_medium_83
+  - first:
+      213: -1576903277387693887
+    second: patty_medium_84
+  - first:
+      213: -811884687530983807
+    second: patty_medium_85
+  - first:
+      213: 2403547035908126852
+    second: patty_medium_86
+  - first:
+      213: 577004471101063778
+    second: patty_medium_87
+  - first:
+      213: 1396515534211499091
+    second: patty_medium_88
+  - first:
+      213: -4399306770185312179
+    second: patty_medium_89
+  - first:
+      213: 8698091293827204233
+    second: patty_medium_90
+  - first:
+      213: -4278449963940861406
+    second: patty_medium_91
+  - first:
+      213: -2583480721723387707
+    second: patty_medium_92
+  - first:
+      213: 2770382469689858132
+    second: patty_medium_93
+  - first:
+      213: 503631831731010415
+    second: patty_medium_94
+  - first:
+      213: -1084288262408189380
+    second: patty_medium_95
+  - first:
+      213: 3549204878552356838
+    second: patty_medium_96
+  - first:
+      213: -3249398005992156867
+    second: patty_medium_97
+  - first:
+      213: 7922284442694997489
+    second: patty_medium_98
+  - first:
+      213: 1079710013406560222
+    second: patty_medium_99
+  - first:
+      213: -8452089573882902066
+    second: patty_medium_100
+  - first:
+      213: -1442444042336153164
+    second: patty_medium_101
+  - first:
+      213: -6178261280008240645
+    second: patty_medium_102
+  - first:
+      213: -2068330554143704063
+    second: patty_medium_103
+  - first:
+      213: -1923609481354977694
+    second: patty_medium_104
+  - first:
+      213: -8034750031321040252
+    second: patty_medium_105
+  - first:
+      213: 968032426704174725
+    second: patty_medium_106
+  - first:
+      213: -7048246239713224423
+    second: patty_medium_107
+  - first:
+      213: -8302016126451064866
+    second: patty_medium_108
+  - first:
+      213: 2669014872428451206
+    second: patty_medium_109
+  - first:
+      213: -6650202331860157456
+    second: patty_medium_110
+  - first:
+      213: -2557433050146105902
+    second: patty_medium_111
+  - first:
+      213: -1150953049864012316
+    second: patty_medium_112
+  - first:
+      213: 5119069679912491993
+    second: patty_medium_113
+  - first:
+      213: -6452093523362687447
+    second: patty_medium_114
+  - first:
+      213: 8028090396931581311
+    second: patty_medium_115
+  - first:
+      213: 7214302743399343909
+    second: patty_medium_116
+  - first:
+      213: -6309770728343329698
+    second: patty_medium_117
+  - first:
+      213: 4608270199276652634
+    second: patty_medium_118
+  - first:
+      213: -1866279476862805915
+    second: patty_medium_119
+  - first:
+      213: 4793332880478363509
+    second: patty_medium_120
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: patty_medium_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38e0f36348109cc0800000000000000
+      internalID: -3706435815607310274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 1410
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9a3afb188bd83b0800000000000000
+      internalID: -5508543901798782490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1019
+        width: 523
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecf8e8ff9b9ff990800000000000000
+      internalID: -7349984955467236118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_3
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1006
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a19408a0f8cfd70800000000000000
+      internalID: 9078288224136796760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_4
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 993
+        width: 100
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dcbfd7b2c776ba0800000000000000
+      internalID: -6095767044383584960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1007
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c20ac4182073560800000000000000
+      internalID: 7293300875909409817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_6
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1010
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba18d2f8bfcc595c0800000000000000
+      internalID: -4209232895896878677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 998
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f065816bd9a276180800000000000000
+      internalID: -9122275663362370033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_8
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1000
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3c59bff1f10b860800000000000000
+      internalID: 7543563598070924262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_9
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 995
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813415d62214dd290800000000000000
+      internalID: -7864057758200282344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_10
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 999
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fdd2fbbe88aeb20800000000000000
+      internalID: 3164492234287341344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 992
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d43aa2e53e570d60800000000000000
+      internalID: 7856351660500202707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_12
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 991
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f58735af26ffa790800000000000000
+      internalID: -7516518568562293262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_13
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 987
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44a8e4212bba6960800000000000000
+      internalID: 7596089472541303882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_14
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 984
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53667b2a11e22e520800000000000000
+      internalID: 2729794977419191861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_15
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 975
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6da75772a2f38520800000000000000
+      internalID: 2703270980953288044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_16
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 982
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a329f8c1f7234e0800000000000000
+      internalID: -2003399123581912460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_17
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 960
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e4475868b8651d0800000000000000
+      internalID: -3362346661904626042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_18
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 966
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33a680329f880380800000000000000
+      internalID: -9004789596885179586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 951
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2f1cd457026fe10800000000000000
+      internalID: 2231006353596478142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 943
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfaba1ed06de2790800000000000000
+      internalID: -7552864169944698942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_21
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 952
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a3f19cfaf901980800000000000000
+      internalID: -8570174513543693689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_22
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 946
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277f8ab9420e28380800000000000000
+      internalID: -8970361059933620366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_23
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 952
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650c4cfea3dc5a9f0800000000000000
+      internalID: -457734134093791146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_24
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 943
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09596f722bf67f480800000000000000
+      internalID: -8865494530490198640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_25
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 938
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160c53b7a274408a0800000000000000
+      internalID: -6339864127649496991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_26
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 927
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbede094add717d80800000000000000
+      internalID: -8254678265511354692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_27
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 904
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b562028f9013dc290800000000000000
+      internalID: -7868579055059065253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_28
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 870
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb536cb9a655d830800000000000000
+      internalID: 4095274723173424073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_29
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 872
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e2ab351089fadd0800000000000000
+      internalID: -2472590538936013253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 864
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f2816a11d741270800000000000000
+      internalID: 8220332734612516614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 855
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8634f206a77a1af90800000000000000
+      internalID: -6944085006387035288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 847
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0b5e5796e75fcd0800000000000000
+      internalID: -2524973024656641797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 832
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ee9260385a71470800000000000000
+      internalID: 8365336815026695748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 815
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bcc3b8ac23b1f30800000000000000
+      internalID: 4547284094261447492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_35
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 807
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fcbce4de52d7410800000000000000
+      internalID: 1476377954006847345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_36
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 791
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45a8576642f72180800000000000000
+      internalID: -9140070534529637045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 768
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c1ec56f6b614bc0800000000000000
+      internalID: -3800638484330439644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 733
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1321e0b6fc75474b0800000000000000
+      internalID: -5443629501218155983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_39
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 742
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a485c9788c47fc050800000000000000
+      internalID: 5823001247830792266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 721
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b707cf17f38966c30800000000000000
+      internalID: 4352333488162893947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 727
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141399e888464e710800000000000000
+      internalID: 1721611495233106241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 711
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b12b21a9295b120800000000000000
+      internalID: 2429008764472531862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_43
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 718
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c68ee19acf45200800000000000000
+      internalID: 168036889417772165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 702
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39846e532e10d520800000000000000
+      internalID: 2724710911815485754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 695
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fcd6674f52b3520800000000000000
+      internalID: 2682779734918418222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_46
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 654
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac6cfb846f5a2730800000000000000
+      internalID: 3975094506557828266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 688
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b693cb0e4119690800000000000000
+      internalID: -7597268140934206667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 647
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d745dc708e06a1360800000000000000
+      internalID: 7141126708828918909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_49
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 630
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4e6d42e20cb21f0800000000000000
+      internalID: -1068549182151269174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_50
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 623
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6c489940ffbbe10800000000000000
+      internalID: 2214644037003298503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_51
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 615
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514a951420cbf2be0800000000000000
+      internalID: -1499773433018735595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_52
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 598
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f4ea701f757d2b0800000000000000
+      internalID: -5559878522237989100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 606
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ad12a9f48448420800000000000000
+      internalID: 2631307589016738456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 584
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362200c97db14daf0800000000000000
+      internalID: -372642256315735453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 574
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9b3c85f90f76490800000000000000
+      internalID: -7752963666315331088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_56
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 566
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abe4e7ef4fc4fef0800000000000000
+      internalID: -75207351658550360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_57
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 534
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013881c3621f3f4b0800000000000000
+      internalID: -5407713581022543088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 526
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f8a16bb14fffb00800000000000000
+      internalID: 864678053334912878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_59
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 518
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6543335945fd220800000000000000
+      internalID: 2512820116881954530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_60
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 511
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a473a057462b20ae0800000000000000
+      internalID: -1584507974350915766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 486
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482c0251a4475f000800000000000000
+      internalID: 69089230824981124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_62
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 495
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c817768aa03235f0800000000000000
+      internalID: -778506276623148855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 478
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60eaf2e2d572a9f0800000000000000
+      internalID: -458674663426695058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_64
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 471
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b145a56680d5c07a0800000000000000
+      internalID: -6409645878996741093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_65
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 462
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33652b538baa3ec50800000000000000
+      internalID: 6693381179354273331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_66
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 448
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bed7040199a29f0800000000000000
+      internalID: -492412914163127548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 430
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea20f87a08dbed190800000000000000
+      internalID: -7935697133115604306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_68
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 423
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647d65c13f88984a0800000000000000
+      internalID: -6590586001946126522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_69
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 426
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8b09ae5be72f390800000000000000
+      internalID: -7786021485980632852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 399
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda1217b317a66d60800000000000000
+      internalID: 7883171900876266207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_71
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 391
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e0a56fdabcd5a90800000000000000
+      internalID: -7323473471011680610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_72
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 383
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226c1c9d62bc071f0800000000000000
+      internalID: -1049115345454774750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_73
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 374
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ef649b991bcc9d0800000000000000
+      internalID: -2752629998433665477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_74
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 357
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3473bbd57633bf700800000000000000
+      internalID: 575109896467068739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_75
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 351
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259e27276320d5fd0800000000000000
+      internalID: -2351720997545907886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_76
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 318
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc876a01cc2223e0800000000000000
+      internalID: -2080050870276879184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_77
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 334
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fe65f4c6ad4aa80800000000000000
+      internalID: -8456394041572528280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_78
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 302
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0be6cf246dc362c0800000000000000
+      internalID: -4439478977475187956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_79
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 310
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7e228561e473080800000000000000
+      internalID: -9207805055260760152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_80
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 295
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08df69b8b72797540800000000000000
+      internalID: 5006158335747489152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_81
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 286
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23bd1eef76e384d0800000000000000
+      internalID: -3133407478589574357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_82
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 278
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d32de0529e851600800000000000000
+      internalID: 438413297812579280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_83
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 270
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a466933e9f51340800000000000000
+      internalID: 4834044529367992987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_84
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 238
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c04822f2d6bd1ae0800000000000000
+      internalID: -1576903277387693887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_85
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 247
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ef221ad2b9bb4f0800000000000000
+      internalID: -811884687530983807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_86
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 223
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4883f3c6b4d1b5120800000000000000
+      internalID: 2403547035908126852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_87
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 206
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2628ac5628ee10800800000000000000
+      internalID: 577004471101063778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 199
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354cdf3ba7b616310800000000000000
+      internalID: 1396515534211499091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_89
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 191
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4822211dc582f2c0800000000000000
+      internalID: -4399306770185312179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_90
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 159
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9840d7082f3d5b870800000000000000
+      internalID: 8698091293827204233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_91
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 148
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aa50e0d64ef94c0800000000000000
+      internalID: -4278449963940861406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_92
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 135
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c09b91b8f1a52cd0800000000000000
+      internalID: -2583480721723387707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_93
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45855d59d20627620800000000000000
+      internalID: 2770382469689858132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_94
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bf7eb8b724df600800000000000000
+      internalID: 503631831731010415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_95
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 117
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ac805f195d3f0f0800000000000000
+      internalID: -1084288262408189380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_96
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 104
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e75235580f414130800000000000000
+      internalID: 3549204878552356838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_97
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 109
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3199f6cab1d7e2d0800000000000000
+      internalID: -3249398005992156867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_98
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 101
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f550700abb91fd60800000000000000
+      internalID: 7922284442694997489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_99
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 95
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfb7816986ebfe00800000000000000
+      internalID: 1079710013406560222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_100
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 96
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec94dea405524ba80800000000000000
+      internalID: -8452089573882902066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_101
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 90
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1dc2039c86bfbe0800000000000000
+      internalID: -1442444042336153164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_102
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 95
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf10f838918624aa0800000000000000
+      internalID: -6178261280008240645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 78
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c7d2ac150db43e0800000000000000
+      internalID: -2068330554143704063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_104
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 82
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e53415e57fd45e0800000000000000
+      internalID: -1923609481354977694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_105
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 72
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48afc0c9a65de7090800000000000000
+      internalID: -8034750031321040252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_106
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ef2ccfc542f6d00800000000000000
+      internalID: 968032426704174725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919196063699f2e90800000000000000
+      internalID: -7048246239713224423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_108
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 61
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfd157a15059cc80800000000000000
+      internalID: -8302016126451064866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_109
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685155ba2ee3a0520800000000000000
+      internalID: 2669014872428451206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_110
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb3005a63cb5b3a0800000000000000
+      internalID: -6650202331860157456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_111
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d59235d03c228cd0800000000000000
+      internalID: -2557433050146105902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_112
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 37
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edf3b59c4ef600f0800000000000000
+      internalID: -1150953049864012316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_113
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 33
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db18ab70c69a0740800000000000000
+      internalID: 5119069679912491993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_114
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 23
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9265e5a002f8576a0800000000000000
+      internalID: -6452093523362687447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_115
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 24
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75e4dd6ea1896f60800000000000000
+      internalID: 8028090396931581311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_116
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527a1724f1a5e1460800000000000000
+      internalID: 7214302743399343909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_117
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5420f204f03f68a0800000000000000
+      internalID: -6309770728343329698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_118
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 8
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5847e0a45dd3ff30800000000000000
+      internalID: 4608270199276652634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_119
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5689df924b4a916e0800000000000000
+      internalID: -1866279476862805915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_medium_120
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fdc1fcbd6558240800000000000000
+      internalID: 4793332880478363509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      patty_medium_0: -3706435815607310274
+      patty_medium_1: -5508543901798782490
+      patty_medium_10: 3164492234287341344
+      patty_medium_100: -8452089573882902066
+      patty_medium_101: -1442444042336153164
+      patty_medium_102: -6178261280008240645
+      patty_medium_103: -2068330554143704063
+      patty_medium_104: -1923609481354977694
+      patty_medium_105: -8034750031321040252
+      patty_medium_106: 968032426704174725
+      patty_medium_107: -7048246239713224423
+      patty_medium_108: -8302016126451064866
+      patty_medium_109: 2669014872428451206
+      patty_medium_11: 7856351660500202707
+      patty_medium_110: -6650202331860157456
+      patty_medium_111: -2557433050146105902
+      patty_medium_112: -1150953049864012316
+      patty_medium_113: 5119069679912491993
+      patty_medium_114: -6452093523362687447
+      patty_medium_115: 8028090396931581311
+      patty_medium_116: 7214302743399343909
+      patty_medium_117: -6309770728343329698
+      patty_medium_118: 4608270199276652634
+      patty_medium_119: -1866279476862805915
+      patty_medium_12: -7516518568562293262
+      patty_medium_120: 4793332880478363509
+      patty_medium_13: 7596089472541303882
+      patty_medium_14: 2729794977419191861
+      patty_medium_15: 2703270980953288044
+      patty_medium_16: -2003399123581912460
+      patty_medium_17: -3362346661904626042
+      patty_medium_18: -9004789596885179586
+      patty_medium_19: 2231006353596478142
+      patty_medium_2: -7349984955467236118
+      patty_medium_20: -7552864169944698942
+      patty_medium_21: -8570174513543693689
+      patty_medium_22: -8970361059933620366
+      patty_medium_23: -457734134093791146
+      patty_medium_24: -8865494530490198640
+      patty_medium_25: -6339864127649496991
+      patty_medium_26: -8254678265511354692
+      patty_medium_27: -7868579055059065253
+      patty_medium_28: 4095274723173424073
+      patty_medium_29: -2472590538936013253
+      patty_medium_3: 9078288224136796760
+      patty_medium_30: 8220332734612516614
+      patty_medium_31: -6944085006387035288
+      patty_medium_32: -2524973024656641797
+      patty_medium_33: 8365336815026695748
+      patty_medium_34: 4547284094261447492
+      patty_medium_35: 1476377954006847345
+      patty_medium_36: -9140070534529637045
+      patty_medium_37: -3800638484330439644
+      patty_medium_38: -5443629501218155983
+      patty_medium_39: 5823001247830792266
+      patty_medium_4: -6095767044383584960
+      patty_medium_40: 4352333488162893947
+      patty_medium_41: 1721611495233106241
+      patty_medium_42: 2429008764472531862
+      patty_medium_43: 168036889417772165
+      patty_medium_44: 2724710911815485754
+      patty_medium_45: 2682779734918418222
+      patty_medium_46: 3975094506557828266
+      patty_medium_47: -7597268140934206667
+      patty_medium_48: 7141126708828918909
+      patty_medium_49: -1068549182151269174
+      patty_medium_5: 7293300875909409817
+      patty_medium_50: 2214644037003298503
+      patty_medium_51: -1499773433018735595
+      patty_medium_52: -5559878522237989100
+      patty_medium_53: 2631307589016738456
+      patty_medium_54: -372642256315735453
+      patty_medium_55: -7752963666315331088
+      patty_medium_56: -75207351658550360
+      patty_medium_57: -5407713581022543088
+      patty_medium_58: 864678053334912878
+      patty_medium_59: 2512820116881954530
+      patty_medium_6: -4209232895896878677
+      patty_medium_60: -1584507974350915766
+      patty_medium_61: 69089230824981124
+      patty_medium_62: -778506276623148855
+      patty_medium_63: -458674663426695058
+      patty_medium_64: -6409645878996741093
+      patty_medium_65: 6693381179354273331
+      patty_medium_66: -492412914163127548
+      patty_medium_67: -7935697133115604306
+      patty_medium_68: -6590586001946126522
+      patty_medium_69: -7786021485980632852
+      patty_medium_7: -9122275663362370033
+      patty_medium_70: 7883171900876266207
+      patty_medium_71: -7323473471011680610
+      patty_medium_72: -1049115345454774750
+      patty_medium_73: -2752629998433665477
+      patty_medium_74: 575109896467068739
+      patty_medium_75: -2351720997545907886
+      patty_medium_76: -2080050870276879184
+      patty_medium_77: -8456394041572528280
+      patty_medium_78: -4439478977475187956
+      patty_medium_79: -9207805055260760152
+      patty_medium_8: 7543563598070924262
+      patty_medium_80: 5006158335747489152
+      patty_medium_81: -3133407478589574357
+      patty_medium_82: 438413297812579280
+      patty_medium_83: 4834044529367992987
+      patty_medium_84: -1576903277387693887
+      patty_medium_85: -811884687530983807
+      patty_medium_86: 2403547035908126852
+      patty_medium_87: 577004471101063778
+      patty_medium_88: 1396515534211499091
+      patty_medium_89: -4399306770185312179
+      patty_medium_9: -7864057758200282344
+      patty_medium_90: 8698091293827204233
+      patty_medium_91: -4278449963940861406
+      patty_medium_92: -2583480721723387707
+      patty_medium_93: 2770382469689858132
+      patty_medium_94: 503631831731010415
+      patty_medium_95: -1084288262408189380
+      patty_medium_96: 3549204878552356838
+      patty_medium_97: -3249398005992156867
+      patty_medium_98: 7922284442694997489
+      patty_medium_99: 1079710013406560222
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

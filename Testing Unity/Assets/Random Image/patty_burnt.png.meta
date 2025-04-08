@@ -1,0 +1,3016 @@
+fileFormatVersion: 2
+guid: 9eba75a0a981d440ca19470e7124160d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6284904544150798567
+    second: patty_burnt_0
+  - first:
+      213: -5104735994229955202
+    second: patty_burnt_1
+  - first:
+      213: -293257401059301079
+    second: patty_burnt_2
+  - first:
+      213: 7739587033684877852
+    second: patty_burnt_3
+  - first:
+      213: -6782814884225724952
+    second: patty_burnt_4
+  - first:
+      213: 8384286409704488499
+    second: patty_burnt_5
+  - first:
+      213: 3417084483085370936
+    second: patty_burnt_6
+  - first:
+      213: -4324661425858215139
+    second: patty_burnt_7
+  - first:
+      213: -1813873481510835977
+    second: patty_burnt_8
+  - first:
+      213: -4109258839447229101
+    second: patty_burnt_9
+  - first:
+      213: 254803117273800107
+    second: patty_burnt_10
+  - first:
+      213: 1242799762009607929
+    second: patty_burnt_11
+  - first:
+      213: -3422174611420061688
+    second: patty_burnt_12
+  - first:
+      213: -5189345701615580903
+    second: patty_burnt_13
+  - first:
+      213: 4578817278415231882
+    second: patty_burnt_14
+  - first:
+      213: 8937691486788723239
+    second: patty_burnt_15
+  - first:
+      213: 3191062577526421848
+    second: patty_burnt_16
+  - first:
+      213: -7002349941261175494
+    second: patty_burnt_17
+  - first:
+      213: 3921561473461527147
+    second: patty_burnt_18
+  - first:
+      213: 4107899827083506330
+    second: patty_burnt_19
+  - first:
+      213: -7901636552085519062
+    second: patty_burnt_20
+  - first:
+      213: 972841841933909919
+    second: patty_burnt_21
+  - first:
+      213: 3154302752793012485
+    second: patty_burnt_22
+  - first:
+      213: -8426665703763588627
+    second: patty_burnt_23
+  - first:
+      213: -5298864704685107280
+    second: patty_burnt_24
+  - first:
+      213: -4703057322048466614
+    second: patty_burnt_25
+  - first:
+      213: 1781421852915080246
+    second: patty_burnt_26
+  - first:
+      213: 885067845390786916
+    second: patty_burnt_27
+  - first:
+      213: -385722912821496707
+    second: patty_burnt_28
+  - first:
+      213: -2612035210571409527
+    second: patty_burnt_29
+  - first:
+      213: 2217719348660979454
+    second: patty_burnt_30
+  - first:
+      213: 3395397677156554834
+    second: patty_burnt_31
+  - first:
+      213: 7590151419808654961
+    second: patty_burnt_32
+  - first:
+      213: 3157400088093122079
+    second: patty_burnt_33
+  - first:
+      213: 8658916658113668166
+    second: patty_burnt_34
+  - first:
+      213: 3742857042827423618
+    second: patty_burnt_35
+  - first:
+      213: -5701830553139598500
+    second: patty_burnt_36
+  - first:
+      213: -8767500050306494754
+    second: patty_burnt_37
+  - first:
+      213: -1119759077506780046
+    second: patty_burnt_38
+  - first:
+      213: 3543591864727238276
+    second: patty_burnt_39
+  - first:
+      213: -4688042545311570351
+    second: patty_burnt_40
+  - first:
+      213: -6156302836720207551
+    second: patty_burnt_41
+  - first:
+      213: 8467289394937156742
+    second: patty_burnt_42
+  - first:
+      213: 5307067291335038290
+    second: patty_burnt_43
+  - first:
+      213: -6002233742575698020
+    second: patty_burnt_44
+  - first:
+      213: 6034270033720630270
+    second: patty_burnt_45
+  - first:
+      213: 3393547886279234575
+    second: patty_burnt_46
+  - first:
+      213: -6937231552325674072
+    second: patty_burnt_47
+  - first:
+      213: -1316951620267905281
+    second: patty_burnt_48
+  - first:
+      213: 2769636975591791001
+    second: patty_burnt_49
+  - first:
+      213: -7275431642629129782
+    second: patty_burnt_50
+  - first:
+      213: 3376218996256865989
+    second: patty_burnt_51
+  - first:
+      213: 2993375438087924355
+    second: patty_burnt_52
+  - first:
+      213: 1058252328677524354
+    second: patty_burnt_53
+  - first:
+      213: 8115411668549179444
+    second: patty_burnt_54
+  - first:
+      213: -5712772295803092942
+    second: patty_burnt_55
+  - first:
+      213: -6998428341252970815
+    second: patty_burnt_56
+  - first:
+      213: -2760793411264089434
+    second: patty_burnt_57
+  - first:
+      213: 5264717909310735084
+    second: patty_burnt_58
+  - first:
+      213: 2679852560055353225
+    second: patty_burnt_59
+  - first:
+      213: -227199151823800720
+    second: patty_burnt_60
+  - first:
+      213: 9161342559996137909
+    second: patty_burnt_61
+  - first:
+      213: 3134317606111347706
+    second: patty_burnt_62
+  - first:
+      213: -8886736582992236339
+    second: patty_burnt_63
+  - first:
+      213: -4772285063248817245
+    second: patty_burnt_64
+  - first:
+      213: -2327662801426844043
+    second: patty_burnt_65
+  - first:
+      213: 8919322279405256620
+    second: patty_burnt_66
+  - first:
+      213: 4425885461811176893
+    second: patty_burnt_67
+  - first:
+      213: -6394694114146828960
+    second: patty_burnt_68
+  - first:
+      213: 3308436067125224232
+    second: patty_burnt_69
+  - first:
+      213: 7249110452019286091
+    second: patty_burnt_70
+  - first:
+      213: -7610753549423333577
+    second: patty_burnt_71
+  - first:
+      213: 4865506844798026444
+    second: patty_burnt_72
+  - first:
+      213: 3636666702776508208
+    second: patty_burnt_73
+  - first:
+      213: -1929570788494881824
+    second: patty_burnt_74
+  - first:
+      213: 9113283505535314746
+    second: patty_burnt_75
+  - first:
+      213: 7483141389894842320
+    second: patty_burnt_76
+  - first:
+      213: 2175300072974626761
+    second: patty_burnt_77
+  - first:
+      213: 3281862500793527439
+    second: patty_burnt_78
+  - first:
+      213: 4299905942047771772
+    second: patty_burnt_79
+  - first:
+      213: 8027811335555967244
+    second: patty_burnt_80
+  - first:
+      213: -3664329264855337680
+    second: patty_burnt_81
+  - first:
+      213: 7047469306004158743
+    second: patty_burnt_82
+  - first:
+      213: -757203249625827921
+    second: patty_burnt_83
+  - first:
+      213: 74269059307365652
+    second: patty_burnt_84
+  - first:
+      213: -4637963021762770767
+    second: patty_burnt_85
+  - first:
+      213: -6847766206378056936
+    second: patty_burnt_86
+  - first:
+      213: 7056824648711856704
+    second: patty_burnt_87
+  - first:
+      213: 930233508756822261
+    second: patty_burnt_88
+  - first:
+      213: -6496508523016200562
+    second: patty_burnt_89
+  - first:
+      213: -275112942267036501
+    second: patty_burnt_90
+  - first:
+      213: -1302737599519449393
+    second: patty_burnt_91
+  - first:
+      213: 8092909147921461210
+    second: patty_burnt_92
+  - first:
+      213: -9119242685390302962
+    second: patty_burnt_93
+  - first:
+      213: -6146755216755508923
+    second: patty_burnt_94
+  - first:
+      213: 943284595622601193
+    second: patty_burnt_95
+  - first:
+      213: -768813579463009090
+    second: patty_burnt_96
+  - first:
+      213: 8421277368491682531
+    second: patty_burnt_97
+  - first:
+      213: 285906017825548392
+    second: patty_burnt_98
+  - first:
+      213: 7833298017231827089
+    second: patty_burnt_99
+  - first:
+      213: 697391287274106041
+    second: patty_burnt_100
+  - first:
+      213: -6753371576979764547
+    second: patty_burnt_101
+  - first:
+      213: 5310280134595478496
+    second: patty_burnt_102
+  - first:
+      213: -4454615112971550129
+    second: patty_burnt_103
+  - first:
+      213: 4561238462942259325
+    second: patty_burnt_104
+  - first:
+      213: 1393579133385309690
+    second: patty_burnt_105
+  - first:
+      213: -445819470957222116
+    second: patty_burnt_106
+  - first:
+      213: -779794033291248164
+    second: patty_burnt_107
+  - first:
+      213: 1209425531024516091
+    second: patty_burnt_108
+  - first:
+      213: -236465314283096995
+    second: patty_burnt_109
+  - first:
+      213: -5592689295781091114
+    second: patty_burnt_110
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: patty_burnt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0c8515267783750800000000000000
+      internalID: 6284904544150798567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 986
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75e5c7c8a55829b0800000000000000
+      internalID: -5104735994229955202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 1442
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9292b1e82f32eebf0800000000000000
+      internalID: -293257401059301079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_3
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1016
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12a10ba669886b60800000000000000
+      internalID: 7739587033684877852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_4
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1015
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed4e78bcc99ed1a0800000000000000
+      internalID: -6782814884225724952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1002
+        width: 100
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e32995118fa5470800000000000000
+      internalID: 8384286409704488499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_6
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1008
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8368dcd9b3ceb6f20800000000000000
+      internalID: 3417084483085370936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_7
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 999
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1303e1a857bbf3c0800000000000000
+      internalID: -4324661425858215139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_8
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1007
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8ab0bcda3d3d6e0800000000000000
+      internalID: -1813873481510835977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_9
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 999
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d2d987bdaf8f6c0800000000000000
+      internalID: -4109258839447229101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 990
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad54ccc51e398300800000000000000
+      internalID: 254803117273800107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 972
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fec5858ccf4f3110800000000000000
+      internalID: 1242799762009607929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_12
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 991
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80062f6825ef180d0800000000000000
+      internalID: -3422174611420061688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_13
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 983
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919c086249dbbf7b0800000000000000
+      internalID: -5189345701615580903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_14
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 991
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b5c5b1e0a3b8f30800000000000000
+      internalID: 4578817278415231882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_15
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 986
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7222316ad0f090c70800000000000000
+      internalID: 8937691486788723239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_16
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 976
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859318dd18ee84c20800000000000000
+      internalID: 3191062577526421848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_17
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 975
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35762614d7a2de90800000000000000
+      internalID: -7002349941261175494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_18
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 982
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62288ef16f2c6630800000000000000
+      internalID: 3921561473461527147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 930
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92733ec021320930800000000000000
+      internalID: 4107899827083506330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_20
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 967
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2543b8ab6fb75290800000000000000
+      internalID: -7901636552085519062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_21
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 966
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f7b1b308a308d00800000000000000
+      internalID: 972841841933909919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_22
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 970
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509a34634a556cb20800000000000000
+      internalID: 3154302752793012485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_23
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 951
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9443650387e0b80800000000000000
+      internalID: -8426665703763588627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_24
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 959
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7936c20a6a676b0800000000000000
+      internalID: -5298864704685107280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 942
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41500198426bbeb0800000000000000
+      internalID: -4703057322048466614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_26
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 943
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c1f12acb1e8b810800000000000000
+      internalID: 1781421852915080246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_27
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 946
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46163ae1484684c00800000000000000
+      internalID: 885067845390786916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 932
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74bb8fed03a5aaf0800000000000000
+      internalID: -385722912821496707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_29
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 935
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987141da0df20cbd0800000000000000
+      internalID: -2612035210571409527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_30
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 898
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6c2746ffbe6ce10800000000000000
+      internalID: 2217719348660979454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_31
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 924
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2585a12a230ee1f20800000000000000
+      internalID: 3395397677156554834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_32
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 899
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1762f118082a55960800000000000000
+      internalID: 7590151419808654961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 892
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ed398c6a651db20800000000000000
+      internalID: 3157400088093122079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_34
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 879
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644e39ad2d6aa2870800000000000000
+      internalID: 8658916658113668166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_35
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 855
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f2cc266ac41f330800000000000000
+      internalID: 3742857042827423618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_36
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 860
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b25ae42570fd0b0800000000000000
+      internalID: -5701830553139598500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 853
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede034d0825935680800000000000000
+      internalID: -8767500050306494754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_38
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 794
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274703f3d01d570f0800000000000000
+      internalID: -1119759077506780046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 843
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486f706b60e5d2130800000000000000
+      internalID: 3543591864727238276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_40
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 820
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15629c2b42ab0feb0800000000000000
+      internalID: -4688042545311570351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_41
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 804
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149ff8fff2b609aa0800000000000000
+      internalID: -6156302836720207551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_42
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 796
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68459a3d7dad18570800000000000000
+      internalID: 8467289394937156742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 789
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2559e1b559d76a940800000000000000
+      internalID: 5307067291335038290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_44
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 751
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f79ea5638c3bca0800000000000000
+      internalID: -6002233742575698020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_45
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 748
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbd3beef980eb350800000000000000
+      internalID: 6034270033720630270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_46
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 698
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0493f1a2dd481f20800000000000000
+      internalID: 3393547886279234575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 742
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab1ffe78a00abf90800000000000000
+      internalID: -6937231552325674072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_48
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 707
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe6e879a7f39bde0800000000000000
+      internalID: -1316951620267905281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_49
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 692
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9999fe6b72abf6620800000000000000
+      internalID: 2769636975591791001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_50
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 607
+        width: 27
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac93479c779780b90800000000000000
+      internalID: -7275431642629129782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_51
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 594
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cef0d30a4dbade20800000000000000
+      internalID: 3376218996256865989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 614
+        width: 10
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a2c92f91b9a8920800000000000000
+      internalID: 2993375438087924355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 606
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283cd85d2eaafae00800000000000000
+      internalID: 1058252328677524354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_54
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 527
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4381fed4aebbf9070800000000000000
+      internalID: 8115411668549179444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_55
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 590
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230c6f15dd728b0b0800000000000000
+      internalID: -5712772295803092942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_56
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 557
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6279db08690ee90800000000000000
+      internalID: -6998428341252970815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 549
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a27d5f0501bfa9d0800000000000000
+      internalID: -2760793411264089434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_58
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 274
+        width: 30
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce28a1b7b09001940800000000000000
+      internalID: 5264717909310735084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_59
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 199
+        width: 27
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f358474bfb03520800000000000000
+      internalID: 2679852560055353225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_60
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 470
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076b54e3393d8dcf0800000000000000
+      internalID: -227199151823800720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 411
+        width: 10
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1dc3af480a32f70800000000000000
+      internalID: 9161342559996137909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_62
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 406
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af30585a1455f7b20800000000000000
+      internalID: 3134317606111347706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_63
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 398
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc077466928fba480800000000000000
+      internalID: -8886736582992236339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_64
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 372
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3d626050075cdb0800000000000000
+      internalID: -4772285063248817245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_65
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 318
+        width: 10
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576ff0cb30b72bfd0800000000000000
+      internalID: -2327662801426844043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_66
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 287
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf7d254b5cc7cb70800000000000000
+      internalID: 8919322279405256620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 306
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db522dfc067eb6d30800000000000000
+      internalID: 4425885461811176893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_68
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 500
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d3ffe659b7147a0800000000000000
+      internalID: -6394694114146828960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_69
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 286
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823e61ff21de9ed20800000000000000
+      internalID: 3308436067125224232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_70
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 493
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b405e267c830a9460800000000000000
+      internalID: 7249110452019286091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_71
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 254
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f249568fb216690800000000000000
+      internalID: -7610753549423333577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_72
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 245
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc20b6062b0c58340800000000000000
+      internalID: 4865506844798026444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_73
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 230
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f1c792919087230800000000000000
+      internalID: 3636666702776508208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_74
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 242
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebcac65799c835e0800000000000000
+      internalID: -1929570788494881824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_75
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 217
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bebd46013e87e70800000000000000
+      internalID: 9113283505535314746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_76
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 207
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d774bc527579d760800000000000000
+      internalID: 7483141389894842320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_77
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 221
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfa88124e7303e10800000000000000
+      internalID: 2175300072974626761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_78
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 182
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c29717e848b8d20800000000000000
+      internalID: 3281862500793527439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 198
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c49532ca55cab30800000000000000
+      internalID: 4299905942047771772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_80
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 174
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09eaa360e3886f60800000000000000
+      internalID: 8027811335555967244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_81
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 158
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035ba34b2ffa52dc0800000000000000
+      internalID: -3664329264855337680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_82
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 146
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719b8d5aef3adc160800000000000000
+      internalID: 7047469306004158743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_83
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 126
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5f74308afdd75f0800000000000000
+      internalID: -757203249625827921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_84
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 142
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41561d1e05bd70100800000000000000
+      internalID: 74269059307365652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 118
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8ce666435a2afb0800000000000000
+      internalID: -4637963021762770767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_86
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 111
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81369e39ae8d7f0a0800000000000000
+      internalID: -6847766206378056936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_87
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 95
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042e0bc11a0eee160800000000000000
+      internalID: 7056824648711856704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_88
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 84
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f89d97927ad8ec00800000000000000
+      internalID: 930233508756822261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_89
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 79
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e52551be3c7d5a0800000000000000
+      internalID: -6496508523016200562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_90
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 78
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac8f039c3a9e2cf0800000000000000
+      internalID: -275112942267036501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_91
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 83
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce19113e0fbbede0800000000000000
+      internalID: -1302737599519449393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_92
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 82
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf2e51fdf9cf4070800000000000000
+      internalID: 8092909147921461210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_93
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 53
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e015bbce711f17180800000000000000
+      internalID: -9119242685390302962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_94
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 72
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549320082b652baa0800000000000000
+      internalID: -6146755216755508923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_95
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1ee2c8758371d00800000000000000
+      internalID: 943284595622601193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_96
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 53
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc5c917f10a455f0800000000000000
+      internalID: -768813579463009090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_97
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 63
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaabf716236ed470800000000000000
+      internalID: 8421277368491682531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_98
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 44
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86863a7220eb7f300800000000000000
+      internalID: 285906017825548392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_99
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 30
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190ffd84b0775bc60800000000000000
+      internalID: 7833298017231827089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_100
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 39
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcec6b4ea1ada900800000000000000
+      internalID: 697391287274106041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_101
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 7
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbac6e5e4543742a0800000000000000
+      internalID: -6753371576979764547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_102
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 31
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e38068b5a7e1b940800000000000000
+      internalID: 5310280134595478496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_103
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 23
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f428e3408270e22c0800000000000000
+      internalID: -4454615112971550129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_104
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 31
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78a58f2736cc4f30800000000000000
+      internalID: 4561238462942259325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_105
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 16
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdf3db96dcf65310800000000000000
+      internalID: 1393579133385309690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_106
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 7
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1764af9d8120d9f0800000000000000
+      internalID: -445819470957222116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_107
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 7
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddb4bf457d9d25f0800000000000000
+      internalID: -779794033291248164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_108
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf32107dc1eb8c010800000000000000
+      internalID: 1209425531024516091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_109
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54747cac08e7bcf0800000000000000
+      internalID: -236465314283096995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_burnt_110
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8a6d187b6c262b0800000000000000
+      internalID: -5592689295781091114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      patty_burnt_0: 6284904544150798567
+      patty_burnt_1: -5104735994229955202
+      patty_burnt_10: 254803117273800107
+      patty_burnt_100: 697391287274106041
+      patty_burnt_101: -6753371576979764547
+      patty_burnt_102: 5310280134595478496
+      patty_burnt_103: -4454615112971550129
+      patty_burnt_104: 4561238462942259325
+      patty_burnt_105: 1393579133385309690
+      patty_burnt_106: -445819470957222116
+      patty_burnt_107: -779794033291248164
+      patty_burnt_108: 1209425531024516091
+      patty_burnt_109: -236465314283096995
+      patty_burnt_11: 1242799762009607929
+      patty_burnt_110: -5592689295781091114
+      patty_burnt_12: -3422174611420061688
+      patty_burnt_13: -5189345701615580903
+      patty_burnt_14: 4578817278415231882
+      patty_burnt_15: 8937691486788723239
+      patty_burnt_16: 3191062577526421848
+      patty_burnt_17: -7002349941261175494
+      patty_burnt_18: 3921561473461527147
+      patty_burnt_19: 4107899827083506330
+      patty_burnt_2: -293257401059301079
+      patty_burnt_20: -7901636552085519062
+      patty_burnt_21: 972841841933909919
+      patty_burnt_22: 3154302752793012485
+      patty_burnt_23: -8426665703763588627
+      patty_burnt_24: -5298864704685107280
+      patty_burnt_25: -4703057322048466614
+      patty_burnt_26: 1781421852915080246
+      patty_burnt_27: 885067845390786916
+      patty_burnt_28: -385722912821496707
+      patty_burnt_29: -2612035210571409527
+      patty_burnt_3: 7739587033684877852
+      patty_burnt_30: 2217719348660979454
+      patty_burnt_31: 3395397677156554834
+      patty_burnt_32: 7590151419808654961
+      patty_burnt_33: 3157400088093122079
+      patty_burnt_34: 8658916658113668166
+      patty_burnt_35: 3742857042827423618
+      patty_burnt_36: -5701830553139598500
+      patty_burnt_37: -8767500050306494754
+      patty_burnt_38: -1119759077506780046
+      patty_burnt_39: 3543591864727238276
+      patty_burnt_4: -6782814884225724952
+      patty_burnt_40: -4688042545311570351
+      patty_burnt_41: -6156302836720207551
+      patty_burnt_42: 8467289394937156742
+      patty_burnt_43: 5307067291335038290
+      patty_burnt_44: -6002233742575698020
+      patty_burnt_45: 6034270033720630270
+      patty_burnt_46: 3393547886279234575
+      patty_burnt_47: -6937231552325674072
+      patty_burnt_48: -1316951620267905281
+      patty_burnt_49: 2769636975591791001
+      patty_burnt_5: 8384286409704488499
+      patty_burnt_50: -7275431642629129782
+      patty_burnt_51: 3376218996256865989
+      patty_burnt_52: 2993375438087924355
+      patty_burnt_53: 1058252328677524354
+      patty_burnt_54: 8115411668549179444
+      patty_burnt_55: -5712772295803092942
+      patty_burnt_56: -6998428341252970815
+      patty_burnt_57: -2760793411264089434
+      patty_burnt_58: 5264717909310735084
+      patty_burnt_59: 2679852560055353225
+      patty_burnt_6: 3417084483085370936
+      patty_burnt_60: -227199151823800720
+      patty_burnt_61: 9161342559996137909
+      patty_burnt_62: 3134317606111347706
+      patty_burnt_63: -8886736582992236339
+      patty_burnt_64: -4772285063248817245
+      patty_burnt_65: -2327662801426844043
+      patty_burnt_66: 8919322279405256620
+      patty_burnt_67: 4425885461811176893
+      patty_burnt_68: -6394694114146828960
+      patty_burnt_69: 3308436067125224232
+      patty_burnt_7: -4324661425858215139
+      patty_burnt_70: 7249110452019286091
+      patty_burnt_71: -7610753549423333577
+      patty_burnt_72: 4865506844798026444
+      patty_burnt_73: 3636666702776508208
+      patty_burnt_74: -1929570788494881824
+      patty_burnt_75: 9113283505535314746
+      patty_burnt_76: 7483141389894842320
+      patty_burnt_77: 2175300072974626761
+      patty_burnt_78: 3281862500793527439
+      patty_burnt_79: 4299905942047771772
+      patty_burnt_8: -1813873481510835977
+      patty_burnt_80: 8027811335555967244
+      patty_burnt_81: -3664329264855337680
+      patty_burnt_82: 7047469306004158743
+      patty_burnt_83: -757203249625827921
+      patty_burnt_84: 74269059307365652
+      patty_burnt_85: -4637963021762770767
+      patty_burnt_86: -6847766206378056936
+      patty_burnt_87: 7056824648711856704
+      patty_burnt_88: 930233508756822261
+      patty_burnt_89: -6496508523016200562
+      patty_burnt_9: -4109258839447229101
+      patty_burnt_90: -275112942267036501
+      patty_burnt_91: -1302737599519449393
+      patty_burnt_92: 8092909147921461210
+      patty_burnt_93: -9119242685390302962
+      patty_burnt_94: -6146755216755508923
+      patty_burnt_95: 943284595622601193
+      patty_burnt_96: -768813579463009090
+      patty_burnt_97: 8421277368491682531
+      patty_burnt_98: 285906017825548392
+      patty_burnt_99: 7833298017231827089
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

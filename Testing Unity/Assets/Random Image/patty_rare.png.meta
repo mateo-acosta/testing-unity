@@ -1,0 +1,3822 @@
+fileFormatVersion: 2
+guid: fddc1788f46fc454c8ac2cb8851a588d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7977007420604409968
+    second: patty_rare_0
+  - first:
+      213: 6692695713588039992
+    second: patty_rare_1
+  - first:
+      213: -7434741013145619550
+    second: patty_rare_2
+  - first:
+      213: 3982736737900610531
+    second: patty_rare_3
+  - first:
+      213: -1542247054805472740
+    second: patty_rare_4
+  - first:
+      213: -1321298596650843644
+    second: patty_rare_5
+  - first:
+      213: -6549347827994350054
+    second: patty_rare_6
+  - first:
+      213: -5206072501072486774
+    second: patty_rare_7
+  - first:
+      213: -3673014017353451295
+    second: patty_rare_8
+  - first:
+      213: 3244593226834140496
+    second: patty_rare_9
+  - first:
+      213: 8309062444571086801
+    second: patty_rare_10
+  - first:
+      213: -4658046724793443311
+    second: patty_rare_11
+  - first:
+      213: 3167984523888106898
+    second: patty_rare_12
+  - first:
+      213: -1338604027516145760
+    second: patty_rare_13
+  - first:
+      213: -7344752547250387257
+    second: patty_rare_14
+  - first:
+      213: -8245620629047365738
+    second: patty_rare_15
+  - first:
+      213: 896983338819955637
+    second: patty_rare_16
+  - first:
+      213: -7633975654040331143
+    second: patty_rare_17
+  - first:
+      213: 6420286041824998594
+    second: patty_rare_18
+  - first:
+      213: -5839312063514204394
+    second: patty_rare_19
+  - first:
+      213: 8080495267312988747
+    second: patty_rare_20
+  - first:
+      213: 5673384883069895564
+    second: patty_rare_21
+  - first:
+      213: -7416023343657158380
+    second: patty_rare_22
+  - first:
+      213: 8775021056701363160
+    second: patty_rare_23
+  - first:
+      213: -6101374968005887916
+    second: patty_rare_24
+  - first:
+      213: 4408730531111533545
+    second: patty_rare_25
+  - first:
+      213: -9108705143279917526
+    second: patty_rare_26
+  - first:
+      213: -6626784585511621417
+    second: patty_rare_27
+  - first:
+      213: -699992997222118176
+    second: patty_rare_28
+  - first:
+      213: -1150152184040053853
+    second: patty_rare_29
+  - first:
+      213: 5374999037608858426
+    second: patty_rare_30
+  - first:
+      213: -6493340935790792772
+    second: patty_rare_31
+  - first:
+      213: -3220455283514008284
+    second: patty_rare_32
+  - first:
+      213: 1324994564680948823
+    second: patty_rare_33
+  - first:
+      213: -7072710904501637439
+    second: patty_rare_34
+  - first:
+      213: -7983270513108383309
+    second: patty_rare_35
+  - first:
+      213: 7875389397670101126
+    second: patty_rare_36
+  - first:
+      213: 2896081711782512652
+    second: patty_rare_37
+  - first:
+      213: 6900215263476299100
+    second: patty_rare_38
+  - first:
+      213: -8991198726464494332
+    second: patty_rare_39
+  - first:
+      213: -9219925294712301523
+    second: patty_rare_40
+  - first:
+      213: 7232494199434082973
+    second: patty_rare_41
+  - first:
+      213: 4212763506242117638
+    second: patty_rare_42
+  - first:
+      213: -3811641298556127587
+    second: patty_rare_43
+  - first:
+      213: 2801529535239885087
+    second: patty_rare_44
+  - first:
+      213: 1427265695696917473
+    second: patty_rare_45
+  - first:
+      213: -6973776803783491926
+    second: patty_rare_46
+  - first:
+      213: -6724906628212804648
+    second: patty_rare_47
+  - first:
+      213: 7725684473048554793
+    second: patty_rare_48
+  - first:
+      213: -6432972020848390522
+    second: patty_rare_49
+  - first:
+      213: -2794291706488683821
+    second: patty_rare_50
+  - first:
+      213: -1227171627970671855
+    second: patty_rare_51
+  - first:
+      213: -8645819931033885119
+    second: patty_rare_52
+  - first:
+      213: -7481562790793262360
+    second: patty_rare_53
+  - first:
+      213: 3710362853443961365
+    second: patty_rare_54
+  - first:
+      213: -8823076323515109314
+    second: patty_rare_55
+  - first:
+      213: -2582115056947675685
+    second: patty_rare_56
+  - first:
+      213: 1649402120949097609
+    second: patty_rare_57
+  - first:
+      213: -5973467887013891461
+    second: patty_rare_58
+  - first:
+      213: 661432410173869177
+    second: patty_rare_59
+  - first:
+      213: -5482758242107747797
+    second: patty_rare_60
+  - first:
+      213: -1821675487187865983
+    second: patty_rare_61
+  - first:
+      213: 7810338414532186490
+    second: patty_rare_62
+  - first:
+      213: 4799348549251980785
+    second: patty_rare_63
+  - first:
+      213: 2524714391729587314
+    second: patty_rare_64
+  - first:
+      213: -7074997219324912993
+    second: patty_rare_65
+  - first:
+      213: 1545728481417219354
+    second: patty_rare_66
+  - first:
+      213: -3170497931343870460
+    second: patty_rare_67
+  - first:
+      213: 5642667110254540147
+    second: patty_rare_68
+  - first:
+      213: -4036541924845866344
+    second: patty_rare_69
+  - first:
+      213: 2035014563960041732
+    second: patty_rare_70
+  - first:
+      213: -7793235851903907034
+    second: patty_rare_71
+  - first:
+      213: -1829467941349618704
+    second: patty_rare_72
+  - first:
+      213: 7736297927094940466
+    second: patty_rare_73
+  - first:
+      213: -3201895010739212910
+    second: patty_rare_74
+  - first:
+      213: 479845122292668275
+    second: patty_rare_75
+  - first:
+      213: -5005289537529470326
+    second: patty_rare_76
+  - first:
+      213: 6267151839639896270
+    second: patty_rare_77
+  - first:
+      213: 3653807857606191274
+    second: patty_rare_78
+  - first:
+      213: -3272674522761761594
+    second: patty_rare_79
+  - first:
+      213: -8732811697102448869
+    second: patty_rare_80
+  - first:
+      213: -8695153007573812153
+    second: patty_rare_81
+  - first:
+      213: -2512917778296158007
+    second: patty_rare_82
+  - first:
+      213: 4259144500161786633
+    second: patty_rare_83
+  - first:
+      213: 808811911817393019
+    second: patty_rare_84
+  - first:
+      213: 3818214796292577337
+    second: patty_rare_85
+  - first:
+      213: 8136012988098762979
+    second: patty_rare_86
+  - first:
+      213: 6342647106330985748
+    second: patty_rare_87
+  - first:
+      213: 3845233037259279616
+    second: patty_rare_88
+  - first:
+      213: 4747275178034746667
+    second: patty_rare_89
+  - first:
+      213: 2784041084599043582
+    second: patty_rare_90
+  - first:
+      213: 2522084117084788573
+    second: patty_rare_91
+  - first:
+      213: -7952809189070660551
+    second: patty_rare_92
+  - first:
+      213: 6293231261459510944
+    second: patty_rare_93
+  - first:
+      213: -3693661821188797336
+    second: patty_rare_94
+  - first:
+      213: -4310905427401235495
+    second: patty_rare_95
+  - first:
+      213: 7782325590111864272
+    second: patty_rare_96
+  - first:
+      213: 4968791426329695637
+    second: patty_rare_97
+  - first:
+      213: -2276771976831654440
+    second: patty_rare_98
+  - first:
+      213: -6711456491888179862
+    second: patty_rare_99
+  - first:
+      213: 3484983553609739966
+    second: patty_rare_100
+  - first:
+      213: 2187882157050436570
+    second: patty_rare_101
+  - first:
+      213: 1162329946711675119
+    second: patty_rare_102
+  - first:
+      213: 37782801519510606
+    second: patty_rare_103
+  - first:
+      213: -9209287722836820398
+    second: patty_rare_104
+  - first:
+      213: 8692256326281296427
+    second: patty_rare_105
+  - first:
+      213: -3337030043942141058
+    second: patty_rare_106
+  - first:
+      213: 4257116311985988357
+    second: patty_rare_107
+  - first:
+      213: 2276584599061690817
+    second: patty_rare_108
+  - first:
+      213: 8799627318194126420
+    second: patty_rare_109
+  - first:
+      213: -3635284339756466467
+    second: patty_rare_110
+  - first:
+      213: 5771039256572742055
+    second: patty_rare_111
+  - first:
+      213: -7753023962366071607
+    second: patty_rare_112
+  - first:
+      213: -1145192628074952753
+    second: patty_rare_113
+  - first:
+      213: 4150155294023382904
+    second: patty_rare_114
+  - first:
+      213: -2753838779726948767
+    second: patty_rare_115
+  - first:
+      213: 4132582261537314446
+    second: patty_rare_116
+  - first:
+      213: -6583643838953246328
+    second: patty_rare_117
+  - first:
+      213: -5413944395639822228
+    second: patty_rare_118
+  - first:
+      213: 8335793992206500661
+    second: patty_rare_119
+  - first:
+      213: 5657443459628189039
+    second: patty_rare_120
+  - first:
+      213: -1018483651079271749
+    second: patty_rare_121
+  - first:
+      213: -5894058563709912505
+    second: patty_rare_122
+  - first:
+      213: -9111946970922522756
+    second: patty_rare_123
+  - first:
+      213: -5633005026041704498
+    second: patty_rare_124
+  - first:
+      213: 3235400726742916240
+    second: patty_rare_125
+  - first:
+      213: -3730937045262602188
+    second: patty_rare_126
+  - first:
+      213: 7551450032846340876
+    second: patty_rare_127
+  - first:
+      213: 7663157883095012519
+    second: patty_rare_128
+  - first:
+      213: 7230415928683463716
+    second: patty_rare_129
+  - first:
+      213: 4041545200555742143
+    second: patty_rare_130
+  - first:
+      213: 815984694775268011
+    second: patty_rare_131
+  - first:
+      213: -8655116193982179703
+    second: patty_rare_132
+  - first:
+      213: 6340924827959582963
+    second: patty_rare_133
+  - first:
+      213: 8954611940741106375
+    second: patty_rare_134
+  - first:
+      213: 3595678194344263104
+    second: patty_rare_135
+  - first:
+      213: 6895442038748180023
+    second: patty_rare_136
+  - first:
+      213: 8833692715525233424
+    second: patty_rare_137
+  - first:
+      213: -1520191652498302320
+    second: patty_rare_138
+  - first:
+      213: -5640860317302032493
+    second: patty_rare_139
+  - first:
+      213: -5593437539061871105
+    second: patty_rare_140
+  - first:
+      213: -600946981339029837
+    second: patty_rare_141
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: patty_rare_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 89
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0971834d30afb4190800000000000000
+      internalID: -7977007420604409968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1012
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831d136ca4b31ec50800000000000000
+      internalID: 6692695713588039992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 1445
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a37d62807e72d890800000000000000
+      internalID: -7434741013145619550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1009
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3c67036f5854730800000000000000
+      internalID: 3982736737900610531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_4
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1016
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a6d6e8976d89ae0800000000000000
+      internalID: -1542247054805472740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1010
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40287684dedc9ade0800000000000000
+      internalID: -1321298596650843644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_6
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 998
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eabe1b9da0c15a0800000000000000
+      internalID: -6549347827994350054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_7
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 999
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e15aaa4a050c7b0800000000000000
+      internalID: -5206072501072486774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_8
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1002
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8fd903635d60dc0800000000000000
+      internalID: -3673014017353451295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 958
+        width: 10
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d5616695c170d20800000000000000
+      internalID: 3244593226834140496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_10
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 992
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfc2312548bf4370800000000000000
+      internalID: 8309062444571086801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_11
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 991
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cd385ee2b4b5fb0800000000000000
+      internalID: -4658046724793443311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_12
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 994
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d1948c321f6fb20800000000000000
+      internalID: 3167984523888106898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_13
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 987
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af2efcaab25c6de0800000000000000
+      internalID: -1338604027516145760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_14
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 982
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6cef1f872321a90800000000000000
+      internalID: -7344752547250387257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_15
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 986
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69faffc99bba19d80800000000000000
+      internalID: -8245620629047365738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_16
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 976
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbaecf1899b27c00800000000000000
+      internalID: 896983338819955637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_17
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 970
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c12f4d69bae0690800000000000000
+      internalID: -7633975654040331143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_18
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 975
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4b06f8320791950800000000000000
+      internalID: 6420286041824998594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_19
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 978
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6172591cd9896fea0800000000000000
+      internalID: -5839312063514204394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_20
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 970
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b427a6122afa32070800000000000000
+      internalID: 8080495267312988747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_21
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 960
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83c3750e79ebbe40800000000000000
+      internalID: 5673384883069895564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_22
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 959
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4197f4b8f0ef41990800000000000000
+      internalID: -7416023343657158380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_23
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 962
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3f145b82327c970800000000000000
+      internalID: 8775021056701363160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 942
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4587c860bcf835ba0800000000000000
+      internalID: -6101374968005887916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_25
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 945
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb72514f05fe2d30800000000000000
+      internalID: 4408730531111533545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_26
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 952
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26e603aee0679180800000000000000
+      internalID: -9108705143279917526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_27
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 946
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcab89978ee804a0800000000000000
+      internalID: -6626784585511621417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_28
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 944
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec8057e3102946f0800000000000000
+      internalID: -699992997222118176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_29
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 936
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a327a0bea6d900f0800000000000000
+      internalID: -1150152184040053853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 918
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a331eb09525d79a40800000000000000
+      internalID: 5374999037608858426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_31
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 930
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfefa472d403e5a0800000000000000
+      internalID: -6493340935790792772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_32
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 936
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d1e1b7bf4ae43d0800000000000000
+      internalID: -3220455283514008284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_33
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 920
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c91255983536210800000000000000
+      internalID: 1324994564680948823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_34
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 928
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cee52ab7eea8dd90800000000000000
+      internalID: -7072710904501637439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_35
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 915
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b90358f3c9b53190800000000000000
+      internalID: -7983270513108383309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_36
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 920
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680010c7ee00b4d60800000000000000
+      internalID: 7875389397670101126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 903
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c084d4709f2f03820800000000000000
+      internalID: 2896081711782512652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 895
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55bb35293d72cf50800000000000000
+      internalID: 6900215263476299100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_39
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 904
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405a32c4568d83380800000000000000
+      internalID: -8991198726464494332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_40
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 897
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28d8013bce3c0080800000000000000
+      internalID: -9219925294712301523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_41
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 903
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a775da72bfe5460800000000000000
+      internalID: 7232494199434082973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_42
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 905
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6006a48b61eb67a30800000000000000
+      internalID: 4212763506242117638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 878
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d967a541f645a1bc0800000000000000
+      internalID: -3811641298556127587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_44
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 888
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f111db7e44801e620800000000000000
+      internalID: 2801529535239885087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 852
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e39d18969aaec310800000000000000
+      internalID: 1427265695696917473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_46
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 880
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae30a312fa283f90800000000000000
+      internalID: -6973776803783491926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_47
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 871
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3b4bd3d055ca2a0800000000000000
+      internalID: -6724906628212804648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_48
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 866
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d5fc68815273b60800000000000000
+      internalID: 7725684473048554793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_49
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 818
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e0e47c70e79b6a0800000000000000
+      internalID: -6432972020848390522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_50
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 810
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d20ceb6f7ea839d0800000000000000
+      internalID: -2794291706488683821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_51
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 775
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bce5cf7e538fee0800000000000000
+      internalID: -1227171627970671855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_52
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 788
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146abba8490e30880800000000000000
+      internalID: -8645819931033885119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_53
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 766
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eaccf1e7462c2890800000000000000
+      internalID: -7481562790793262360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 750
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512055b5b5bdd7330800000000000000
+      internalID: 3710362853443961365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_55
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 703
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30f8b694d22e8580800000000000000
+      internalID: -8823076323515109314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 694
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd327d490c7a2cd0800000000000000
+      internalID: -2582115056947675685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 648
+        width: 8
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98462f67d7ad3e610800000000000000
+      internalID: 1649402120949097609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_58
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 688
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7275550b9af91da0800000000000000
+      internalID: -5973467887013891461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_59
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 614
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c085bc541ed2900800000000000000
+      internalID: 661432410173869177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_60
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 606
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2292dd7d6459e3b0800000000000000
+      internalID: -5482758242107747797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 583
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e612acbcb18b6e0800000000000000
+      internalID: -1821675487187865983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_62
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 568
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7157c53865e36c60800000000000000
+      internalID: 7810338414532186490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_63
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 534
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd5377d316ba9240800000000000000
+      internalID: 4799348549251980785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_64
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 560
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274cb5edc56990320800000000000000
+      internalID: 2524714391729587314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_65
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 478
+        width: 10
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a1343938f80dd90800000000000000
+      internalID: -7074997219324912993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_66
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 462
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dc31e3dd7837510800000000000000
+      internalID: 1545728481417219354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_67
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 422
+        width: 10
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4064321fde02004d0800000000000000
+      internalID: -3170497931343870460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_68
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 390
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375708437d7ce4e40800000000000000
+      internalID: 5642667110254540147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892379081825bf7c0800000000000000
+      internalID: -4036541924845866344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 382
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401b595c6f2dd3c10800000000000000
+      internalID: 2035014563960041732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_71
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bcd64784dd8d390800000000000000
+      internalID: -7793235851903907034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_72
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 354
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb04eba99c6c96e0800000000000000
+      internalID: -1829467941349618704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_73
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 326
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233b51dd9f9dc5b60800000000000000
+      internalID: 7736297927094940466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_74
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 318
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d2bccb3759093d0800000000000000
+      internalID: -3201895010739212910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_75
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 222
+        width: 10
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377557da890c8a600800000000000000
+      internalID: 479845122292668275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_76
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 282
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82a39d4fa3a98ab0800000000000000
+      internalID: -5005289537529470326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_77
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 271
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec00c23b46569f650800000000000000
+      internalID: 6267151839639896270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_78
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 168
+        width: 10
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8e52643eee4b230800000000000000
+      internalID: 3653807857606191274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_79
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 192
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc60556cdf1592d0800000000000000
+      internalID: -3272674522761761594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_80
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 111
+        width: 11
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1715d7a702dec680800000000000000
+      internalID: -8732811697102448869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_81
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cb4e3986c945780800000000000000
+      internalID: -8695153007573812153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_82
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8c4ea3892502dd0800000000000000
+      internalID: -2512917778296158007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_83
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 126
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903b3336b558b1b30800000000000000
+      internalID: 4259144500161786633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_84
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 130
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73faf5062a793b00800000000000000
+      internalID: 808811911817393019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_85
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 120
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938d821a0260df430800000000000000
+      internalID: 3818214796292577337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_86
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 111
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8579bc4bce8e070800000000000000
+      internalID: 8136012988098762979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_87
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 122
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415848c30fb950850800000000000000
+      internalID: 6342647106330985748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d8f6013130d5530800000000000000
+      internalID: 3845233037259279616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_89
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 104
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b255acd4f95b1e140800000000000000
+      internalID: 4747275178034746667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_90
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 112
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef58e9fad96e2a620800000000000000
+      internalID: 2784041084599043582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_91
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 101
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d575e74542e300320800000000000000
+      internalID: 2522084117084788573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_92
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 86
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c1bf6ad22f1a190800000000000000
+      internalID: -7952809189070660551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_93
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 93
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a67da44d7c065750800000000000000
+      internalID: 6293231261459510944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_94
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c8e9bb42a7dbcc0800000000000000
+      internalID: -3693661821188797336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_95
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 88
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3227b9a569c24c0800000000000000
+      internalID: -4310905427401235495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_96
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 96
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5cc0544ef500c60800000000000000
+      internalID: 7782325590111864272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_97
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 93
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5955369f971b4f440800000000000000
+      internalID: 4968791426329695637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_98
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 98
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5a26e23f74760e0800000000000000
+      internalID: -2276771976831654440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_99
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 88
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65048321ed1cd2a0800000000000000
+      internalID: -6711456491888179862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_100
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebeacf8e3162d5030800000000000000
+      internalID: 3484983553609739966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_101
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 90
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb186dda3bec5e10800000000000000
+      internalID: 2187882157050436570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_102
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe05c81adec612010800000000000000
+      internalID: 1162329946711675119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_103
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 78
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44803ff14b368000800000000000000
+      internalID: 37782801519510606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_104
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 83
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ef1f5eb99023080800000000000000
+      internalID: -9209287722836820398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_105
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 79
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a73a0431911a870800000000000000
+      internalID: 8692256326281296427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_106
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 78
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73c50afadc70b1d0800000000000000
+      internalID: -3337030043942141058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_107
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 82
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50322770bb0541b30800000000000000
+      internalID: 4257116311985988357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_108
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 66
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9723881ad089f10800000000000000
+      internalID: 2276584599061690817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_109
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45eb8c86c6e8e1a70800000000000000
+      internalID: 8799627318194126420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_110
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 72
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde764f4720ec8dc0800000000000000
+      internalID: -3635284339756466467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_111
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 64
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a94ad8a0a9d61050800000000000000
+      internalID: 5771039256572742055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_112
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 53
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc241498c9b76490800000000000000
+      internalID: -7753023962366071607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_113
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 70
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7423c4f557b10f0800000000000000
+      internalID: -1145192628074952753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_114
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 64
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87778fe5040589930800000000000000
+      internalID: 4150155294023382904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_115
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 14
+        width: 11
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1661ea5683668c9d0800000000000000
+      internalID: -2753838779726948767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_116
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 56
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e861308eba1e95930800000000000000
+      internalID: 4132582261537314446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_117
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 59
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881b0836fc232a4a0800000000000000
+      internalID: -6583643838953246328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_118
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 40
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68eb28a14ecdd4b0800000000000000
+      internalID: -5413944395639822228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_119
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 38
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533cd429870bea370800000000000000
+      internalID: 8335793992206500661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_120
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 46
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65cef32ad6438e40800000000000000
+      internalID: 5657443459628189039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_121
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 38
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba80e7f38e9dd1f0800000000000000
+      internalID: -1018483651079271749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_122
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 37
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ab8b0e6f8143ea0800000000000000
+      internalID: -5894058563709912505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_123
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 48
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7767f1d18cdb8180800000000000000
+      internalID: -9111946970922522756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_124
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 32
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf4bc416cb83d1b0800000000000000
+      internalID: -5633005026041704498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_125
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 21
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c5d8fa1d376ec20800000000000000
+      internalID: 3235400726742916240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_126
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 24
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430f6c1568c093cc0800000000000000
+      internalID: -3730937045262602188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_127
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 32
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c030beaabc32cc860800000000000000
+      internalID: 7551450032846340876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_128
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 30
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4dc975e71095a60800000000000000
+      internalID: 7663157883095012519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_129
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 23
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424018f8af8975460800000000000000
+      internalID: 7230415928683463716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_130
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 26
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb35fc662f3761830800000000000000
+      internalID: 4041545200555742143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_131
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 34
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba24c32b1c5f25b00800000000000000
+      internalID: 815984694775268011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_132
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 16
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98616f7ada9d2e780800000000000000
+      internalID: -8655116193982179703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_133
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f06cfd098d7ff750800000000000000
+      internalID: 6340924827959582963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_134
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 18
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca4855dd1c254c70800000000000000
+      internalID: 8954611940741106375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_135
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdf18c544a66e130800000000000000
+      internalID: 3595678194344263104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_136
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e61e8200881bf50800000000000000
+      internalID: 6895442038748180023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_137
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 8
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b56dbc8b4979a70800000000000000
+      internalID: 8833692715525233424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_138
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 6
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a13521fb137eae0800000000000000
+      internalID: -1520191652498302320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_139
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3977d9f8d63a7b1b0800000000000000
+      internalID: -5640860317302032493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_140
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 6
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdc1ea813e1062b0800000000000000
+      internalID: -5593437539061871105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_rare_141
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be917887e109a7f0800000000000000
+      internalID: -600946981339029837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      patty_rare_0: -7977007420604409968
+      patty_rare_1: 6692695713588039992
+      patty_rare_10: 8309062444571086801
+      patty_rare_100: 3484983553609739966
+      patty_rare_101: 2187882157050436570
+      patty_rare_102: 1162329946711675119
+      patty_rare_103: 37782801519510606
+      patty_rare_104: -9209287722836820398
+      patty_rare_105: 8692256326281296427
+      patty_rare_106: -3337030043942141058
+      patty_rare_107: 4257116311985988357
+      patty_rare_108: 2276584599061690817
+      patty_rare_109: 8799627318194126420
+      patty_rare_11: -4658046724793443311
+      patty_rare_110: -3635284339756466467
+      patty_rare_111: 5771039256572742055
+      patty_rare_112: -7753023962366071607
+      patty_rare_113: -1145192628074952753
+      patty_rare_114: 4150155294023382904
+      patty_rare_115: -2753838779726948767
+      patty_rare_116: 4132582261537314446
+      patty_rare_117: -6583643838953246328
+      patty_rare_118: -5413944395639822228
+      patty_rare_119: 8335793992206500661
+      patty_rare_12: 3167984523888106898
+      patty_rare_120: 5657443459628189039
+      patty_rare_121: -1018483651079271749
+      patty_rare_122: -5894058563709912505
+      patty_rare_123: -9111946970922522756
+      patty_rare_124: -5633005026041704498
+      patty_rare_125: 3235400726742916240
+      patty_rare_126: -3730937045262602188
+      patty_rare_127: 7551450032846340876
+      patty_rare_128: 7663157883095012519
+      patty_rare_129: 7230415928683463716
+      patty_rare_13: -1338604027516145760
+      patty_rare_130: 4041545200555742143
+      patty_rare_131: 815984694775268011
+      patty_rare_132: -8655116193982179703
+      patty_rare_133: 6340924827959582963
+      patty_rare_134: 8954611940741106375
+      patty_rare_135: 3595678194344263104
+      patty_rare_136: 6895442038748180023
+      patty_rare_137: 8833692715525233424
+      patty_rare_138: -1520191652498302320
+      patty_rare_139: -5640860317302032493
+      patty_rare_14: -7344752547250387257
+      patty_rare_140: -5593437539061871105
+      patty_rare_141: -600946981339029837
+      patty_rare_15: -8245620629047365738
+      patty_rare_16: 896983338819955637
+      patty_rare_17: -7633975654040331143
+      patty_rare_18: 6420286041824998594
+      patty_rare_19: -5839312063514204394
+      patty_rare_2: -7434741013145619550
+      patty_rare_20: 8080495267312988747
+      patty_rare_21: 5673384883069895564
+      patty_rare_22: -7416023343657158380
+      patty_rare_23: 8775021056701363160
+      patty_rare_24: -6101374968005887916
+      patty_rare_25: 4408730531111533545
+      patty_rare_26: -9108705143279917526
+      patty_rare_27: -6626784585511621417
+      patty_rare_28: -699992997222118176
+      patty_rare_29: -1150152184040053853
+      patty_rare_3: 3982736737900610531
+      patty_rare_30: 5374999037608858426
+      patty_rare_31: -6493340935790792772
+      patty_rare_32: -3220455283514008284
+      patty_rare_33: 1324994564680948823
+      patty_rare_34: -7072710904501637439
+      patty_rare_35: -7983270513108383309
+      patty_rare_36: 7875389397670101126
+      patty_rare_37: 2896081711782512652
+      patty_rare_38: 6900215263476299100
+      patty_rare_39: -8991198726464494332
+      patty_rare_4: -1542247054805472740
+      patty_rare_40: -9219925294712301523
+      patty_rare_41: 7232494199434082973
+      patty_rare_42: 4212763506242117638
+      patty_rare_43: -3811641298556127587
+      patty_rare_44: 2801529535239885087
+      patty_rare_45: 1427265695696917473
+      patty_rare_46: -6973776803783491926
+      patty_rare_47: -6724906628212804648
+      patty_rare_48: 7725684473048554793
+      patty_rare_49: -6432972020848390522
+      patty_rare_5: -1321298596650843644
+      patty_rare_50: -2794291706488683821
+      patty_rare_51: -1227171627970671855
+      patty_rare_52: -8645819931033885119
+      patty_rare_53: -7481562790793262360
+      patty_rare_54: 3710362853443961365
+      patty_rare_55: -8823076323515109314
+      patty_rare_56: -2582115056947675685
+      patty_rare_57: 1649402120949097609
+      patty_rare_58: -5973467887013891461
+      patty_rare_59: 661432410173869177
+      patty_rare_6: -6549347827994350054
+      patty_rare_60: -5482758242107747797
+      patty_rare_61: -1821675487187865983
+      patty_rare_62: 7810338414532186490
+      patty_rare_63: 4799348549251980785
+      patty_rare_64: 2524714391729587314
+      patty_rare_65: -7074997219324912993
+      patty_rare_66: 1545728481417219354
+      patty_rare_67: -3170497931343870460
+      patty_rare_68: 5642667110254540147
+      patty_rare_69: -4036541924845866344
+      patty_rare_7: -5206072501072486774
+      patty_rare_70: 2035014563960041732
+      patty_rare_71: -7793235851903907034
+      patty_rare_72: -1829467941349618704
+      patty_rare_73: 7736297927094940466
+      patty_rare_74: -3201895010739212910
+      patty_rare_75: 479845122292668275
+      patty_rare_76: -5005289537529470326
+      patty_rare_77: 6267151839639896270
+      patty_rare_78: 3653807857606191274
+      patty_rare_79: -3272674522761761594
+      patty_rare_8: -3673014017353451295
+      patty_rare_80: -8732811697102448869
+      patty_rare_81: -8695153007573812153
+      patty_rare_82: -2512917778296158007
+      patty_rare_83: 4259144500161786633
+      patty_rare_84: 808811911817393019
+      patty_rare_85: 3818214796292577337
+      patty_rare_86: 8136012988098762979
+      patty_rare_87: 6342647106330985748
+      patty_rare_88: 3845233037259279616
+      patty_rare_89: 4747275178034746667
+      patty_rare_9: 3244593226834140496
+      patty_rare_90: 2784041084599043582
+      patty_rare_91: 2522084117084788573
+      patty_rare_92: -7952809189070660551
+      patty_rare_93: 6293231261459510944
+      patty_rare_94: -3693661821188797336
+      patty_rare_95: -4310905427401235495
+      patty_rare_96: 7782325590111864272
+      patty_rare_97: 4968791426329695637
+      patty_rare_98: -2276771976831654440
+      patty_rare_99: -6711456491888179862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

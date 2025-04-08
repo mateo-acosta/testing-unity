@@ -1,0 +1,4316 @@
+fileFormatVersion: 2
+guid: 12bcbc952626d4f2b8c1347e20c23b4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6010709800018921146
+    second: patty_well-done_0
+  - first:
+      213: -1064377122611966895
+    second: patty_well-done_1
+  - first:
+      213: -3204189808939818088
+    second: patty_well-done_2
+  - first:
+      213: -8896692721771941468
+    second: patty_well-done_3
+  - first:
+      213: -3318150378387010769
+    second: patty_well-done_4
+  - first:
+      213: -8758105079343656717
+    second: patty_well-done_5
+  - first:
+      213: 1508267024700477562
+    second: patty_well-done_6
+  - first:
+      213: 3351854918535253771
+    second: patty_well-done_7
+  - first:
+      213: -7393254063252984662
+    second: patty_well-done_8
+  - first:
+      213: 676561486933666746
+    second: patty_well-done_9
+  - first:
+      213: -4312425916929445820
+    second: patty_well-done_10
+  - first:
+      213: -3670289468243525784
+    second: patty_well-done_11
+  - first:
+      213: -10054283699823342
+    second: patty_well-done_12
+  - first:
+      213: -6982573402842781601
+    second: patty_well-done_13
+  - first:
+      213: 518675030587598823
+    second: patty_well-done_14
+  - first:
+      213: 2604613961209981274
+    second: patty_well-done_15
+  - first:
+      213: -952572285999041563
+    second: patty_well-done_16
+  - first:
+      213: 8814969827039478153
+    second: patty_well-done_17
+  - first:
+      213: -8533791480444769764
+    second: patty_well-done_18
+  - first:
+      213: 7955673863364775607
+    second: patty_well-done_19
+  - first:
+      213: -8710843321577643622
+    second: patty_well-done_20
+  - first:
+      213: -3430976775732370665
+    second: patty_well-done_21
+  - first:
+      213: -353810915615254585
+    second: patty_well-done_22
+  - first:
+      213: 8867211475902252131
+    second: patty_well-done_23
+  - first:
+      213: 5892902319366083805
+    second: patty_well-done_24
+  - first:
+      213: 650026163729135083
+    second: patty_well-done_25
+  - first:
+      213: -2402156677664762069
+    second: patty_well-done_26
+  - first:
+      213: 3421165832297719450
+    second: patty_well-done_27
+  - first:
+      213: 1804595320748283761
+    second: patty_well-done_28
+  - first:
+      213: 553341319682810910
+    second: patty_well-done_29
+  - first:
+      213: -8236186199723970967
+    second: patty_well-done_30
+  - first:
+      213: -6544761739956921950
+    second: patty_well-done_31
+  - first:
+      213: -2514515317701002060
+    second: patty_well-done_32
+  - first:
+      213: 4490771803761700865
+    second: patty_well-done_33
+  - first:
+      213: 7297910619441231939
+    second: patty_well-done_34
+  - first:
+      213: 273161425586346110
+    second: patty_well-done_35
+  - first:
+      213: 5695979552377907041
+    second: patty_well-done_36
+  - first:
+      213: -3395238247914966934
+    second: patty_well-done_37
+  - first:
+      213: 6247024498018569787
+    second: patty_well-done_38
+  - first:
+      213: -2959151011117867317
+    second: patty_well-done_39
+  - first:
+      213: 6257722940244961763
+    second: patty_well-done_40
+  - first:
+      213: -3446929576451682191
+    second: patty_well-done_41
+  - first:
+      213: -1515238534790402117
+    second: patty_well-done_42
+  - first:
+      213: -2768802195030678106
+    second: patty_well-done_43
+  - first:
+      213: -6791803410159728695
+    second: patty_well-done_44
+  - first:
+      213: -3210547492455434151
+    second: patty_well-done_45
+  - first:
+      213: -1520808589222731421
+    second: patty_well-done_46
+  - first:
+      213: 1742468657208109576
+    second: patty_well-done_47
+  - first:
+      213: -895155784587068530
+    second: patty_well-done_48
+  - first:
+      213: -6488552281998276315
+    second: patty_well-done_49
+  - first:
+      213: -6330396236863294820
+    second: patty_well-done_50
+  - first:
+      213: 8717420451807820244
+    second: patty_well-done_51
+  - first:
+      213: 3480001513611391561
+    second: patty_well-done_52
+  - first:
+      213: -4835338335152624379
+    second: patty_well-done_53
+  - first:
+      213: -2707594683823589875
+    second: patty_well-done_54
+  - first:
+      213: -2532845350165715929
+    second: patty_well-done_55
+  - first:
+      213: -7639419632753785106
+    second: patty_well-done_56
+  - first:
+      213: -1833308742608283009
+    second: patty_well-done_57
+  - first:
+      213: 4578603737204366355
+    second: patty_well-done_58
+  - first:
+      213: -336241399841745057
+    second: patty_well-done_59
+  - first:
+      213: -278427012963693252
+    second: patty_well-done_60
+  - first:
+      213: 6194523425034648813
+    second: patty_well-done_61
+  - first:
+      213: -5666203127302393157
+    second: patty_well-done_62
+  - first:
+      213: 7965634701848816089
+    second: patty_well-done_63
+  - first:
+      213: 7286452368966818511
+    second: patty_well-done_64
+  - first:
+      213: 38412920431187971
+    second: patty_well-done_65
+  - first:
+      213: -8802073084906717049
+    second: patty_well-done_66
+  - first:
+      213: -5844931865789847181
+    second: patty_well-done_67
+  - first:
+      213: -4895224198040465954
+    second: patty_well-done_68
+  - first:
+      213: 4260110722699598833
+    second: patty_well-done_69
+  - first:
+      213: 9023862461274096879
+    second: patty_well-done_70
+  - first:
+      213: 6507559113705994435
+    second: patty_well-done_71
+  - first:
+      213: -8783876289288872636
+    second: patty_well-done_72
+  - first:
+      213: -5567398306854232426
+    second: patty_well-done_73
+  - first:
+      213: -1459093450070053189
+    second: patty_well-done_74
+  - first:
+      213: -480942362463587991
+    second: patty_well-done_75
+  - first:
+      213: 5020911366108191053
+    second: patty_well-done_76
+  - first:
+      213: 253209731861849388
+    second: patty_well-done_77
+  - first:
+      213: 1098350513425930175
+    second: patty_well-done_78
+  - first:
+      213: 3689958204346060645
+    second: patty_well-done_79
+  - first:
+      213: -8858884713823251307
+    second: patty_well-done_80
+  - first:
+      213: -3330429312194668129
+    second: patty_well-done_81
+  - first:
+      213: -158323603448731963
+    second: patty_well-done_82
+  - first:
+      213: -8349777791229507755
+    second: patty_well-done_83
+  - first:
+      213: -1229738875345848861
+    second: patty_well-done_84
+  - first:
+      213: -9187675472316235872
+    second: patty_well-done_85
+  - first:
+      213: 7795281811341507503
+    second: patty_well-done_86
+  - first:
+      213: 1628920219140651084
+    second: patty_well-done_87
+  - first:
+      213: -8795329914440782465
+    second: patty_well-done_88
+  - first:
+      213: -6191869692170524328
+    second: patty_well-done_89
+  - first:
+      213: 9012410731487757750
+    second: patty_well-done_90
+  - first:
+      213: 3745944492754955101
+    second: patty_well-done_91
+  - first:
+      213: -2660546593176649958
+    second: patty_well-done_92
+  - first:
+      213: 8638951833699935812
+    second: patty_well-done_93
+  - first:
+      213: 1192927685659882287
+    second: patty_well-done_94
+  - first:
+      213: -9201739501879916113
+    second: patty_well-done_95
+  - first:
+      213: -4575584696611878310
+    second: patty_well-done_96
+  - first:
+      213: 43853946645851016
+    second: patty_well-done_97
+  - first:
+      213: 6858368300335370438
+    second: patty_well-done_98
+  - first:
+      213: 1780009369336271694
+    second: patty_well-done_99
+  - first:
+      213: 3772726234168109507
+    second: patty_well-done_100
+  - first:
+      213: 9007140769554337253
+    second: patty_well-done_101
+  - first:
+      213: -8649284361466761747
+    second: patty_well-done_102
+  - first:
+      213: -9127898942830753141
+    second: patty_well-done_103
+  - first:
+      213: -959420395361064545
+    second: patty_well-done_104
+  - first:
+      213: 8120374075856496666
+    second: patty_well-done_105
+  - first:
+      213: -7517291800262211133
+    second: patty_well-done_106
+  - first:
+      213: -4721733535419416266
+    second: patty_well-done_107
+  - first:
+      213: 247348718504494095
+    second: patty_well-done_108
+  - first:
+      213: -1708883409417566364
+    second: patty_well-done_109
+  - first:
+      213: -6224959871636379568
+    second: patty_well-done_110
+  - first:
+      213: -4402046804587530598
+    second: patty_well-done_111
+  - first:
+      213: -5291942328422913432
+    second: patty_well-done_112
+  - first:
+      213: 5209686903329191162
+    second: patty_well-done_113
+  - first:
+      213: -7834506453863530200
+    second: patty_well-done_114
+  - first:
+      213: -5525848613759678889
+    second: patty_well-done_115
+  - first:
+      213: 6198886440945022116
+    second: patty_well-done_116
+  - first:
+      213: 8456943763967659317
+    second: patty_well-done_117
+  - first:
+      213: -9164454915511660281
+    second: patty_well-done_118
+  - first:
+      213: -1418849632140167690
+    second: patty_well-done_119
+  - first:
+      213: 7158936498924357351
+    second: patty_well-done_120
+  - first:
+      213: 1185075901182795004
+    second: patty_well-done_121
+  - first:
+      213: -6951504354822708495
+    second: patty_well-done_122
+  - first:
+      213: 9077920131357301079
+    second: patty_well-done_123
+  - first:
+      213: 8851772705833527403
+    second: patty_well-done_124
+  - first:
+      213: -5192768773643372258
+    second: patty_well-done_125
+  - first:
+      213: -137713776317101774
+    second: patty_well-done_126
+  - first:
+      213: -567479362596229357
+    second: patty_well-done_127
+  - first:
+      213: -6359074114398036400
+    second: patty_well-done_128
+  - first:
+      213: -4345771596641667994
+    second: patty_well-done_129
+  - first:
+      213: 2535252436838468698
+    second: patty_well-done_130
+  - first:
+      213: 4637754959753042118
+    second: patty_well-done_131
+  - first:
+      213: 5947390399593163312
+    second: patty_well-done_132
+  - first:
+      213: -720397892432524525
+    second: patty_well-done_133
+  - first:
+      213: 3750760824124639599
+    second: patty_well-done_134
+  - first:
+      213: 4467662215016786328
+    second: patty_well-done_135
+  - first:
+      213: -4213897445490347703
+    second: patty_well-done_136
+  - first:
+      213: -4684510672968638957
+    second: patty_well-done_137
+  - first:
+      213: -3277690634622809120
+    second: patty_well-done_138
+  - first:
+      213: 8513995916856272462
+    second: patty_well-done_139
+  - first:
+      213: 5088995291167399534
+    second: patty_well-done_140
+  - first:
+      213: -4830974886960909844
+    second: patty_well-done_141
+  - first:
+      213: -4272406456924611260
+    second: patty_well-done_142
+  - first:
+      213: 6645165305389710340
+    second: patty_well-done_143
+  - first:
+      213: -7429876357747075081
+    second: patty_well-done_144
+  - first:
+      213: 6927917024234560458
+    second: patty_well-done_145
+  - first:
+      213: -5779482146368381120
+    second: patty_well-done_146
+  - first:
+      213: 3106583186164786517
+    second: patty_well-done_147
+  - first:
+      213: -3697654190512319967
+    second: patty_well-done_148
+  - first:
+      213: -9130822039258687684
+    second: patty_well-done_149
+  - first:
+      213: -3985846200806516041
+    second: patty_well-done_150
+  - first:
+      213: -3805258801075710524
+    second: patty_well-done_151
+  - first:
+      213: 8598026986281848451
+    second: patty_well-done_152
+  - first:
+      213: -2176465922604944376
+    second: patty_well-done_153
+  - first:
+      213: 3912710856059858705
+    second: patty_well-done_154
+  - first:
+      213: 2282318681291292113
+    second: patty_well-done_155
+  - first:
+      213: -7689204495715181636
+    second: patty_well-done_156
+  - first:
+      213: 8046152771419087624
+    second: patty_well-done_157
+  - first:
+      213: 6533180248783799351
+    second: patty_well-done_158
+  - first:
+      213: 2679614754306227191
+    second: patty_well-done_159
+  - first:
+      213: 9148227395159710998
+    second: patty_well-done_160
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: patty_well-done_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 89
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649b9e1784ba59ca0800000000000000
+      internalID: -6010709800018921146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 415
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c49a375a29a31f0800000000000000
+      internalID: -1064377122611966895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 792
+        width: 11
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8932735685e6883d0800000000000000
+      internalID: -3204189808939818088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 766
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1faf23b19988480800000000000000
+      internalID: -8896692721771941468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 701
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b0ae8afcf83f1d0800000000000000
+      internalID: -3318150378387010769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 360
+        width: 11
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f05d2035d5f47680800000000000000
+      internalID: -8758105079343656717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 286
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7015b92ed07ee410800000000000000
+      internalID: 1508267024700477562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 262
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f80fd1a4e248e20800000000000000
+      internalID: 3351854918535253771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 11
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaca791c992e56990800000000000000
+      internalID: -7393254063252984662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 942
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb24697611a36900800000000000000
+      internalID: 676561486933666746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 751
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4407b3d0a7f2724c0800000000000000
+      internalID: -4312425916929445820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 630
+        width: 10
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fbc76bc23801dc0800000000000000
+      internalID: -3670289468243525784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 606
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dd997aea74cdff0800000000000000
+      internalID: -10054283699823342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 574
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5827714c7ae81f90800000000000000
+      internalID: -6982573402842781601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 176
+        width: 10
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7e9083134b23700800000000000000
+      internalID: 518675030587598823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 166
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59a1fe0992752420800000000000000
+      internalID: 2604613961209981274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 152
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e335268d88c7c2f0800000000000000
+      internalID: -952572285999041563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 122
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981897e9a50155a70800000000000000
+      internalID: 8814969827039478153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 78
+        width: 10
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aa5dcccd1e19980800000000000000
+      internalID: -8533791480444769764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 927
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be87be4a3b386e60800000000000000
+      internalID: 7955673863364775607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 825
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91e74ba62edc1780800000000000000
+      internalID: -8710843321577643622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 672
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7136bd1fcc8b260d0800000000000000
+      internalID: -3430976775732370665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 347
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7d819c8d2071bf0800000000000000
+      internalID: -353810915615254585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 339
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364cb695bd9ae0b70800000000000000
+      internalID: 8867211475902252131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 999
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd414e1007bc7c150800000000000000
+      internalID: 5892902319366083805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 968
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5f8c71a5b550900800000000000000
+      internalID: 650026163729135083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 920
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2795f49a33d9aed0800000000000000
+      internalID: -2402156677664762069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 904
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a962fc7c23c6a7f20800000000000000
+      internalID: 3421165832297719450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 888
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177988012e53b0910800000000000000
+      internalID: 1804595320748283761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 880
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e146d3f9ffcdda700800000000000000
+      internalID: 553341319682810910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 870
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e6a7dd94033bd80800000000000000
+      internalID: -8236186199723970967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 862
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9dc468fd55c25a0800000000000000
+      internalID: -6544761739956921950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 855
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc372a14a5aa1dd0800000000000000
+      internalID: -2514515317701002060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 760
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1007e82992d625e30800000000000000
+      internalID: 4490771803761700865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 566
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348785ada03674560800000000000000
+      internalID: 7297910619441231939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 326
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78d96a8ed67ac300800000000000000
+      internalID: 273161425586346110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_36
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 742
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167af5b693f2c0f40800000000000000
+      internalID: 5695979552377907041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_37
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 1442
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6075316dc0b1e0d0800000000000000
+      internalID: -3395238247914966934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 398
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e4f8bcea3e1b650800000000000000
+      internalID: 6247024498018569787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 429
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bced49965dbfee6d0800000000000000
+      internalID: -2959151011117867317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_40
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 519
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e92d1cfbd5e7d650800000000000000
+      internalID: 6257722940244961763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 493
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1705fc510db0a20d0800000000000000
+      internalID: -3446929576451682191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 317
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfa5d7a49ac8fae0800000000000000
+      internalID: -1515238534790402117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_43
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 301
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5efd7c21d3399d0800000000000000
+      internalID: -2768802195030678106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_44
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 416
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7842178caaeb1a0800000000000000
+      internalID: -6791803410159728695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_45
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 456
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9583ca9d018d173d0800000000000000
+      internalID: -3210547492455434151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_46
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 872
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361240c45a005eae0800000000000000
+      internalID: -1520808589222731421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_47
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 739
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a2421030e7e2810800000000000000
+      internalID: 1742468657208109576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_48
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 480
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b3d018e84c393f0800000000000000
+      internalID: -895155784587068530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_49
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 406
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52941fcc31804f5a0800000000000000
+      internalID: -6488552281998276315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_50
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 352
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c923b46992ae528a0800000000000000
+      internalID: -6330396236863294820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_51
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 320
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9fabbc6bf7af870800000000000000
+      internalID: 8717420451807820244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_52
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 194
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942f0a450f27b4030800000000000000
+      internalID: 3480001513611391561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_53
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 8
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d2664276d65ecb0800000000000000
+      internalID: -4835338335152624379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_54
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 718
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0675f20bf0bc6ad0800000000000000
+      internalID: -2707594683823589875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_55
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 472
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7246f58d29689dcd0800000000000000
+      internalID: -2532845350165715929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_56
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 704
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6c093c1545bf590800000000000000
+      internalID: -7639419632753785106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_57
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 602
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a17317967ce86e0800000000000000
+      internalID: -1833308742608283009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_58
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 568
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c975b27d77a8f30800000000000000
+      internalID: 4578603737204366355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_59
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 551
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5717a37a3e655bf0800000000000000
+      internalID: -336241399841745057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_60
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 536
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d0d6c5b14d22cf0800000000000000
+      internalID: -278427012963693252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 526
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decb60e2c3e57f550800000000000000
+      internalID: 6194523425034648813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_62
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 520
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2feebc64a9d51b0800000000000000
+      internalID: -5666203127302393157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_63
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 512
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9293ebe8e9b8e60800000000000000
+      internalID: 7965634701848816089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_64
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 496
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca121503ddae1560800000000000000
+      internalID: 7286452368966818511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_65
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 488
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308161df858788000800000000000000
+      internalID: 38412920431187971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_66
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 400
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780cb172a21c8d580800000000000000
+      internalID: -8802073084906717049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_67
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 384
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3792c339f61a2eea0800000000000000
+      internalID: -5844931865789847181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_68
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 360
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddc6e3278ba01cb0800000000000000
+      internalID: -4895224198040465954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_69
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 338
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb975a9124fe1b30800000000000000
+      internalID: 4260110722699598833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_70
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 328
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4893a19133b3d70800000000000000
+      internalID: 9023862461274096879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_71
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 304
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c83d4f098e7f4a50800000000000000
+      internalID: 6507559113705994435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_72
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 272
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dd5f9cd07691680800000000000000
+      internalID: -8783876289288872636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_73
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 864
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e97dcbcb0acb2b0800000000000000
+      internalID: -5567398306854232426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_74
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 787
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbea97edc3240cbe0800000000000000
+      internalID: -1459093450070053189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_75
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 776
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961bbef28795359f0800000000000000
+      internalID: -480942362463587991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_76
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 391
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d499999194cdda540800000000000000
+      internalID: 5020911366108191053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_77
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 371
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c252c49d8e4938300800000000000000
+      internalID: 253209731861849388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_78
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 232
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7de9ff8ff1e3f00800000000000000
+      internalID: 1098350513425930175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_79
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 146
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fc516cf6d553330800000000000000
+      internalID: 3689958204346060645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_80
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5945d660a4bee0580800000000000000
+      internalID: -8858884713823251307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_81
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1008
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9996199f20f7c1d0800000000000000
+      internalID: -3330429312194668129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_82
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 961
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6e0e085858dcdf0800000000000000
+      internalID: -158323603448731963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_83
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 93
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557c1508651af1c80800000000000000
+      internalID: -8349777791229507755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_84
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 85
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5b58022071feee0800000000000000
+      internalID: -1229738875345848861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_85
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 88
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af750916d1de7080800000000000000
+      internalID: -9187675472316235872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_86
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 944
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabf21991876e2c60800000000000000
+      internalID: 7795281811341507503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_87
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 880
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4874551f461b9610800000000000000
+      internalID: 1628920219140651084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_88
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 87
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7de36fda06b0f580800000000000000
+      internalID: -8795329914440782465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_89
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8592ba6225f021aa0800000000000000
+      internalID: -6191869692170524328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_90
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b50f3c7fc3821d70800000000000000
+      internalID: 9012410731487757750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_91
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1008
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b6df65ba44cf330800000000000000
+      internalID: 3745944492754955101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_92
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 992
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f745d38f6d31bd0800000000000000
+      internalID: -2660546593176649958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_93
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1000
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446e46febe8b3e770800000000000000
+      internalID: 8638951833699935812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_94
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 976
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f237c72e8612e8010800000000000000
+      internalID: 1192927685659882287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_95
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 968
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa984ca0daadc4080800000000000000
+      internalID: -9201739501879916113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_96
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 960
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a4cbef5f14080c0800000000000000
+      internalID: -4575584696611878310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_97
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 952
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b23df9eeccb9000800000000000000
+      internalID: 43853946645851016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_98
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 944
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c01a48c1a1dd2f50800000000000000
+      internalID: 6858368300335370438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_99
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 936
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43d72c271dd3b810800000000000000
+      internalID: 1780009369336271694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_100
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 920
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9236e658a6b5430800000000000000
+      internalID: 3772726234168109507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_101
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 880
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed893bdecacffc70800000000000000
+      internalID: 9007140769554337253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_102
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 872
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedae69f2b197f780800000000000000
+      internalID: -8649284361466761747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_103
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 863
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ac8eee540335180800000000000000
+      internalID: -9127898942830753141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_104
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 856
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f992d30db347fa2f0800000000000000
+      internalID: -959420395361064545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_105
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18a7bac23d51b070800000000000000
+      internalID: 8120374075856496666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_106
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c90a6c9fe63da790800000000000000
+      internalID: -7517291800262211133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_107
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631c649cd58097eb0800000000000000
+      internalID: -4721733535419416266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_108
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04cb165952ce6300800000000000000
+      internalID: 247348718504494095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_109
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 48
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4678b1bd793d848e0800000000000000
+      internalID: -1708883409417566364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_110
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 32
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0586d0e5aff7c99a0800000000000000
+      internalID: -6224959871636379568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_111
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 16
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96bae711c9c8e2c0800000000000000
+      internalID: -4402046804587530598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_112
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 899
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86aaf7e7d7e3f86b0800000000000000
+      internalID: -5291942328422913432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_113
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 974
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4f0ffe2a68c4840800000000000000
+      internalID: 5209686903329191162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_114
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 93
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82185f2a3ed364390800000000000000
+      internalID: -7834506453863530200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_115
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 38
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756054686fd3053b0800000000000000
+      internalID: -5525848613759678889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_116
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1014
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4738bff5ed60650800000000000000
+      internalID: 6198886440945022116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_117
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 998
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d4fb8eb891d5570800000000000000
+      internalID: 8456943763967659317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_118
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 990
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70158d84fc051d080800000000000000
+      internalID: -9164454915511660281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_119
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 966
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f57796e6cb3f4ce0800000000000000
+      internalID: -1418849632140167690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_120
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 959
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e607fbe0d6a95360800000000000000
+      internalID: 7158936498924357351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_121
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 950
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc50e9d04c327010800000000000000
+      internalID: 1185075901182795004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_122
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 942
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f22634be9b478f90800000000000000
+      internalID: -6951504354822708495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_123
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 935
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7595be833404bfd70800000000000000
+      internalID: 9077920131357301079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_124
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 927
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68a4b39060d7da70800000000000000
+      internalID: 8851772705833527403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_125
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 894
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19fe3610549fe7b0800000000000000
+      internalID: -5192768773643372258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_126
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 886
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23901f1dc0eb61ef0800000000000000
+      internalID: -137713776317101774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_127
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 878
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f261fb688ef18f0800000000000000
+      internalID: -567479362596229357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_128
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 870
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e5ce6e8c700c7a0800000000000000
+      internalID: -6359074114398036400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_129
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 863
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664f03bf1c7b0b3c0800000000000000
+      internalID: -4345771596641667994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_130
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 854
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c43b1b8a60f2320800000000000000
+      internalID: 2535252436838468698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_131
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 83
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8d263609d9c5040800000000000000
+      internalID: 4637754959753042118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_132
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 70
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03aa15cce00698250800000000000000
+      internalID: 5947390399593163312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_133
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 59
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b8e940fe1a006f0800000000000000
+      internalID: -720397892432524525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_134
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69866fd8116d0430800000000000000
+      internalID: 3750760824124639599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_135
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 31
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899a2862d13500e30800000000000000
+      internalID: 4467662215016786328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_136
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9413f99799a3585c0800000000000000
+      internalID: -4213897445490347703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_137
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e9d2fcc564dfeb0800000000000000
+      internalID: -4684510672968638957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_138
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 6
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebcea7dbbd4382d0800000000000000
+      internalID: -3277690634622809120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_139
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4628536d2ac72670800000000000000
+      internalID: 8513995916856272462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_140
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1005
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e1ba1314ebf9640800000000000000
+      internalID: 5088995291167399534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_141
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1bcd79fede4fcb0800000000000000
+      internalID: -4830974886960909844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_142
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d5ceea6fc55b4c0800000000000000
+      internalID: -4272406456924611260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_143
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 89
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40cf08d33ae583c50800000000000000
+      internalID: 6645165305389710340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_144
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7996b51d6c3e890800000000000000
+      internalID: -7429876357747075081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_145
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1010
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbd1eee3d7e42060800000000000000
+      internalID: 6927917024234560458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_146
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1002
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f1000eb972bcfa0800000000000000
+      internalID: -5779482146368381120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_147
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 986
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555ad8cc2fccc1b20800000000000000
+      internalID: 3106583186164786517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_148
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 976
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1225740da1b4facc0800000000000000
+      internalID: -3697654190512319967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_149
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 923
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c379da28bbdc84180800000000000000
+      internalID: -9130822039258687684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_150
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 72
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba569f8ffd6fa8c0800000000000000
+      internalID: -3985846200806516041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_151
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 67
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c514731841013bc0800000000000000
+      internalID: -3805258801075710524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_152
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 40
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e4d8e5df3525770800000000000000
+      internalID: 8598026986281848451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_153
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 34
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804b36956c3abc1e0800000000000000
+      internalID: -2176465922604944376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_154
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 8
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f234c0bcdbc4630800000000000000
+      internalID: 3912710856059858705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_155
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 954
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddfa969fbc6caf10800000000000000
+      internalID: 2282318681291292113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_156
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 867
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb5f8310457a4590800000000000000
+      internalID: -7689204495715181636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_157
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 857
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803a5f4b05da9af60800000000000000
+      internalID: 8046152771419087624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_158
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7344b5e62d48aaa50800000000000000
+      internalID: 6533180248783799351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_159
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 18
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb715dfb67ef2520800000000000000
+      internalID: 2679614754306227191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: patty_well-done_160
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 21
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dddf4b85805fe70800000000000000
+      internalID: 9148227395159710998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      patty_well-done_0: -6010709800018921146
+      patty_well-done_1: -1064377122611966895
+      patty_well-done_10: -4312425916929445820
+      patty_well-done_100: 3772726234168109507
+      patty_well-done_101: 9007140769554337253
+      patty_well-done_102: -8649284361466761747
+      patty_well-done_103: -9127898942830753141
+      patty_well-done_104: -959420395361064545
+      patty_well-done_105: 8120374075856496666
+      patty_well-done_106: -7517291800262211133
+      patty_well-done_107: -4721733535419416266
+      patty_well-done_108: 247348718504494095
+      patty_well-done_109: -1708883409417566364
+      patty_well-done_11: -3670289468243525784
+      patty_well-done_110: -6224959871636379568
+      patty_well-done_111: -4402046804587530598
+      patty_well-done_112: -5291942328422913432
+      patty_well-done_113: 5209686903329191162
+      patty_well-done_114: -7834506453863530200
+      patty_well-done_115: -5525848613759678889
+      patty_well-done_116: 6198886440945022116
+      patty_well-done_117: 8456943763967659317
+      patty_well-done_118: -9164454915511660281
+      patty_well-done_119: -1418849632140167690
+      patty_well-done_12: -10054283699823342
+      patty_well-done_120: 7158936498924357351
+      patty_well-done_121: 1185075901182795004
+      patty_well-done_122: -6951504354822708495
+      patty_well-done_123: 9077920131357301079
+      patty_well-done_124: 8851772705833527403
+      patty_well-done_125: -5192768773643372258
+      patty_well-done_126: -137713776317101774
+      patty_well-done_127: -567479362596229357
+      patty_well-done_128: -6359074114398036400
+      patty_well-done_129: -4345771596641667994
+      patty_well-done_13: -6982573402842781601
+      patty_well-done_130: 2535252436838468698
+      patty_well-done_131: 4637754959753042118
+      patty_well-done_132: 5947390399593163312
+      patty_well-done_133: -720397892432524525
+      patty_well-done_134: 3750760824124639599
+      patty_well-done_135: 4467662215016786328
+      patty_well-done_136: -4213897445490347703
+      patty_well-done_137: -4684510672968638957
+      patty_well-done_138: -3277690634622809120
+      patty_well-done_139: 8513995916856272462
+      patty_well-done_14: 518675030587598823
+      patty_well-done_140: 5088995291167399534
+      patty_well-done_141: -4830974886960909844
+      patty_well-done_142: -4272406456924611260
+      patty_well-done_143: 6645165305389710340
+      patty_well-done_144: -7429876357747075081
+      patty_well-done_145: 6927917024234560458
+      patty_well-done_146: -5779482146368381120
+      patty_well-done_147: 3106583186164786517
+      patty_well-done_148: -3697654190512319967
+      patty_well-done_149: -9130822039258687684
+      patty_well-done_15: 2604613961209981274
+      patty_well-done_150: -3985846200806516041
+      patty_well-done_151: -3805258801075710524
+      patty_well-done_152: 8598026986281848451
+      patty_well-done_153: -2176465922604944376
+      patty_well-done_154: 3912710856059858705
+      patty_well-done_155: 2282318681291292113
+      patty_well-done_156: -7689204495715181636
+      patty_well-done_157: 8046152771419087624
+      patty_well-done_158: 6533180248783799351
+      patty_well-done_159: 2679614754306227191
+      patty_well-done_16: -952572285999041563
+      patty_well-done_160: 9148227395159710998
+      patty_well-done_17: 8814969827039478153
+      patty_well-done_18: -8533791480444769764
+      patty_well-done_19: 7955673863364775607
+      patty_well-done_2: -3204189808939818088
+      patty_well-done_20: -8710843321577643622
+      patty_well-done_21: -3430976775732370665
+      patty_well-done_22: -353810915615254585
+      patty_well-done_23: 8867211475902252131
+      patty_well-done_24: 5892902319366083805
+      patty_well-done_25: 650026163729135083
+      patty_well-done_26: -2402156677664762069
+      patty_well-done_27: 3421165832297719450
+      patty_well-done_28: 1804595320748283761
+      patty_well-done_29: 553341319682810910
+      patty_well-done_3: -8896692721771941468
+      patty_well-done_30: -8236186199723970967
+      patty_well-done_31: -6544761739956921950
+      patty_well-done_32: -2514515317701002060
+      patty_well-done_33: 4490771803761700865
+      patty_well-done_34: 7297910619441231939
+      patty_well-done_35: 273161425586346110
+      patty_well-done_36: 5695979552377907041
+      patty_well-done_37: -3395238247914966934
+      patty_well-done_38: 6247024498018569787
+      patty_well-done_39: -2959151011117867317
+      patty_well-done_4: -3318150378387010769
+      patty_well-done_40: 6257722940244961763
+      patty_well-done_41: -3446929576451682191
+      patty_well-done_42: -1515238534790402117
+      patty_well-done_43: -2768802195030678106
+      patty_well-done_44: -6791803410159728695
+      patty_well-done_45: -3210547492455434151
+      patty_well-done_46: -1520808589222731421
+      patty_well-done_47: 1742468657208109576
+      patty_well-done_48: -895155784587068530
+      patty_well-done_49: -6488552281998276315
+      patty_well-done_5: -8758105079343656717
+      patty_well-done_50: -6330396236863294820
+      patty_well-done_51: 8717420451807820244
+      patty_well-done_52: 3480001513611391561
+      patty_well-done_53: -4835338335152624379
+      patty_well-done_54: -2707594683823589875
+      patty_well-done_55: -2532845350165715929
+      patty_well-done_56: -7639419632753785106
+      patty_well-done_57: -1833308742608283009
+      patty_well-done_58: 4578603737204366355
+      patty_well-done_59: -336241399841745057
+      patty_well-done_6: 1508267024700477562
+      patty_well-done_60: -278427012963693252
+      patty_well-done_61: 6194523425034648813
+      patty_well-done_62: -5666203127302393157
+      patty_well-done_63: 7965634701848816089
+      patty_well-done_64: 7286452368966818511
+      patty_well-done_65: 38412920431187971
+      patty_well-done_66: -8802073084906717049
+      patty_well-done_67: -5844931865789847181
+      patty_well-done_68: -4895224198040465954
+      patty_well-done_69: 4260110722699598833
+      patty_well-done_7: 3351854918535253771
+      patty_well-done_70: 9023862461274096879
+      patty_well-done_71: 6507559113705994435
+      patty_well-done_72: -8783876289288872636
+      patty_well-done_73: -5567398306854232426
+      patty_well-done_74: -1459093450070053189
+      patty_well-done_75: -480942362463587991
+      patty_well-done_76: 5020911366108191053
+      patty_well-done_77: 253209731861849388
+      patty_well-done_78: 1098350513425930175
+      patty_well-done_79: 3689958204346060645
+      patty_well-done_8: -7393254063252984662
+      patty_well-done_80: -8858884713823251307
+      patty_well-done_81: -3330429312194668129
+      patty_well-done_82: -158323603448731963
+      patty_well-done_83: -8349777791229507755
+      patty_well-done_84: -1229738875345848861
+      patty_well-done_85: -9187675472316235872
+      patty_well-done_86: 7795281811341507503
+      patty_well-done_87: 1628920219140651084
+      patty_well-done_88: -8795329914440782465
+      patty_well-done_89: -6191869692170524328
+      patty_well-done_9: 676561486933666746
+      patty_well-done_90: 9012410731487757750
+      patty_well-done_91: 3745944492754955101
+      patty_well-done_92: -2660546593176649958
+      patty_well-done_93: 8638951833699935812
+      patty_well-done_94: 1192927685659882287
+      patty_well-done_95: -9201739501879916113
+      patty_well-done_96: -4575584696611878310
+      patty_well-done_97: 43853946645851016
+      patty_well-done_98: 6858368300335370438
+      patty_well-done_99: 1780009369336271694
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
